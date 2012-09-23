@@ -1,0 +1,5879 @@
+SESSION START : 1346176616789
+SESSION SEED  : 1346176616789
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021E6EE8>
+RUN 0
+FITNESS: 2.66666666667
+RUN 3
+FITNESS: 2.33333333333
+SESSION END   : 1346176616799
+BEST FITNESS  : 2.33333333333
+BEST CUT: [1, 0, 0, 1, 0, 1, 1, 1]
+SESSION Length: 10
+SESSION SEED  : 1346176616789
+SESSION START : 1346177834062
+SESSION SEED  : 1346177834062
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022B6EE8>
+RUN 0
+FITNESS: 1.66666666667
+SESSION END   : 1346177834065
+BEST FITNESS  : 1.66666666667
+BEST CUT: [0, 1, 0, 1, 0, 0, 0, 1]
+SESSION Length: 3
+SESSION SEED  : 1346177834062
+SESSION START : 1346178488339
+SESSION SEED  : 1346178488339
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02226EE8>
+SESSION START : 1346178525756
+SESSION SEED  : 1346178525756
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02196EE8>
+SESSION START : 1346178602793
+SESSION SEED  : 1346178602793
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022C6EE8>
+RUN 0
+FITNESS: 4.0
+RUN 1
+FITNESS: 3.0
+RUN 2
+FITNESS: 2.66666666667
+RUN 3
+FITNESS: 2.5
+SESSION END   : 1346178602801
+BEST FITNESS  : 2.5
+BEST CUT: [0, 0, 0, 0, 1, 1, 0, 0]
+SESSION Length: 8
+SESSION SEED  : 1346178602793
+SESSION START : 1346179027131
+SESSION SEED  : 1346179027131
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02236EE8>
+SESSION START : 1346179054914
+SESSION SEED  : 1346179054914
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02326EE8>
+SESSION START : 1346179075558
+SESSION SEED  : 1346179075558
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022C6EE8>
+SESSION START : 1346179134522
+SESSION SEED  : 1346179134522
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021D6EE8>
+SESSION START : 1346179189581
+SESSION SEED  : 1346179189581
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02326EE8>
+SESSION START : 1346179209600
+SESSION SEED  : 1346179209600
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02236EE8>
+SESSION START : 1346179303958
+SESSION SEED  : 1346179303958
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02286EE8>
+SESSION START : 1346179325132
+SESSION SEED  : 1346179325132
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x023D6EE8>
+SESSION START : 1346179483899
+SESSION SEED  : 1346179483899
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02176EE8>
+SESSION START : 1346179492754
+SESSION SEED  : 1346179492754
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02286EE8>
+SESSION START : 1346179518056
+SESSION SEED  : 1346179518056
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02246EE8>
+SESSION START : 1346179534066
+SESSION SEED  : 1346179534066
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02236EE8>
+SESSION START : 1346179573960
+SESSION SEED  : 1346179573960
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021D6EE8>
+SESSION START : 1346179928924
+SESSION SEED  : 1346179928924
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02236EE8>
+SESSION START : 1346180015823
+SESSION SEED  : 1346180015823
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022A6EE8>
+SESSION START : 1346180441521
+SESSION SEED  : 1346180441521
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02236EE8>
+SESSION START : 1346180459932
+SESSION SEED  : 1346180459932
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021F6EE8>
+SESSION START : 1346180640481
+SESSION SEED  : 1346180640481
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02196EE8>
+SESSION END   : 1346180640490
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 9
+SESSION SEED  : 1346180640481
+SESSION START : 1346180854020
+SESSION SEED  : 1346180854020
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02276EE8>
+SESSION END   : 1346180854030
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 10
+SESSION SEED  : 1346180854020
+SESSION START : 1346180899906
+SESSION SEED  : 1346180899906
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022C6EE8>
+SESSION END   : 1346180899915
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 9
+SESSION SEED  : 1346180899906
+SESSION START : 1346180943547
+SESSION SEED  : 1346180943547
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02206EE8>
+SESSION END   : 1346180943558
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 11
+SESSION SEED  : 1346180943547
+SESSION START : 1346180982522
+SESSION SEED  : 1346180982522
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02206EE8>
+SESSION END   : 1346180982526
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 4
+SESSION SEED  : 1346180982522
+SESSION START : 1346181022493
+SESSION SEED  : 1346181022493
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022B6EE8>
+SESSION END   : 1346181022504
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 11
+SESSION SEED  : 1346181022493
+SESSION START : 1346181057751
+SESSION SEED  : 1346181057751
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02276EE8>
+SESSION END   : 1346181057762
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 11
+SESSION SEED  : 1346181057751
+SESSION START : 1346181066924
+SESSION SEED  : 1346181066924
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022A6EE8>
+SESSION END   : 1346181066931
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 7
+SESSION SEED  : 1346181066924
+SESSION START : 1346181149897
+SESSION SEED  : 1346181149897
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022F6EE8>
+SESSION END   : 1346181149908
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 11
+SESSION SEED  : 1346181149897
+SESSION START : 1346181212213
+SESSION SEED  : 1346181212213
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02226EE8>
+SESSION END   : 1346181212221
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 8
+SESSION SEED  : 1346181212213
+SESSION START : 1346181219249
+SESSION SEED  : 1346181219249
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022A6EE8>
+SESSION END   : 1346181219258
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 9
+SESSION SEED  : 1346181219249
+SESSION START : 1346181233711
+SESSION SEED  : 1346181233711
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02286EE8>
+SESSION END   : 1346181233716
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 5
+SESSION SEED  : 1346181233711
+SESSION START : 1346181285792
+SESSION SEED  : 1346181285792
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02396EE8>
+SESSION END   : 1346181285804
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 12
+SESSION SEED  : 1346181285792
+SESSION START : 1346181329252
+SESSION SEED  : 1346181329252
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022D6EE8>
+SESSION END   : 1346181329264
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 12
+SESSION SEED  : 1346181329252
+SESSION START : 1346181368352
+SESSION SEED  : 1346181368352
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02366EE8>
+SESSION END   : 1346181368359
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 7
+SESSION SEED  : 1346181368352
+SESSION START : 1346181394871
+SESSION SEED  : 1346181394871
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022D6EE8>
+SESSION END   : 1346181394883
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 12
+SESSION SEED  : 1346181394871
+SESSION START : 1346181408621
+SESSION SEED  : 1346181408621
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02376EE8>
+SESSION END   : 1346181408628
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 7
+SESSION SEED  : 1346181408621
+SESSION START : 1346181545257
+SESSION SEED  : 1346181545257
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02256EE8>
+RUN 0
+FITNESS: 4.66666666667
+SESSION END   : 1346181545266
+BEST FITNESS  : 4.66666666667
+BEST CUT: [0, 1, 1, 0, 0, 0, 1, 0]
+SESSION Length: 9
+SESSION SEED  : 1346181545257
+SESSION START : 1346181556332
+SESSION SEED  : 1346181556332
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02286EE8>
+RUN 0
+FITNESS: 8.0
+RUN 1
+FITNESS: 5.33333333333
+RUN 2
+FITNESS: 4.66666666667
+RUN 3
+FITNESS: 3.5
+SESSION END   : 1346181556339
+BEST FITNESS  : 3.5
+BEST CUT: [0, 1, 1, 1, 0, 0, 0, 1]
+SESSION Length: 7
+SESSION SEED  : 1346181556332
+SESSION START : 1346181566130
+SESSION SEED  : 1346181566130
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021E6EE8>
+RUN 0
+FITNESS: 3.5
+SESSION END   : 1346181566141
+BEST FITNESS  : 3.5
+BEST CUT: [1, 0, 0, 1, 0, 0, 1, 1]
+SESSION Length: 11
+SESSION SEED  : 1346181566130
+SESSION START : 1346181575655
+SESSION SEED  : 1346181575655
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02206EE8>
+RUN 0
+FITNESS: 8.0
+RUN 1
+FITNESS: 4.66666666667
+SESSION END   : 1346181575664
+BEST FITNESS  : 4.66666666667
+BEST CUT: [0, 0, 0, 1, 1, 0, 1, 0]
+SESSION Length: 9
+SESSION SEED  : 1346181575655
+SESSION START : 1346181591867
+SESSION SEED  : 1346181591867
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021A6EE8>
+RUN 0
+FITNESS: 3.0
+RUN 1
+FITNESS: 2.33333333333
+SESSION END   : 1346181591877
+BEST FITNESS  : 2.33333333333
+BEST CUT: [0, 1, 1, 0, 0, 0, 1, 0]
+SESSION Length: 10
+SESSION SEED  : 1346181591867
+SESSION START : 1346181694167
+SESSION SEED  : 1346181694167
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022C6EE8>
+RUN 0
+FITNESS: 2.33333333333
+SESSION END   : 1346181694175
+BEST FITNESS  : 2.33333333333
+BEST CUT: [0, 1, 1, 0, 0, 0, 1, 0]
+SESSION Length: 8
+SESSION SEED  : 1346181694167
+SESSION START : 1346181761470
+SESSION SEED  : 1346181761470
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02346EE8>
+RUN 0
+FITNESS: 2.66666666667
+RUN 1
+FITNESS: 2.5
+RUN 2
+FITNESS: 2.0
+SESSION END   : 1346181761482
+BEST FITNESS  : 2.0
+BEST CUT: [0, 0, 0, 1, 0, 0, 1, 0]
+SESSION Length: 12
+SESSION SEED  : 1346181761470
+SESSION START : 1346181862729
+SESSION SEED  : 1346181862729
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022A6EE8>
+RUN 0
+FITNESS: 4.0
+RUN 1
+FITNESS: 3.5
+RUN 2
+FITNESS: 1.75
+SESSION END   : 1346181862737
+BEST FITNESS  : 1.75
+BEST CUT: [1, 0, 1, 0, 1, 0, 1, 0]
+SESSION Length: 8
+SESSION SEED  : 1346181862729
+SESSION START : 1346182204944
+SESSION SEED  : 1346182204944
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02326EE8>
+RUN 0
+FITNESS: 2.33333333333
+RUN 3
+FITNESS: 2.0
+SESSION END   : 1346182204958
+BEST FITNESS  : 2.0
+BEST CUT: [1, 1, 1, 0, 1, 1, 0, 1]
+SESSION Length: 14
+SESSION SEED  : 1346182204944
+SESSION START : 1346182359322
+SESSION SEED  : 1346182359322
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021D6EE8>
+RUN 0
+FITNESS: 2.5
+RUN 1
+FITNESS: 1.75
+RUN 2
+FITNESS: 1.33333333333
+SESSION END   : 1346182359326
+BEST FITNESS  : 1.33333333333
+BEST CUT: [1, 0, 0, 0, 1, 1, 0, 0]
+SESSION Length: 4
+SESSION SEED  : 1346182359322
+SESSION START : 1346182367566
+SESSION SEED  : 1346182367566
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02276EE8>
+RUN 0
+FITNESS: 2.66666666667
+RUN 3
+FITNESS: 2.0
+SESSION END   : 1346182367573
+BEST FITNESS  : 2.0
+BEST CUT: [0, 1, 1, 0, 1, 0, 1, 0]
+SESSION Length: 7
+SESSION SEED  : 1346182367566
+SESSION START : 1346182485563
+SESSION SEED  : 1346182485563
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021E6EE8>
+RUN 0
+FITNESS: 2.66666666667
+SESSION END   : 1346182485569
+BEST FITNESS  : 2.66666666667
+BEST CUT: [0, 1, 1, 0, 0, 1, 0, 0]
+SESSION Length: 6
+SESSION SEED  : 1346182485563
+SESSION START : 1346182534153
+SESSION SEED  : 1346182534153
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02286EE8>
+SESSION START : 1346182545042
+SESSION SEED  : 1346182545042
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021D6EE8>
+RUN 0
+FITNESS: 2.66666666667
+SESSION END   : 1346182545049
+BEST FITNESS  : 2.66666666667
+BEST CUT: [1, 1, 0, 1, 0, 0, 0, 0]
+SESSION Length: 7
+SESSION SEED  : 1346182545042
+SESSION START : 1346182614842
+SESSION SEED  : 1346182614842
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021E6EE8>
+RUN 0
+FITNESS: 4.0
+SESSION END   : 1346182614845
+BEST FITNESS  : 4.0
+BEST CUT: [1, 0, 1, 1, 1, 1, 1, 1]
+SESSION Length: 3
+SESSION SEED  : 1346182614842
+SESSION START : 1346182817545
+SESSION SEED  : 1346182817545
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02216EE8>
+RUN 0
+FITNESS: 3.5
+SESSION END   : 1346182817548
+BEST FITNESS  : 3.5
+BEST CUT: [1, 1, 0, 1, 1, 1, 0, 1]
+SESSION Length: 3
+SESSION SEED  : 1346182817545
+SESSION START : 1346184385425
+SESSION SEED  : 1346184385425
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02306EE8>
+RUN 0
+FITNESS: 3.5
+SESSION END   : 1346184385427
+BEST FITNESS  : 3.5
+BEST CUT: [1, 0, 1, 1, 0, 1, 0, 0]
+SESSION Length: 2
+SESSION SEED  : 1346184385425
+SESSION START : 1346184392535
+SESSION SEED  : 1346184392535
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02256EE8>
+RUN 0
+FITNESS: 3.5
+SESSION END   : 1346184392537
+BEST FITNESS  : 3.5
+BEST CUT: [1, 1, 1, 0, 0, 1, 0, 0]
+SESSION Length: 2
+SESSION SEED  : 1346184392535
+SESSION START : 1346185230217
+SESSION SEED  : 1346185230217
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022D6EE8>
+RUN 0
+FITNESS: 2.5
+RUN 2
+FITNESS: 2.0
+RUN 3
+FITNESS: 1.75
+RUN 7
+FITNESS: 1.66666666667
+RUN 30
+FITNESS: 1.33333333333
+RUN 58
+FITNESS: 0.5
+SESSION END   : 1346185233197
+BEST FITNESS  : 0.5
+BEST CUT: [1, 0, 1, 0, 1, 1, 0, 0]
+SESSION Length: 2980
+SESSION SEED  : 1346185230217
+SESSION START : 1346185296684
+SESSION SEED  : 1346185296684
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02266EE8>
+RUN 0
+FITNESS: 1.33333333333
+RUN 224
+FITNESS: 0.5
+SESSION END   : 1346185298039
+BEST FITNESS  : 0.5
+BEST CUT: [0, 1, 0, 1, 0, 0, 1, 1]
+SESSION Length: 1355
+SESSION SEED  : 1346185296684
+SESSION START : 1346187873669
+SESSION SEED  : 1346187873669
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02265EE8>
+SESSION START : 1346187904879
+SESSION SEED  : 1346187904879
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02275EE8>
+SESSION START : 1346187922914
+SESSION SEED  : 1346187922914
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022B5EE8>
+SESSION START : 1346187929312
+SESSION SEED  : 1346187929312
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022E5EE8>
+SESSION START : 1346187954162
+SESSION SEED  : 1346187954162
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02255EE8>
+SESSION START : 1346187956041
+SESSION SEED  : 1346187956041
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02335EE8>
+SESSION START : 1346187989587
+SESSION SEED  : 1346187989587
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022A5EE8>
+SESSION START : 1346188055633
+SESSION SEED  : 1346188055633
+INPUT FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022A5EE8>
+SESSION END   : 1346188056729
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION Length: 1096
+SESSION SEED  : 1346188055633
+SESSION START : 1346189523886
+SESSION SEED  : 1346189523886
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0239FEE8>
+SESSION END   : 1346189523890
+SESSION Length: 4
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189536536
+SESSION SEED  : 1346189536536
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0225FEE8>
+SESSION END   : 1346189536541
+SESSION Length: 5
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189545000
+SESSION SEED  : 1346189545000
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0229FEE8>
+SESSION END   : 1346189545002
+SESSION Length: 2
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189551854
+SESSION SEED  : 1346189551854
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0230FEE8>
+SESSION END   : 1346189551860
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189554788
+SESSION SEED  : 1346189554788
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021FFEE8>
+SESSION END   : 1346189554790
+SESSION Length: 2
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189555552
+SESSION SEED  : 1346189555552
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022EFEE8>
+SESSION END   : 1346189555554
+SESSION Length: 2
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189556015
+SESSION SEED  : 1346189556015
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022DEEE8>
+SESSION END   : 1346189556021
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189556259
+SESSION SEED  : 1346189556259
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022EFEE8>
+SESSION END   : 1346189556265
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189556473
+SESSION SEED  : 1346189556473
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x023DEEE8>
+SESSION END   : 1346189556480
+SESSION Length: 7
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189618130
+SESSION SEED  : 1346189618130
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0236FEE8>
+SESSION END   : 1346189618134
+SESSION Length: 4
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189645579
+SESSION SEED  : 1346189645579
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0223FEE8>
+SESSION END   : 1346189645582
+SESSION Length: 3
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189664190
+SESSION SEED  : 1346189664190
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0229FEE8>
+SESSION END   : 1346189664198
+SESSION Length: 8
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189824802
+SESSION SEED  : 1346189824802
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0239FEE8>
+SESSION END   : 1346189824805
+SESSION Length: 3
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189846345
+SESSION SEED  : 1346189846345
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0242FEE8>
+SESSION END   : 1346189846351
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189857083
+SESSION SEED  : 1346189857083
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0223FEE8>
+SESSION END   : 1346189857085
+SESSION Length: 2
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189890899
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0224FEE8>
+SESSION END   : 1346189890906
+SESSION Length: 7
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346189962854
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0226FEE8>
+SESSION END   : 1346189962861
+SESSION Length: 7
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190167985
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0229FEE8>
+SESSION END   : 1346190167991
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190262027
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0228FEE8>
+SESSION END   : 1346190262029
+SESSION Length: 2
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190270579
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x023CFEE8>
+SESSION START : 1346190299259
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0230FEE8>
+SESSION END   : 1346190299261
+SESSION Length: 2
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190427622
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0230FEE8>
+SESSION START : 1346190457091
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0246FEE8>
+SESSION START : 1346190474797
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0229FEE8>
+SESSION START : 1346190504728
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0223FEE8>
+SESSION START : 1346190516448
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0226FEE8>
+SESSION END   : 1346190516454
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190529957
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0229FEE8>
+SESSION END   : 1346190529961
+SESSION Length: 4
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190537550
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0226FEE8>
+SESSION END   : 1346190537553
+SESSION Length: 3
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190558412
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0232FEE8>
+SESSION END   : 1346190558418
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190579553
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022BFEE8>
+SESSION END   : 1346190579554
+SESSION Length: 1
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190604331
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0235FEE8>
+SESSION START : 1346190650834
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0220FEE8>
+SESSION END   : 1346190650836
+SESSION Length: 2
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190680737
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022CFEE8>
+SESSION END   : 1346190680743
+SESSION Length: 6
+BEST FITNESS  : 100
+BEST CUT: []
+SESSION START : 1346190703448
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0227FEE8>
+SESSION START : 1346190718766
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x021EFEE8>
+SESSION START : 1346190743224
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0232FEE8>
+SESSION START : 1346190751101
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0236FEE8>
+SESSION START : 1346190760700
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0225FEE8>
+SESSION START : 1346190830609
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0224FEE8>
+RUN 0
+EVAL: 0	FITNESS: 2.66666666667
+RUN 0
+EVAL: 1	FITNESS: 1.66666666667
+RUN 0
+EVAL: 6	FITNESS: 1.33333333333
+SESSION END   : 1346190830615
+SESSION Length: 6
+BEST FITNESS  : 1.33333333333
+BEST CUT: ['1', '0', '1', '0', '1', '0', '0', '0']
+SESSION START : 1346190856841
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022CFEE8>
+SESSION START : 1346190870937
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022E0EE8>
+SESSION START : 1346190896008
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x024B0EE8>
+SESSION START : 1346190905193
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0229FEE8>
+SESSION START : 1346190921274
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0224FEE8>
+SESSION START : 1346190940742
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022AFEE8>
+SESSION START : 1346190952070
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0224FEE8>
+SESSION START : 1346190969649
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02240EE8>
+SESSION START : 1346190984335
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02240EE8>
+SESSION START : 1346190994246
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0230FEE8>
+SESSION START : 1346191014528
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x023BFEE8>
+SESSION START : 1346191039378
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x023CFEE8>
+SESSION START : 1346191049196
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022CFEE8>
+SESSION START : 1346191060839
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022BFEE8>
+SESSION START : 1346191071230
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0230FEE8>
+SESSION START : 1346191085556
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0229FEE8>
+SESSION START : 1346191103196
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022AFEE8>
+RUN 0
+EVAL: 0	FITNESS: 2.66666666667
+RUN 0
+EVAL: 1	FITNESS: 1.66666666667
+RUN 0
+EVAL: 6	FITNESS: 1.33333333333
+SESSION END   : 1346191103202
+SESSION Length: 6
+BEST FITNESS  : 1.33333333333
+BEST CUT: ['1', '0', '1', '0', '1', '0', '0', '0']
+SESSION START : 1346191116974
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x022CFEE8>
+RUN 0
+EVAL: 0	FITNESS: 2.66666666667
+RUN 0
+EVAL: 1	FITNESS: 1.66666666667
+RUN 0
+EVAL: 6	FITNESS: 1.33333333333
+SESSION END   : 1346191116980
+SESSION Length: 6
+BEST FITNESS  : 1.33333333333
+BEST CUT: ['1', '0', '1', '0', '1', '0', '0', '0']
+SESSION START : 1346191146835
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x0235FEE8>
+RUN 0
+EVAL: 0	FITNESS: 2.66666666667
+RUN 0
+EVAL: 1	FITNESS: 1.66666666667
+RUN 0
+EVAL: 6	FITNESS: 1.33333333333
+RUN 0
+EVAL: 73	FITNESS: 0.5
+SESSION END   : 1346191170781
+SESSION Length: 23946
+BEST FITNESS  : 0.5
+BEST CUT: ['1', '0', '1', '0', '1', '1', '0', '0']
+SESSION START : 1346614566154
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x023B3EE8>
+RUN: 1
+	1	2.66666666667
+	2	1.66666666667
+	7	1.33333333333
+	74	0.5
+RUN: 2
+	1	2.25
+	7	2.0
+	11	1.75
+	18	1.33333333333
+	38	0.5
+RUN: 3
+	1	1.66666666667
+	9	1.33333333333
+	708	0.5
+RUN: 4
+	1	2.25
+	2	1.33333333333
+	82	0.5
+RUN: 5
+	1	1.75
+	35	1.66666666667
+	39	0.5
+RUN: 6
+	1	2.0
+	6	0.5
+RUN: 7
+	1	2.0
+	5	1.66666666667
+	27	1.33333333333
+	144	0.5
+RUN: 8
+	1	2.0
+	3	1.66666666667
+	13	1.33333333333
+	58	0.5
+RUN: 9
+	1	2.33333333333
+	3	0.5
+RUN: 10
+	1	2.66666666667
+	3	2.25
+	9	1.75
+	28	1.5
+	72	1.33333333333
+	163	0.5
+RUN: 11
+	1	3.0
+	2	2.66666666667
+	3	1.66666666667
+	7	1.5
+	60	1.33333333333
+	75	0.5
+RUN: 12
+	1	3.0
+	3	2.5
+	4	2.25
+	5	1.75
+	10	1.33333333333
+	131	0.5
+RUN: 13
+	1	1.75
+	2	0.5
+RUN: 14
+	1	1.33333333333
+	35	0.5
+RUN: 15
+	1	3.0
+	3	2.0
+	4	0.5
+RUN: 16
+	1	3.0
+	2	1.33333333333
+	274	0.5
+RUN: 17
+	1	1.66666666667
+	27	1.5
+	63	1.33333333333
+	194	0.5
+RUN: 18
+	1	2.5
+	3	2.33333333333
+	12	1.66666666667
+	51	1.5
+	54	1.33333333333
+	181	0.5
+RUN: 19
+	1	3.5
+	2	2.66666666667
+	7	1.5
+	26	1.33333333333
+	47	0.5
+RUN: 20
+	1	4.0
+	2	3.0
+	4	2.66666666667
+	7	2.33333333333
+	12	2.25
+	18	1.66666666667
+	20	1.5
+	66	1.33333333333
+	213	0.5
+RUN: 21
+	1	2.66666666667
+	4	2.5
+	6	2.25
+	9	1.75
+	10	1.33333333333
+	62	0.5
+RUN: 22
+	1	1.33333333333
+	12	0.5
+RUN: 23
+	1	1.75
+	18	1.33333333333
+	46	0.5
+RUN: 24
+	1	2.33333333333
+	3	2.0
+	4	1.75
+	22	1.66666666667
+	87	1.33333333333
+	819	0.5
+RUN: 25
+	1	2.0
+	8	1.66666666667
+	35	1.33333333333
+	141	0.5
+RUN: 26
+	1	1.5
+	22	1.33333333333
+	179	0.5
+RUN: 27
+	1	2.25
+	3	1.66666666667
+	33	1.33333333333
+	181	0.5
+RUN: 28
+	1	2.5
+	2	2.33333333333
+	7	2.25
+	8	1.66666666667
+	10	1.33333333333
+	58	0.5
+RUN: 29
+	1	3.5
+	2	2.25
+	5	0.5
+RUN: 30
+	1	2.66666666667
+	2	1.75
+	5	0.5
+SESSION END   : 1346614594778
+SESSION Length: 28624
+RESULT LOGSESSION START : 1346614882145
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02374EE8>
+RUN: 1
+	1	2.66666666667
+	2	1.66666666667
+	7	1.33333333333
+	74	0.5
+RUN: 2
+	1	2.25
+	7	2.0
+	11	1.75
+	18	1.33333333333
+	38	0.5
+RUN: 3
+	1	1.66666666667
+	9	1.33333333333
+	708	0.5
+RUN: 4
+	1	2.25
+	2	1.33333333333
+	82	0.5
+RUN: 5
+	1	1.75
+	35	1.66666666667
+	39	0.5
+RUN: 6
+	1	2.0
+	6	0.5
+RUN: 7
+	1	2.0
+	5	1.66666666667
+	27	1.33333333333
+	144	0.5
+RUN: 8
+	1	2.0
+	3	1.66666666667
+	13	1.33333333333
+	58	0.5
+RUN: 9
+	1	2.33333333333
+	3	0.5
+RUN: 10
+	1	2.66666666667
+	3	2.25
+	9	1.75
+	28	1.5
+	72	1.33333333333
+	163	0.5
+RUN: 11
+	1	3.0
+	2	2.66666666667
+	3	1.66666666667
+	7	1.5
+	60	1.33333333333
+	75	0.5
+RUN: 12
+	1	3.0
+	3	2.5
+	4	2.25
+	5	1.75
+	10	1.33333333333
+	131	0.5
+RUN: 13
+	1	1.75
+	2	0.5
+RUN: 14
+	1	1.33333333333
+	35	0.5
+RUN: 15
+	1	3.0
+	3	2.0
+	4	0.5
+RUN: 16
+	1	3.0
+	2	1.33333333333
+	274	0.5
+RUN: 17
+	1	1.66666666667
+	27	1.5
+	63	1.33333333333
+	194	0.5
+RUN: 18
+	1	2.5
+	3	2.33333333333
+	12	1.66666666667
+	51	1.5
+	54	1.33333333333
+	181	0.5
+RUN: 19
+	1	3.5
+	2	2.66666666667
+	7	1.5
+	26	1.33333333333
+	47	0.5
+RUN: 20
+	1	4.0
+	2	3.0
+	4	2.66666666667
+	7	2.33333333333
+	12	2.25
+	18	1.66666666667
+	20	1.5
+	66	1.33333333333
+	213	0.5
+RUN: 21
+	1	2.66666666667
+	4	2.5
+	6	2.25
+	9	1.75
+	10	1.33333333333
+	62	0.5
+RUN: 22
+	1	1.33333333333
+	12	0.5
+RUN: 23
+	1	1.75
+	18	1.33333333333
+	46	0.5
+RUN: 24
+	1	2.33333333333
+	3	2.0
+	4	1.75
+	22	1.66666666667
+	87	1.33333333333
+	819	0.5
+RUN: 25
+	1	2.0
+	8	1.66666666667
+	35	1.33333333333
+	141	0.5
+RUN: 26
+	1	1.5
+	22	1.33333333333
+	179	0.5
+RUN: 27
+	1	2.25
+	3	1.66666666667
+	33	1.33333333333
+	181	0.5
+RUN: 28
+	1	2.5
+	2	2.33333333333
+	7	2.25
+	8	1.66666666667
+	10	1.33333333333
+	58	0.5
+RUN: 29
+	1	3.5
+	2	2.25
+	5	0.5
+RUN: 30
+	1	2.66666666667
+	2	1.75
+	5	0.5
+SESSION END   : 1346614910795
+SESSION Length: 28650
+RESULT LOGSESSION START : 1346614975682
+SESSION SEED  : 1346614975682
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02314EE8>
+RUN: 1
+	1	4.0
+	2	3.5
+	3	3.0
+	5	1.33333333333
+	45	0.5
+RUN: 2
+	1	3.0
+	2	2.5
+	3	1.33333333333
+	23	0.5
+RUN: 3
+	1	2.33333333333
+	4	1.75
+	11	1.33333333333
+	240	0.5
+RUN: 4
+	1	2.33333333333
+	4	1.33333333333
+	148	0.5
+RUN: 5
+	1	2.66666666667
+	2	2.0
+	13	1.75
+	20	1.33333333333
+	407	0.5
+RUN: 6
+	1	4.0
+	2	2.0
+	8	1.75
+	13	1.33333333333
+	67	0.5
+RUN: 7
+	1	3.5
+	2	2.0
+	3	1.75
+	9	1.66666666667
+	24	1.33333333333
+	29	0.5
+RUN: 8
+	1	3.0
+	2	2.0
+	13	1.33333333333
+	216	0.5
+RUN: 9
+	1	2.5
+	9	2.33333333333
+	15	2.0
+	32	1.66666666667
+	41	1.33333333333
+	347	0.5
+RUN: 10
+	1	2.5
+	2	2.0
+	17	1.75
+	25	1.5
+	47	1.33333333333
+	99	0.5
+RUN: 11
+	1	3.0
+	2	1.5
+	42	1.33333333333
+	285	0.5
+RUN: 12
+	1	2.5
+	5	2.25
+	8	1.33333333333
+	288	0.5
+RUN: 13
+	1	2.33333333333
+	12	1.75
+	28	0.5
+RUN: 14
+	1	2.66666666667
+	4	2.25
+	7	1.66666666667
+	11	1.33333333333
+	121	0.5
+RUN: 15
+	1	2.33333333333
+	4	2.25
+	5	1.33333333333
+	94	0.5
+RUN: 16
+	1	2.5
+	3	2.33333333333
+	7	1.66666666667
+	14	1.5
+	29	0.5
+RUN: 17
+	1	2.0
+	8	1.75
+	10	1.66666666667
+	13	1.33333333333
+	65	0.5
+RUN: 18
+	1	1.66666666667
+	3	1.33333333333
+	216	0.5
+RUN: 19
+	1	4.0
+	2	3.5
+	3	3.0
+	4	2.33333333333
+	7	1.5
+	43	1.33333333333
+	50	0.5
+RUN: 20
+	1	1.66666666667
+	26	1.33333333333
+	35	0.5
+RUN: 21
+	1	2.33333333333
+	2	2.0
+	7	1.33333333333
+	197	0.5
+RUN: 22
+	1	2.5
+	8	2.0
+	9	1.75
+	27	1.33333333333
+	311	0.5
+RUN: 23
+	1	2.33333333333
+	2	1.75
+	14	1.66666666667
+	16	1.33333333333
+	165	0.5
+RUN: 24
+	1	2.0
+	20	1.66666666667
+	23	1.33333333333
+	54	0.5
+RUN: 25
+	1	3.0
+	2	2.66666666667
+	8	2.25
+	10	2.0
+	16	1.33333333333
+	233	0.5
+RUN: 26
+	1	2.33333333333
+	4	2.0
+	11	1.75
+	12	0.5
+RUN: 27
+	1	2.66666666667
+	2	2.25
+	8	2.0
+	13	1.33333333333
+	66	0.5
+RUN: 28
+	1	3.0
+	3	0.5
+RUN: 29
+	1	2.25
+	3	2.0
+	15	1.75
+	23	1.5
+	30	0.5
+RUN: 30
+	1	4.0
+	2	3.5
+	3	2.0
+	22	1.75
+	29	1.66666666667
+	68	1.5
+	70	1.33333333333
+	330	0.5
+SESSION END   : 1346614978678
+SESSION Length: 2996
+RESULT LOGSESSION START : 1346615029631
+SESSION SEED  : 1346615029631
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02323EE8>
+RUN: 1
+	1	2.66666666667
+	3	2.5
+	4	2.33333333333
+	7	2.0
+	9	1.75
+	50	1.33333333333
+	214	0.5
+RUN: 2
+	2	2.66666666667
+	3	2.0
+	11	1.75
+	24	1.66666666667
+	57	1.5
+	81	1.33333333333
+	481	0.5
+RUN: 3
+	1	2.0
+	4	1.5
+	9	1.33333333333
+	128	0.5
+RUN: 4
+	1	2.25
+	2	1.75
+	9	1.5
+	15	1.33333333333
+	83	0.5
+RUN: 5
+	1	3.5
+	2	2.0
+	17	1.75
+	22	1.66666666667
+	121	1.5
+	127	1.33333333333
+	158	0.5
+RUN: 6
+	1	1.75
+	2	1.5
+	10	1.33333333333
+	64	0.5
+RUN: 7
+	1	2.33333333333
+	2	2.0
+	13	1.75
+	15	1.33333333333
+	521	0.5
+RUN: 8
+	1	2.66666666667
+	3	2.5
+	5	2.33333333333
+	6	2.0
+	16	1.33333333333
+	87	0.5
+RUN: 9
+	1	2.0
+	9	1.66666666667
+	11	1.5
+	44	1.33333333333
+	148	0.5
+RUN: 10
+	1	2.0
+	15	1.5
+	94	1.33333333333
+	140	0.5
+RUN: 11
+	1	2.66666666667
+	2	1.33333333333
+	37	0.5
+RUN: 12
+	1	2.0
+	8	0.5
+RUN: 13
+	1	2.25
+	5	1.33333333333
+	29	0.5
+RUN: 14
+	1	3.5
+	2	2.25
+	6	1.33333333333
+	12	0.5
+RUN: 15
+	1	2.0
+	13	1.66666666667
+	58	1.5
+	76	1.33333333333
+	149	0.5
+RUN: 16
+	1	3.0
+	3	2.5
+	6	2.33333333333
+	7	2.0
+	8	1.75
+	34	1.66666666667
+	36	1.5
+	44	1.33333333333
+	116	0.5
+RUN: 17
+	1	3.0
+	4	2.5
+	5	2.0
+	8	1.75
+	33	1.66666666667
+	81	1.33333333333
+	467	0.5
+RUN: 18
+	1	2.0
+	2	1.75
+	3	1.5
+	4	0.5
+RUN: 19
+	1	3.0
+	2	2.66666666667
+	3	2.0
+	12	1.75
+	20	1.66666666667
+	85	1.33333333333
+	444	0.5
+RUN: 20
+	1	2.66666666667
+	2	1.75
+	5	0.5
+RUN: 21
+	1	2.33333333333
+	2	1.75
+	6	1.5
+	31	1.33333333333
+	235	0.5
+RUN: 22
+	1	2.0
+	12	1.5
+	17	1.33333333333
+	63	0.5
+RUN: 23
+	1	3.0
+	2	2.25
+	6	1.75
+	33	1.5
+	46	1.33333333333
+	65	0.5
+RUN: 24
+	1	3.0
+	3	2.33333333333
+	5	1.33333333333
+	208	0.5
+RUN: 25
+	1	2.66666666667
+	3	1.75
+	18	1.66666666667
+	20	1.33333333333
+	122	0.5
+RUN: 26
+	1	2.25
+	3	1.33333333333
+	149	0.5
+RUN: 27
+	1	2.5
+	2	2.33333333333
+	9	1.75
+	60	1.33333333333
+	157	0.5
+RUN: 28
+	1	2.66666666667
+	2	2.5
+	4	2.0
+	46	1.5
+	53	1.33333333333
+	83	0.5
+RUN: 29
+	1	3.5
+	2	2.5
+	4	2.25
+	9	1.66666666667
+	10	1.5
+	14	1.33333333333
+	93	0.5
+RUN: 30
+	1	2.0
+	30	1.75
+	33	1.66666666667
+	44	1.33333333333
+	96	0.5
+SESSION END   : 1346615032583
+SESSION Length: 2952
+RESULT LOGSESSION START : 1346615072192
+SESSION SEED  : 1346615072192
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02263EE8>
+RUN: 1
+	1	3.0
+	3	2.66666666667
+	4	2.33333333333
+	5	2.0
+	6	1.66666666667
+	21	1.33333333333
+	150	0.5
+RESULT LOGSESSION START : 1346615093863
+SESSION SEED  : 1346615093863
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02293EE8>
+RUN: 1
+	1	2.5
+	2	2.33333333333
+	12	1.75
+	14	1.33333333333
+	117	0.5
+RESULT LOGSESSION START : 1346616159431
+SESSION SEED  : 1346616159431
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02254EE8>
+RUN: 1
+	1	3.5
+	2	1.75
+	5	0.5
+RESULT LOGSESSION START : 1346616171810
+SESSION SEED  : 1346616171810
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x02324EE8>
+RUN: 1
+	1	2.66666666667
+	4	2.33333333333
+	7	2.0
+	14	1.75
+	34	1.33333333333
+	35	0.5
+RUN: 2
+	1	2.5
+	2	2.0
+	8	1.33333333333
+	31	0.5
+RUN: 3
+	1	1.75
+	11	1.5
+	22	1.33333333333
+	113	0.5
+RUN: 4
+	1	1.75
+	18	1.66666666667
+	42	1.5
+	102	1.33333333333
+	137	0.5
+RUN: 5
+	1	2.0
+	4	1.33333333333
+	128	0.5
+RUN: 6
+	1	3.0
+	2	2.66666666667
+	3	2.0
+	11	1.75
+	19	1.66666666667
+	20	1.33333333333
+	83	0.5
+RUN: 7
+	1	3.0
+	2	1.75
+	3	0.5
+RUN: 8
+	1	4.0
+	2	2.66666666667
+	3	1.66666666667
+	4	0.5
+RUN: 9
+	1	2.25
+	9	1.75
+	51	1.33333333333
+	52	0.5
+RUN: 10
+	1	3.5
+	2	2.66666666667
+	3	2.0
+	4	1.66666666667
+	54	1.5
+	65	1.33333333333
+	223	0.5
+RUN: 11
+	1	2.5
+	3	2.33333333333
+	9	1.75
+	15	1.33333333333
+	27	0.5
+RUN: 12
+	1	2.33333333333
+	6	1.75
+	7	1.5
+	38	1.33333333333
+	123	0.5
+RUN: 13
+	1	2.33333333333
+	3	0.5
+RUN: 14
+	1	2.25
+	5	1.75
+	19	1.66666666667
+	48	1.33333333333
+	85	0.5
+RUN: 15
+	1	3.5
+	2	0.5
+RUN: 16
+	1	2.5
+	3	1.33333333333
+	92	0.5
+RUN: 17
+	1	2.66666666667
+	3	2.33333333333
+	7	2.0
+	9	1.75
+	10	1.5
+	68	1.33333333333
+	301	0.5
+RUN: 18
+	1	3.0
+	2	2.66666666667
+	6	1.75
+	16	0.5
+RUN: 19
+	1	3.5
+	2	3.0
+	3	2.5
+	4	1.33333333333
+	47	0.5
+RUN: 20
+	1	2.33333333333
+	2	2.25
+	5	1.75
+	24	1.66666666667
+	31	1.5
+	130	0.5
+RUN: 21
+	1	2.0
+	6	1.33333333333
+	57	0.5
+RUN: 22
+	1	2.5
+	3	1.75
+	41	1.66666666667
+	44	1.33333333333
+	463	0.5
+RUN: 23
+	1	3.5
+	2	3.0
+	4	2.5
+	8	1.75
+	26	1.66666666667
+	38	1.33333333333
+	214	0.5
+RUN: 24
+	1	2.0
+	3	1.75
+	4	1.66666666667
+	11	0.5
+RUN: 25
+	1	1.66666666667
+	15	1.5
+	31	1.33333333333
+	126	0.5
+RUN: 26
+	1	2.0
+	5	1.5
+	6	0.5
+RUN: 27
+	1	3.5
+	3	2.66666666667
+	4	2.0
+	9	1.75
+	11	1.33333333333
+	50	0.5
+RUN: 28
+	1	1.75
+	18	1.66666666667
+	76	1.5
+	78	1.33333333333
+	333	0.5
+RUN: 29
+	1	3.0
+	3	2.66666666667
+	6	2.25
+	14	2.0
+	40	1.66666666667
+	61	1.5
+	104	0.5
+RUN: 30
+	1	1.5
+	45	1.33333333333
+	56	0.5
+SESSION END   : 1346616174659
+SESSION Length: 2849
+RESULT LOG 
+SESSION START : 1346616227272
+SESSION SEED  : 1346616227272
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign1\dataFiles\example.dat', mode 'r' at 0x023A4EE8>
+RUN: 1
+	1	3.0
+	2	2.5
+	3	1.33333333333
+	724	0.5
+RUN: 2
+	1	2.0
+	8	0.5
+RUN: 3
+	1	2.5
+	2	2.25
+	3	2.0
+	7	0.5
+RUN: 4
+	1	2.5
+	4	2.33333333333
+	10	1.33333333333
+	17	0.5
+RUN: 5
+	1	3.5
+	2	2.66666666667
+	3	2.0
+	5	1.66666666667
+	70	1.5
+	84	1.33333333333
+	107	0.5
+RUN: 6
+	1	2.5
+	2	1.33333333333
+	47	0.5
+RUN: 7
+	1	2.5
+	4	1.75
+	10	1.5
+	144	1.33333333333
+	223	0.5
+RUN: 8
+	1	3.0
+	2	2.33333333333
+	8	1.66666666667
+	19	1.33333333333
+	110	0.5
+RUN: 9
+	1	2.5
+	2	1.33333333333
+	42	0.5
+RUN: 10
+	1	2.0
+	3	1.33333333333
+	139	0.5
+RUN: 11
+	1	1.66666666667
+	16	1.33333333333
+	260	0.5
+RUN: 12
+	1	3.0
+	2	1.75
+	18	1.66666666667
+	46	1.33333333333
+	106	0.5
+RUN: 13
+	1	2.0
+	3	1.33333333333
+	151	0.5
+RUN: 14
+	1	3.0
+	2	2.5
+	4	2.0
+	9	1.75
+	19	1.66666666667
+	40	1.33333333333
+	137	0.5
+RUN: 15
+	1	2.66666666667
+	2	2.0
+	19	1.75
+	34	1.66666666667
+	42	1.5
+	59	1.33333333333
+	94	0.5
+RUN: 16
+	1	3.5
+	2	2.66666666667
+	3	1.75
+	8	1.66666666667
+	10	1.5
+	48	1.33333333333
+	119	0.5
+RUN: 17
+	1	1.66666666667
+	29	1.33333333333
+	85	0.5
+RUN: 18
+	1	2.66666666667
+	2	2.33333333333
+	4	2.0
+	9	1.66666666667
+	11	0.5
+RUN: 19
+	1	2.0
+	2	1.75
+	4	1.66666666667
+	11	1.33333333333
+	178	0.5
+RUN: 20
+	1	3.0
+	3	1.5
+	4	1.33333333333
+	106	0.5
+RUN: 21
+	1	2.33333333333
+	3	2.25
+	9	1.75
+	18	1.33333333333
+	24	0.5
+RUN: 22
+	1	2.0
+	5	1.75
+	12	1.5
+	35	1.33333333333
+	136	0.5
+RUN: 23
+	1	3.5
+	2	2.0
+	7	1.33333333333
+	139	0.5
+RUN: 24
+	1	1.75
+	14	1.66666666667
+	21	1.33333333333
+	78	0.5
+RUN: 25
+	1	2.25
+	6	2.0
+	31	1.75
+	46	1.5
+	92	1.33333333333
+	203	0.5
+RUN: 26
+	1	2.33333333333
+	4	1.75
+	14	1.66666666667
+	16	1.33333333333
+	267	0.5
+RUN: 27
+	1	2.33333333333
+	2	1.75
+	7	0.5
+RUN: 28
+	1	2.33333333333
+	2	1.33333333333
+	220	0.5
+RUN: 29
+	1	1.33333333333
+	8	0.5
+RUN: 30
+	1	3.0
+	2	2.5
+	6	2.33333333333
+	9	2.0
+	19	1.75
+	26	1.66666666667
+	36	0.5
+SESSION END   : 1346616230361
+SESSION Length: 3089
+SESSION START : 1346953220283
+SESSION SEED  : 10
+CONFIG FILE: <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02315EE8>
+RUN: 1
+	1	3.0
+	2	1.33333333333
+	69	0.5
+RUN: 2
+	1	2.66666666667
+	2	2.0
+	6	1.75
+	13	1.33333333333
+	33	0.5
+RUN: 3
+	1	2.25
+	4	1.33333333333
+	703	0.5
+RUN: 4
+	1	2.0
+	16	1.75
+	21	1.33333333333
+	77	0.5
+RUN: 5
+	1	3.0
+	2	2.25
+	3	1.75
+	30	1.66666666667
+	34	0.5
+SESSION END   : 1346953225524
+SESSION Length: 5241
+<<<<<<< HEAD:assign2/logFiles/logEx.txt
+=======
+SESSION START : 1346960506548
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C2EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+RUN: 1
+	1	3.0
+	2	1.33333333333
+	69	0.5
+RUN: 2
+	1	2.66666666667
+	2	2.0
+	6	1.75
+	13	1.33333333333
+	33	0.5
+RUN: 3
+	1	2.25
+	4	1.33333333333
+	703	0.5
+RUN: 4
+	1	2.0
+	16	1.75
+	21	1.33333333333
+	77	0.5
+RUN: 5
+	1	3.0
+	2	2.25
+	3	1.75
+	30	1.66666666667
+	34	0.5
+SESSION END   : 1346960512188
+SESSION Length: 5640
+SESSION START : 1346961478144
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02312EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+SESSION START : 1346961508390
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02272EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+SESSION START : 1346961517000
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02202EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+SESSION START : 1346962725998
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021A4EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+RUN: 2
+RUN: 3
+RUN: 4
+RUN: 5
+SESSION END   : 1346962731260
+SESSION Length: 5262
+SESSION START : 1346962744946
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02304EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+RUN: 2
+RUN: 3
+RUN: 4
+RUN: 5
+SESSION END   : 1346962750323
+SESSION Length: 5377
+SESSION START : 1346962775130
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02264EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.0
+	2	-1.66666666667
+	26	-1.33333333333
+	64	-0.5
+RUN: 2
+	1	-1.75
+	8	-1.33333333333
+	28	-0.5
+RUN: 3
+	1	-2.25
+	4	-1.33333333333
+	698	-0.5
+RUN: 4
+	1	-2.66666666667
+	3	-2.33333333333
+	5	-2.25
+	11	-1.75
+	16	-1.33333333333
+	72	-0.5
+RUN: 5
+	1	-2.66666666667
+	8	-2.0
+	25	-1.66666666667
+	29	-0.5
+SESSION END   : 1346962780561
+SESSION Length: 5431
+SESSION START : 1346962799938
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023F4EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.0
+	2	-1.66666666667
+	26	-1.33333333333
+	64	-0.5
+RUN: 2
+	1	-1.75
+	8	-1.33333333333
+	28	-0.5
+RUN: 3
+	1	-2.25
+	4	-1.33333333333
+	698	-0.5
+RUN: 4
+	1	-2.66666666667
+	3	-2.33333333333
+	5	-2.25
+	11	-1.75
+	16	-1.33333333333
+	72	-0.5
+RUN: 5
+	1	-2.66666666667
+	8	-2.0
+	25	-1.66666666667
+	29	-0.5
+SESSION END   : 1346962805370
+SESSION Length: 5432
+SESSION START : 1346972967477
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02323EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973071050
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02203EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973095968
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021E3EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973145748
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D3EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973162832
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F3EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973288451
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021D3EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973302885
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02203EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973515172
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02253EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973533426
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02263EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973547921
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02313EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973566881
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02433EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346973593801
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023A3EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-1.66666666667
+	25	-1.33333333333
+	63	-0.5
+RUN: 2
+	1	-1.75
+	7	-1.33333333333
+	27	-0.5
+RUN: 3
+	1	-3.0
+	3	-1.33333333333
+	697	-0.5
+RUN: 4
+	1	-3.5
+	2	-2.33333333333
+	4	-2.25
+	10	-1.75
+	15	-1.33333333333
+	71	-0.5
+RUN: 5
+	1	-2.66666666667
+	7	-2.0
+	24	-1.66666666667
+	28	-0.5
+SESSION END   : 1346973598804
+SESSION Length: 5003
+SESSION START : 1346974251885
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02294EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+SESSION START : 1346974289678
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02264EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+SESSION START : 1346974374360
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A4EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346974399673
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02343EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346974419460
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02253EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1346974464633
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022F3EE8>
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPSURVIVAL SELECTION: tournament
+POPULATION SIZE: 10
+OFFSPRING SIZE: 5
+>>>>>>> BROKEN SEED:assign2/logFiles/logEx.txt
+SESSION START : 1347242354731
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02253EE8>
+PARENT SELECTION : <<<<<<< HEAD
+RECOMBINATION: fitness/tournament
+MUTATION: BIT FLIPSURVIVAL SELECTION: uniform/npoint
+SESSION START : 1347242877807
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A3EE8>
+SESSION START : 1347242929098
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02243EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	3.0
+	2	1.33333333333
+	69	0.5
+RUN: 2
+	1	1.75
+	14	1.66666666667
+	26	1.33333333333
+RUN: 3
+	1	3.0
+	2	2.5
+	5	2.33333333333
+	10	1.33333333333
+RUN: 4
+	1	2.66666666667
+	3	2.33333333333
+	5	2.0
+	7	1.33333333333
+	72	0.5
+RUN: 5
+	1	2.66666666667
+	2	2.0
+	19	1.75
+	25	1.33333333333
+SESSION END   : 1347242929151
+SESSION Length: 53
+SESSION START : 1347243008694
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02233EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347243053110
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347243060877
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022B3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	3.0
+	2	1.33333333333
+	69	0.5
+RUN: 2
+	1	1.75
+	14	1.66666666667
+	26	1.33333333333
+RUN: 3
+	1	3.0
+	2	2.5
+	5	2.33333333333
+	10	1.33333333333
+RUN: 4
+	1	2.66666666667
+	3	2.33333333333
+	5	2.0
+	7	1.33333333333
+	72	0.5
+RUN: 5
+	1	2.66666666667
+	2	2.0
+	19	1.75
+	25	1.33333333333
+SESSION END   : 1347243060934
+SESSION Length: 57
+SESSION START : 1347243249452
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022B3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347243480087
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02293EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347243480146
+SESSION Length: 59
+SESSION START : 1347243616314
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022B3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347243616376
+SESSION Length: 62
+SESSION START : 1347243624390
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02353EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347243624451
+SESSION Length: 61
+SESSION START : 1347243666959
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021E3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347243667026
+SESSION Length: 67
+SESSION START : 1347243692545
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02243EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347243701509
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023A3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347243722743
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347243722810
+SESSION Length: 67
+SESSION START : 1347243752957
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02273EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347243753029
+SESSION Length: 72
+SESSION START : 1347243980632
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02253EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347243980694
+SESSION Length: 62
+SESSION START : 1347244018179
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244018247
+SESSION Length: 68
+SESSION START : 1347244058059
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02223EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244058134
+SESSION Length: 75
+SESSION START : 1347244072359
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02293EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244072417
+SESSION Length: 58
+SESSION START : 1347244175090
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02313EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244175153
+SESSION Length: 63
+SESSION START : 1347244214278
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02363EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244214336
+SESSION Length: 58
+SESSION START : 1347244434961
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02234EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347244466952
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02224EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347244473074
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02284EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244473141
+SESSION Length: 67
+SESSION START : 1347244630322
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02254EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244630385
+SESSION Length: 63
+SESSION START : 1347244721502
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347244721563
+SESSION Length: 61
+SESSION START : 1347245122564
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021C4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347245152767
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347245152838
+SESSION Length: 71
+SESSION START : 1347245182710
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347245182783
+SESSION Length: 73
+SESSION START : 1347245246087
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02274EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347245246151
+SESSION Length: 64
+SESSION START : 1347245348231
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	2.66666666667
+	2	2.0
+	8	1.75
+	10	1.33333333333
+	19	0.5
+RUN: 2
+	1	4.0
+	2	1.66666666667
+	13	1.33333333333
+RUN: 3
+	1	2.33333333333
+	4	1.66666666667
+	15	1.5
+	44	1.33333333333
+RUN: 4
+	1	2.5
+	3	1.33333333333
+	22	0.5
+RUN: 5
+	1	2.66666666667
+	8	2.5
+	11	2.25
+	27	2.0
+	31	1.75
+	46	1.33333333333
+SESSION END   : 1347245348294
+SESSION Length: 63
+SESSION START : 1347245492659
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021B3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.66666666667
+	2	-2.0
+	8	-1.75
+	10	-1.33333333333
+	19	-0.5
+RUN: 2
+	1	-4.0
+	2	-1.66666666667
+	13	-1.33333333333
+RUN: 3
+	1	-2.33333333333
+	4	-1.66666666667
+	15	-1.5
+	44	-1.33333333333
+RUN: 4
+	1	-2.5
+	3	-1.33333333333
+	22	-0.5
+RUN: 5
+	1	-2.66666666667
+	8	-2.5
+	11	-2.25
+	27	-2.0
+	31	-1.75
+	46	-1.33333333333
+SESSION END   : 1347245492718
+SESSION Length: 59
+SESSION START : 1347245536098
+SESSION SEED  : 10
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021D3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-3.0
+	2	-1.33333333333
+	69	-0.5
+RUN: 2
+	1	-1.75
+	14	-1.66666666667
+	26	-1.33333333333
+RUN: 3
+	1	-3.0
+	2	-2.5
+	5	-2.33333333333
+	10	-1.33333333333
+RUN: 4
+	1	-2.66666666667
+	3	-2.33333333333
+	5	-2.0
+	7	-1.33333333333
+	72	-0.5
+RUN: 5
+	1	-2.66666666667
+	2	-2.0
+	19	-1.75
+	25	-1.33333333333
+SESSION END   : 1347245536159
+SESSION Length: 61
+SESSION START : 1347245586400
+SESSION SEED  : 1347245586400
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02373EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-3.0
+	2	-1.66666666667
+	21	-1.33333333333
+RUN: 2
+	1	-2.66666666667
+	2	-2.33333333333
+	5	-2.0
+	8	-1.66666666667
+	13	-0.5
+RUN: 3
+	1	-3.0
+	2	-2.25
+	7	-1.66666666667
+	18	-1.33333333333
+	20	-0.5
+RUN: 4
+	1	-3.0
+	2	-1.75
+	4	-1.5
+	5	-1.33333333333
+	17	-0.5
+RUN: 5
+	1	-1.33333333333
+	13	-0.5
+SESSION END   : 1347245586458
+SESSION Length: 58
+SESSION START : 1347245590796
+SESSION SEED  : 1347245590796
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021B3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.0
+	26	-1.66666666667
+	44	-1.5
+RUN: 2
+	1	-1.33333333333
+	22	-0.5
+RUN: 3
+	1	-1.33333333333
+	56	-0.5
+RUN: 4
+	1	-1.5
+	18	-0.5
+RUN: 5
+	1	-2.5
+	4	-2.25
+	8	-1.75
+	16	-1.66666666667
+	28	-1.33333333333
+SESSION END   : 1347245590849
+SESSION Length: 53
+SESSION START : 1347245593372
+SESSION SEED  : 1347245593372
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022B3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-3.0
+	2	-2.66666666667
+	3	-1.33333333333
+RUN: 2
+	1	-2.25
+	3	-2.0
+	4	-1.75
+	39	-1.66666666667
+	93	-1.33333333333
+	97	-0.5
+RUN: 3
+	1	-2.5
+	2	-1.66666666667
+	15	-1.5
+	36	-0.5
+RUN: 4
+	1	-2.33333333333
+	3	-1.66666666667
+	50	-0.5
+RUN: 5
+	1	-2.33333333333
+	3	-2.25
+	4	-1.75
+	9	-0.5
+SESSION END   : 1347245593433
+SESSION Length: 61
+SESSION START : 1347245626231
+SESSION SEED  : 1347245626231
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02423EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.5
+	3	-1.75
+	6	-1.33333333333
+	15	-0.5
+RUN: 2
+	1	-3.5
+	2	-1.75
+	11	-1.66666666667
+	26	-1.5
+	49	-1.33333333333
+RUN: 3
+	1	-3.0
+	2	-1.66666666667
+	4	-1.33333333333
+RUN: 4
+	1	-3.0
+	3	-2.66666666667
+	4	-1.75
+	26	-1.5
+	30	-1.33333333333
+	64	-0.5
+RUN: 5
+	1	-3.0
+	2	-2.25
+	7	-1.33333333333
+	100	-0.5
+SESSION END   : 1347245626288
+SESSION Length: 57
+SESSION START : 1347245662599
+SESSION SEED  : 1347245662599
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02263EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.0
+	14	-1.66666666667
+	27	-1.5
+	52	-1.33333333333
+RUN: 2
+	1	-1.75
+	5	-1.33333333333
+	62	-0.5
+RUN: 3
+	1	-2.25
+	10	-2.0
+	17	-1.75
+	20	-1.66666666667
+	23	-1.33333333333
+	51	-0.5
+RUN: 4
+	1	-3.0
+	2	-1.75
+	9	-1.66666666667
+	24	-1.33333333333
+RUN: 5
+	1	-3.5
+	2	-2.5
+	5	-1.66666666667
+	17	-1.5
+	80	-1.33333333333
+SESSION END   : 1347245662662
+SESSION Length: 63
+SESSION START : 1347245673855
+SESSION SEED  : 1347245673855
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02273EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.33333333333
+	6	-1.75
+	17	-1.66666666667
+	31	-1.5
+	32	-1.33333333333
+	41	-0.5
+RUN: 2
+	1	-2.33333333333
+	3	-1.75
+	25	-1.33333333333
+	67	-0.5
+RUN: 3
+	1	-3.0
+	2	-2.5
+	5	-2.33333333333
+	10	-1.75
+	13	-1.33333333333
+	45	-0.5
+RUN: 4
+	1	-2.33333333333
+	7	-1.75
+	11	-1.5
+	21	-1.33333333333
+RUN: 5
+	1	-2.66666666667
+	3	-2.25
+	8	-1.33333333333
+	43	-0.5
+SESSION END   : 1347245673922
+SESSION Length: 67
+SESSION START : 1347245717015
+SESSION SEED  : 1347245717015
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02223EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-1.33333333333
+	27	-0.5
+RUN: 2
+	1	-3.0
+	3	-1.75
+	16	-1.33333333333
+	88	-0.5
+RUN: 3
+	1	-2.0
+	8	-1.75
+	9	-1.66666666667
+	24	-1.33333333333
+RUN: 4
+	1	-1.5
+	7	-0.5
+RUN: 5
+	1	-4.0
+	3	-2.33333333333
+	5	-2.0
+	9	-1.5
+	50	-1.33333333333
+SESSION END   : 1347245717093
+SESSION Length: 78
+SESSION START : 1347245748434
+SESSION SEED  : 1347245748434
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-3.0
+	2	-2.0
+	5	-1.75
+	12	-1.33333333333
+RUN: 2
+	1	-3.5
+	2	-2.66666666667
+	3	-2.5
+	4	-2.33333333333
+	9	-2.25
+	18	-2.0
+	22	-1.66666666667
+	28	-0.5
+RUN: 3
+	1	-2.0
+	4	-1.5
+	9	-1.33333333333
+RUN: 4
+	1	-3.0
+	2	-2.5
+	3	-1.5
+	15	-1.33333333333
+	55	-0.5
+RUN: 5
+	1	-1.66666666667
+	20	-1.33333333333
+	65	-0.5
+SESSION END   : 1347245748501
+SESSION Length: 67
+SESSION START : 1347245766648
+SESSION SEED  : 1347245766648
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02223EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.33333333333
+	3	-1.5
+	6	-1.33333333333
+	50	-0.5
+RUN: 2
+	1	-2.66666666667
+	2	-2.5
+	4	-2.25
+	5	-2.0
+	8	-1.66666666667
+	19	-1.33333333333
+RUN: 3
+	1	-1.75
+	4	-1.5
+	49	-0.5
+RUN: 4
+	1	-3.0
+	3	-2.5
+	7	-2.0
+	16	-1.75
+	36	-1.33333333333
+RUN: 5
+	1	-2.33333333333
+	4	-1.33333333333
+SESSION END   : 1347245766705
+SESSION Length: 57
+SESSION START : 1347245782211
+SESSION SEED  : 1347245782211
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021C3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.25
+	2	-1.66666666667
+	17	-1.33333333333
+	23	-0.5
+RUN: 2
+	1	-2.25
+	4	-2.0
+	9	-1.66666666667
+	11	-1.5
+	92	-1.33333333333
+RUN: 3
+	1	-3.0
+	2	-2.66666666667
+	3	-2.0
+	16	-1.33333333333
+RUN: 4
+	1	-2.0
+	2	-1.66666666667
+	17	-1.5
+RUN: 5
+	1	-3.0
+	2	-2.66666666667
+	5	-1.66666666667
+	36	-1.5
+	38	-1.33333333333
+	88	-0.5
+SESSION END   : 1347245782278
+SESSION Length: 67
+SESSION START : 1347245792280
+SESSION SEED  : 1347245792280
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02253EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.66666666667
+	4	-1.66666666667
+	6	-1.33333333333
+	17	-0.5
+RUN: 2
+	1	-3.5
+	2	-2.33333333333
+	4	-2.0
+	8	-1.66666666667
+	22	-1.33333333333
+RUN: 3
+	1	-2.25
+	5	-2.0
+	6	-1.5
+	43	-1.33333333333
+	91	-0.5
+RUN: 4
+	1	-2.0
+	6	-1.75
+	15	-1.66666666667
+	27	-1.5
+	36	-1.33333333333
+RUN: 5
+	1	-2.0
+	3	-1.75
+	12	-1.66666666667
+	52	-1.33333333333
+	57	-0.5
+SESSION END   : 1347245792390
+SESSION Length: 110
+SESSION START : 1347245839015
+SESSION SEED  : 1347245839015
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.0
+	14	-1.66666666667
+	15	-1.33333333333
+	18	-0.5
+RUN: 2
+	1	-2.66666666667
+	2	-2.33333333333
+	7	-1.75
+	9	-1.66666666667
+	16	-1.33333333333
+	37	-0.5
+RUN: 3
+	1	-3.5
+	2	-2.5
+	4	-2.33333333333
+	6	-1.5
+	87	-1.33333333333
+RUN: 4
+	1	-2.0
+	5	-1.66666666667
+	9	-1.33333333333
+	81	-0.5
+RUN: 5
+	1	-2.66666666667
+	2	-2.33333333333
+	3	-0.5
+SESSION END   : 1347245839129
+SESSION Length: 114
+SESSION START : 1347245872392
+SESSION SEED  : 1347245872392
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.25
+	4	-2.0
+	17	-1.75
+	50	-0.5
+	53	inf
+RUN: 2
+	1	-2.0
+	2	-1.66666666667
+	7	-1.5
+	41	-1.33333333333
+	44	-0.5
+RUN: 3
+	1	-3.0
+	2	-2.66666666667
+	4	-1.33333333333
+	46	-0.5
+RUN: 4
+	1	-2.25
+	3	-2.0
+	4	-0.5
+RUN: 5
+	1	-2.5
+	5	-2.0
+	23	-1.75
+	33	-1.33333333333
+SESSION END   : 1347245872509
+SESSION Length: 117
+SESSION START : 1347245908742
+SESSION SEED  : 1347245908742
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02203EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.0
+	4	inf
+RUN: 2
+	1	-4.0
+	2	-1.66666666667
+	8	-1.33333333333
+RUN: 3
+	1	-2.66666666667
+	7	-2.0
+	13	-1.66666666667
+	19	-1.5
+	37	inf
+RUN: 4
+	1	-3.0
+	2	-2.33333333333
+	3	-1.66666666667
+	18	-1.5
+	22	-0.5
+RUN: 5
+	1	-2.66666666667
+	5	-2.33333333333
+	11	-1.75
+	18	-1.33333333333
+	71	inf
+SESSION END   : 1347245908854
+SESSION Length: 112
+SESSION START : 1347245927506
+SESSION SEED  : 1347245927506
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02292EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.5
+	2	-2.33333333333
+	3	-1.66666666667
+	47	-0.5
+RUN: 2
+	1	-2.66666666667
+	2	-2.5
+	4	-2.33333333333
+	5	-2.25
+	10	-1.33333333333
+RUN: 3
+	1	-2.0
+	6	-1.66666666667
+	63	-1.33333333333
+RUN: 4
+	1	-2.33333333333
+	2	-2.0
+	13	-1.5
+	37	-1.33333333333
+	41	-0.5
+RUN: 5
+	1	-4.0
+	2	-2.5
+	3	-1.75
+	12	-1.33333333333
+SESSION END   : 1347245927618
+SESSION Length: 112
+SESSION START : 1347245934874
+SESSION SEED  : 1347245934874
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02282EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-4.0
+	2	-1.75
+	13	-1.66666666667
+	20	-1.5
+	94	-1.33333333333
+	98	-0.5
+RUN: 2
+	1	-3.5
+	2	-2.33333333333
+	4	-1.66666666667
+	54	-1.33333333333
+RUN: 3
+	1	-3.0
+	2	-2.66666666667
+	4	-2.5
+	6	-1.33333333333
+	43	-0.5
+RUN: 4
+	1	-2.66666666667
+	2	-2.0
+	13	-1.33333333333
+RUN: 5
+	1	-2.66666666667
+	2	-1.5
+	26	-0.5
+SESSION END   : 1347245934994
+SESSION Length: 120
+SESSION START : 1347245975616
+SESSION SEED  : 1347245975616
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021D2EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.0
+	5	-1.66666666667
+	13	-1.33333333333
+RUN: 2
+	1	-2.66666666667
+	3	-2.33333333333
+	6	-2.25
+	8	-2.0
+	27	-1.5
+	78	-0.5
+RUN: 3
+	1	-2.5
+	9	-2.0
+	10	-1.66666666667
+	44	-0.5
+RUN: 4
+	1	-2.66666666667
+	2	-2.0
+	4	-1.75
+	21	-1.5
+	27	-1.33333333333
+	34	-0.5
+RUN: 5
+	1	-2.66666666667
+	2	-2.25
+	3	-2.0
+	7	-0.5
+SESSION END   : 1347245975798
+SESSION Length: 182
+SESSION START : 1347246000850
+SESSION SEED  : 1347246000850
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C2EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-3.0
+	2	-2.66666666667
+	5	-2.0
+	8	-1.5
+	63	-0.5
+RUN: 2
+	1	-4.0
+	2	-2.66666666667
+	4	-2.25
+	8	-1.66666666667
+	49	-0.5
+RUN: 3
+	1	-2.66666666667
+	3	-1.75
+	25	-1.5
+	80	-1.33333333333
+RUN: 4
+	1	-3.5
+	2	-2.66666666667
+	7	-2.33333333333
+	9	-1.75
+	12	-1.66666666667
+	24	-1.33333333333
+	47	-0.5
+RUN: 5
+	1	-3.0
+	3	-2.25
+	4	-2.0
+	5	-1.66666666667
+	7	-1.5
+	24	-1.33333333333
+	36	-0.5
+SESSION END   : 1347246001047
+SESSION Length: 197
+SESSION START : 1347285698357
+SESSION SEED  : 1347285698357
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-3.0
+	2	-1.5
+	46	-1.33333333333
+RUN: 2
+	1	-4.0
+	2	-2.5
+	3	-2.0
+	4	-1.33333333333
+	42	-0.5
+RUN: 3
+	1	-3.0
+	2	-2.66666666667
+	8	-1.33333333333
+RUN: 4
+	1	-2.66666666667
+	2	-1.75
+	5	-0.5
+RUN: 5
+	1	-2.66666666667
+	2	-2.5
+	4	-1.75
+	11	-1.33333333333
+	19	-0.5
+SESSION END   : 1347285698526
+SESSION Length: 169
+SESSION START : 1347285769238
+SESSION SEED  : 1347285769238
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022B3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-2.66666666667
+	2	-1.75
+	5	-1.33333333333
+	33	-0.5
+RUN: 2
+	1	-2.5
+	2	-2.33333333333
+	5	-2.0
+	7	-1.33333333333
+RUN: 3
+	1	-1.33333333333
+	4	-0.5
+RUN: 4
+	1	-3.5
+	2	-1.33333333333
+RUN: 5
+	1	-2.5
+	7	-2.33333333333
+	10	-2.0
+	20	-1.75
+	22	-1.33333333333
+SESSION END   : 1347285769325
+SESSION Length: 87
+SESSION START : 1347286700819
+SESSION SEED  : 1347286700819
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347286713714
+SESSION SEED  : 1347286713714
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02273EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347286749299
+SESSION SEED  : 1347286749299
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02273EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347286754563
+SESSION SEED  : 1347286754563
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02223EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347286758418
+SESSION SEED  : 1347286758418
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347286758468
+SESSION Length: 50
+SESSION START : 1347286768453
+SESSION SEED  : 1347286768453
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02223EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347286768493
+SESSION Length: 40
+SESSION START : 1347287132758
+SESSION SEED  : 1347287132758
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02297EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347287132805
+SESSION Length: 47
+SESSION START : 1347287138929
+SESSION SEED  : 1347287138929
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F7EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347287138976
+SESSION Length: 47
+SESSION START : 1347287160933
+SESSION SEED  : 1347287160933
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021C7EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347287160979
+SESSION Length: 46
+SESSION START : 1347287499092
+SESSION SEED  : 1347287499092
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02257EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347287499182
+SESSION Length: 90
+SESSION START : 1347384942139
+SESSION SEED  : 1347384942139
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022E4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347384942264
+SESSION Length: 125
+SESSION START : 1347384952157
+SESSION SEED  : 1347384952157
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02243EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347384952266
+SESSION Length: 109
+SESSION START : 1347385366429
+SESSION SEED  : 1347385366429
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02338EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347385366538
+SESSION Length: 109
+SESSION START : 1347385605360
+SESSION SEED  : 1347385605360
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021C9EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347385605453
+SESSION Length: 93
+SESSION START : 1347385827601
+SESSION SEED  : 1347385827601
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02314EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347385827695
+SESSION Length: 94
+SESSION START : 1347386042590
+SESSION SEED  : 1347386042590
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C3EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347386042699
+SESSION Length: 109
+SESSION START : 1347386539372
+SESSION SEED  : 1347386539372
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022ACEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347386539466
+SESSION Length: 94
+SESSION START : 1347386563412
+SESSION SEED  : 1347386563412
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0222CEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347386576770
+SESSION SEED  : 1347386576770
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x024D4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347386576864
+SESSION Length: 94
+SESSION START : 1347386631525
+SESSION SEED  : 1347386631525
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02294EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347386631634
+SESSION Length: 109
+SESSION START : 1347386911744
+SESSION SEED  : 1347386911744
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022E4EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347386911841
+SESSION Length: 97
+SESSION START : 1347386941284
+SESSION SEED  : 1347386941284
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022F5EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347386941378
+SESSION Length: 94
+SESSION START : 1347394224295
+SESSION SEED  : 1347394224295
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0223DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347394276673
+SESSION SEED  : 1347394276673
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0227DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347394311626
+SESSION SEED  : 1347394311626
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0228DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347394353115
+SESSION SEED  : 1347394353115
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023D5EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347394374004
+SESSION SEED  : 1347394374004
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02255EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347394425811
+SESSION SEED  : 1347394425811
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022FDEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347394569770
+SESSION SEED  : 1347394569770
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0232DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347395765915
+SESSION SEED  : 1347395765915
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0220DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347395791415
+SESSION SEED  : 1347395791415
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0226DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347395896986
+SESSION SEED  : 1347395896986
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0220DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347395897087
+SESSION Length: 101
+SESSION START : 1347395953753
+SESSION SEED  : 1347395953753
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022CDEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347395969661
+SESSION SEED  : 1347395969661
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0245DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347395969770
+SESSION Length: 109
+SESSION START : 1347396104747
+SESSION SEED  : 1347396104747
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0236DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347396104856
+SESSION Length: 109
+SESSION START : 1347396153751
+SESSION SEED  : 1347396153751
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C5EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347396153860
+SESSION Length: 109
+SESSION START : 1347396249640
+SESSION SEED  : 1347396249640
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0230DEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347396354448
+SESSION SEED  : 1347396354448
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022DDEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347396354542
+SESSION Length: 94
+SESSION START : 1347396371531
+SESSION SEED  : 1347396371531
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022BDEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: uniform
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347396371624
+SESSION Length: 93
+SESSION START : 1347397577480
+SESSION SEED  : 1347397577480
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C5EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347397577563
+SESSION Length: 83
+SESSION START : 1347398592469
+SESSION SEED  : 1347398592469
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02266F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398592557
+SESSION Length: 88
+SESSION START : 1347398606699
+SESSION SEED  : 1347398606699
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02276F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398606777
+SESSION Length: 78
+SESSION START : 1347398635704
+SESSION SEED  : 1347398635704
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02236F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398635788
+SESSION Length: 84
+SESSION START : 1347398673938
+SESSION SEED  : 1347398673938
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02256F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398674033
+SESSION Length: 95
+SESSION START : 1347398685930
+SESSION SEED  : 1347398685930
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021B6F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398686009
+SESSION Length: 79
+SESSION START : 1347398698713
+SESSION SEED  : 1347398698713
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02266F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398698797
+SESSION Length: 84
+SESSION START : 1347398708939
+SESSION SEED  : 1347398708939
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02286F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398709020
+SESSION Length: 81
+SESSION START : 1347398721334
+SESSION SEED  : 1347398721334
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02246F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398721421
+SESSION Length: 87
+SESSION START : 1347398777906
+SESSION SEED  : 1347398777906
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02226F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398777987
+SESSION Length: 81
+SESSION START : 1347398793783
+SESSION SEED  : 1347398793783
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02206F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398793873
+SESSION Length: 90
+SESSION START : 1347398811622
+SESSION SEED  : 1347398811622
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02256F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398811701
+SESSION Length: 79
+SESSION START : 1347398882924
+SESSION SEED  : 1347398882924
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02276F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398883014
+SESSION Length: 90
+SESSION START : 1347398940873
+SESSION SEED  : 1347398940873
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02366F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398940957
+SESSION Length: 84
+SESSION START : 1347398960181
+SESSION SEED  : 1347398960181
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02276F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398960272
+SESSION Length: 91
+SESSION START : 1347398986683
+SESSION SEED  : 1347398986683
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0232F020>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347398986771
+SESSION Length: 88
+SESSION START : 1347399042449
+SESSION SEED  : 1347399042449
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02206F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399042558
+SESSION Length: 109
+SESSION START : 1347399049060
+SESSION SEED  : 1347399049060
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F6F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399049153
+SESSION Length: 93
+SESSION START : 1347399096090
+SESSION SEED  : 1347399096090
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02316F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399096199
+SESSION Length: 109
+SESSION START : 1347399174542
+SESSION SEED  : 1347399174542
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02216F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399174636
+SESSION Length: 94
+SESSION START : 1347399186554
+SESSION SEED  : 1347399186554
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02266F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399186664
+SESSION Length: 110
+SESSION START : 1347399235031
+SESSION SEED  : 1347399235031
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02286F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399235124
+SESSION Length: 93
+SESSION START : 1347399247011
+SESSION SEED  : 1347399247011
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02376F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347399284235
+SESSION SEED  : 1347399284235
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347399319138
+SESSION SEED  : 1347399319138
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02247F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347399347101
+SESSION SEED  : 1347399347101
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02337F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399347210
+SESSION Length: 109
+SESSION START : 1347399374415
+SESSION SEED  : 1347399374415
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021E7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399374509
+SESSION Length: 94
+SESSION START : 1347399389418
+SESSION SEED  : 1347399389418
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02257F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347399389527
+SESSION Length: 109
+SESSION START : 1347400603730
+SESSION SEED  : 1347400603730
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0224F020>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347401728604
+SESSION SEED  : 1347401728604
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0234F020>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347401734630
+SESSION SEED  : 1347401734630
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023CF020>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347401740302
+SESSION SEED  : 1347401740302
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F4F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347401740387
+SESSION Length: 85
+SESSION START : 1347401792418
+SESSION SEED  : 1347401792418
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02254F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347401792495
+SESSION Length: 77
+SESSION START : 1347401810805
+SESSION SEED  : 1347401810805
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02214F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347401810884
+SESSION Length: 79
+SESSION START : 1347402037805
+SESSION SEED  : 1347402037805
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02224F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347402037903
+SESSION Length: 98
+SESSION START : 1347402139728
+SESSION SEED  : 1347402139728
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0232F020>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347402221426
+SESSION SEED  : 1347402221426
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02484F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347402240654
+SESSION SEED  : 1347402240654
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C4F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347402240741
+SESSION Length: 87
+SESSION START : 1347402455924
+SESSION SEED  : 1347402455924
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023AF020>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347402471555
+SESSION SEED  : 1347402471555
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02294F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347402471641
+SESSION Length: 86
+SESSION START : 1347415552386
+SESSION SEED  : 1347415552386
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02417F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347415552473
+SESSION Length: 87
+SESSION START : 1347415556281
+SESSION SEED  : 1347415556281
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023F3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347415556369
+SESSION Length: 88
+SESSION START : 1347416136933
+SESSION SEED  : 1347416136933
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416137092
+SESSION Length: 159
+SESSION START : 1347416644215
+SESSION SEED  : 1347416644215
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02227F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347416773286
+SESSION SEED  : 1347416773286
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02287F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416773558
+SESSION Length: 272
+SESSION START : 1347416782089
+SESSION SEED  : 1347416782089
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021A7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347416797652
+SESSION SEED  : 1347416797652
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02237F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416797771
+SESSION Length: 119
+SESSION START : 1347416843252
+SESSION SEED  : 1347416843252
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02267F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416843388
+SESSION Length: 136
+SESSION START : 1347416868515
+SESSION SEED  : 1347416868515
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416868634
+SESSION Length: 119
+SESSION START : 1347416890817
+SESSION SEED  : 1347416890817
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021D7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416890940
+SESSION Length: 123
+SESSION START : 1347416915455
+SESSION SEED  : 1347416915455
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021A7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416915592
+SESSION Length: 137
+SESSION START : 1347416940988
+SESSION SEED  : 1347416940988
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02207F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347416941112
+SESSION Length: 124
+SESSION START : 1347417001998
+SESSION SEED  : 1347417001998
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02217F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347417002085
+SESSION Length: 87
+SESSION START : 1347417010820
+SESSION SEED  : 1347417010820
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021E7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347417010906
+SESSION Length: 86
+SESSION START : 1347417124830
+SESSION SEED  : 1347417124830
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02227F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347417140462
+SESSION SEED  : 1347417140462
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347417140557
+SESSION Length: 95
+SESSION START : 1347417170793
+SESSION SEED  : 1347417170793
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02237F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347417170878
+SESSION Length: 85
+SESSION START : 1347417269571
+SESSION SEED  : 1347417269571
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022F7F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347417269668
+SESSION Length: 97
+SESSION START : 1347417283410
+SESSION SEED  : 1347417283410
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02247F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347417283538
+SESSION Length: 128
+SESSION START : 1347417304755
+SESSION SEED  : 1347417304755
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0228BF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347417304872
+SESSION Length: 117
+SESSION START : 1347418763073
+SESSION SEED  : 1347418763073
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0232BF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347418763212
+SESSION Length: 139
+SESSION START : 1347418824047
+SESSION SEED  : 1347418824047
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02363F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347418824140
+SESSION Length: 93
+SESSION START : 1347418835052
+SESSION SEED  : 1347418835052
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02333F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347418835157
+SESSION Length: 105
+SESSION START : 1347418862911
+SESSION SEED  : 1347418862911
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021C3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347418863020
+SESSION Length: 109
+SESSION START : 1347418872417
+SESSION SEED  : 1347418872417
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02223F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347418872526
+SESSION Length: 109
+SESSION START : 1347418879011
+SESSION SEED  : 1347418879011
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02253F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347418879136
+SESSION Length: 125
+SESSION START : 1347419161631
+SESSION SEED  : 1347419161631
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347419161749
+SESSION Length: 118
+SESSION START : 1347419714604
+SESSION SEED  : 1347419714604
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0232CF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347419747063
+SESSION SEED  : 1347419747063
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02343EE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347419764242
+SESSION SEED  : 1347419764242
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022BDEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347419764336
+SESSION Length: 94
+SESSION START : 1347419775217
+SESSION SEED  : 1347419775217
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022BDEE8>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347419775311
+SESSION Length: 94
+SESSION START : 1347419981494
+SESSION SEED  : 1347419981494
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02304F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347419981619
+SESSION Length: 125
+SESSION START : 1347420139451
+SESSION SEED  : 1347420139451
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02313F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347420139545
+SESSION Length: 94
+SESSION START : 1347420181759
+SESSION SEED  : 1347420181759
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02243F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347420181868
+SESSION Length: 109
+SESSION START : 1347420301646
+SESSION SEED  : 1347420301646
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0228DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION START : 1347420323295
+SESSION SEED  : 1347420323295
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022BDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347420323405
+SESSION Length: 110
+SESSION START : 1347420338331
+SESSION SEED  : 1347420338331
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02226F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347420338440
+SESSION Length: 109
+SESSION START : 1347420382751
+SESSION SEED  : 1347420382751
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02236F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347420382862
+SESSION Length: 111
+SESSION START : 1347420426372
+SESSION SEED  : 1347420426372
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022B3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347420426481
+SESSION Length: 109
+SESSION START : 1347421738659
+SESSION SEED  : 1347421738659
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021C3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347421738784
+SESSION Length: 125
+SESSION START : 1347421768930
+SESSION SEED  : 1347421768930
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347421769058
+SESSION Length: 128
+SESSION START : 1347421792431
+SESSION SEED  : 1347421792431
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347421792564
+SESSION Length: 133
+SESSION START : 1347421859912
+SESSION SEED  : 1347421859912
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02233F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347421860021
+SESSION Length: 109
+SESSION START : 1347422060394
+SESSION SEED  : 1347422060394
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02283F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422060503
+SESSION Length: 109
+SESSION START : 1347422076165
+SESSION SEED  : 1347422076165
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02263F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422076290
+SESSION Length: 125
+SESSION START : 1347422130099
+SESSION SEED  : 1347422130099
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02303F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422130193
+SESSION Length: 94
+SESSION START : 1347422183838
+SESSION SEED  : 1347422183838
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022F3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422183932
+SESSION Length: 94
+SESSION START : 1347422214203
+SESSION SEED  : 1347422214203
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02203F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422214308
+SESSION Length: 105
+SESSION START : 1347422237109
+SESSION SEED  : 1347422237109
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02263F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422237218
+SESSION Length: 109
+SESSION START : 1347422252215
+SESSION SEED  : 1347422252215
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02253F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422252356
+SESSION Length: 141
+SESSION START : 1347422284744
+SESSION SEED  : 1347422284744
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02213F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422284869
+SESSION Length: 125
+SESSION START : 1347422311987
+SESSION SEED  : 1347422311987
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02203F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422312097
+SESSION Length: 110
+SESSION START : 1347422399068
+SESSION SEED  : 1347422399068
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02373F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347422406190
+SESSION SEED  : 1347422406190
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02223F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347422494176
+SESSION SEED  : 1347422494176
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02383F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422494285
+SESSION Length: 109
+SESSION START : 1347422516882
+SESSION SEED  : 1347422516882
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02373F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347422553478
+SESSION SEED  : 1347422553478
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02343F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+SESSION END   : 1347422553587
+SESSION Length: 109
+SESSION START : 1347422601166
+SESSION SEED  : 1347422601166
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021C3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347422799407
+SESSION SEED  : 1347422799407
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021D3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347422828693
+SESSION SEED  : 1347422828693
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0221DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347422912616
+SESSION SEED  : 1347422912616
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021F3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347422962758
+SESSION SEED  : 1347422962758
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460496157
+SESSION SEED  : 1347460496157
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D0F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460516421
+SESSION SEED  : 1347460516421
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02270F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460522659
+SESSION SEED  : 1347460522659
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022C0F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460524777
+SESSION SEED  : 1347460524777
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02250F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460526800
+SESSION SEED  : 1347460526800
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02430F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460530213
+SESSION SEED  : 1347460530213
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022E0F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460532049
+SESSION SEED  : 1347460532049
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02330F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460534699
+SESSION SEED  : 1347460534699
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A0F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460542339
+SESSION SEED  : 1347460542339
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x024A0F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460545174
+SESSION SEED  : 1347460545174
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02360F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460547947
+SESSION SEED  : 1347460547947
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02280F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460549791
+SESSION SEED  : 1347460549791
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022E0F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460551936
+SESSION SEED  : 1347460551936
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02270F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460554048
+SESSION SEED  : 1347460554048
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02210F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460555462
+SESSION SEED  : 1347460555462
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02280F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460557740
+SESSION SEED  : 1347460557740
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02290F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460582063
+SESSION SEED  : 1347460582063
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02290F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460645584
+SESSION SEED  : 1347460645584
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02320F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347460654370
+SESSION SEED  : 1347460654370
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022E0F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+SESSION START : 1347461105829
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0222DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 10
+OFFSPRING SIZE: 5
+RUN: 1
+	1	-3.0
+RUN: 2
+	1	-4.0
+RUN: 3
+	1	-2.66666666667
+RUN: 4
+	1	-2.66666666667
+RUN: 5
+	1	-4.0
+SESSION END   : 1347461154477
+SESSION Length: 48648
+SESSION START : 1347461677052
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0225DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 500
+OFFSPRING SIZE: 500
+RUN: 1
+SESSION START : 1347461717584
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0227DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 250
+RUN: 1
+SESSION START : 1347461991237
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0228DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347462029437
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0223DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347462045391
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0220DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347462070663
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0229DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347462114055
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022DDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347462139055
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0222DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347462269812
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0228DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347489281968
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022EDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347489321038
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0220DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347489663348
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0222DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347489718690
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0229DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347489759260
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0222DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347489793112
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022CDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347489862503
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0231DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490046685
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0223DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490069749
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0228DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490113474
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022DDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490141177
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022CDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490161572
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0230DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490197682
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022ADF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490223026
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x021FDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490245385
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0221DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490298237
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0247DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490330627
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022DDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490359382
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0227DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490385353
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0221DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490546322
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022FDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347490964628
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0230DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347491529810
+SESSION SEED  : 1347491529810
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0227DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347492429733
+SESSION SEED  : 1347492429733
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022ADF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347492455795
+SESSION SEED  : 1347492455795
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0231DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347492485914
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022BDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347493138393
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0221DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347493280449
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0222DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347493318918
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022CDF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347493331621
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0249DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347493339595
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0229DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347493441690
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0223DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347493459767
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x0232DF40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347556153178
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02227F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347556209693
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02347F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347556220739
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02467F98>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557173110
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02303F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557229090
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022E2F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557257600
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02313F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557315755
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02244F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557325561
+SESSION SEED  : 7
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A4F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557342874
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02254F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557352539
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02313F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557393635
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02252F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557417669
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022D3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557560088
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x023F3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557580711
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022A5F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557639894
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x02205F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557665147
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022E5F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+SESSION START : 1347557698236
+SESSION SEED  : 8
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\EvoAlg\assign2\dataFiles\example.dat', mode 'r' at 0x022B3F40>
+SURVIVAL SELECTION: tournament
+PARENT SELECTION : tournament
+RECOMBINATION: npoint
+MUTATION: BIT FLIPPOPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
