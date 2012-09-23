@@ -53,30 +53,32 @@ if(survivalType == "tournament"):
     survivalTournSize = str(configBuffer[9].partition("|")[2])
 else:
     survivalTournSize = 0
-terminationCriterion = str(configBuffer[10])
+evalsUntilTermination = str(configBuffer[10].partition("|")[0])
+diversityRange = str(configBuffer[10].partition("|")[2])
 populationSize = int(configBuffer[11])
 parentSize = int(configBuffer[12])
 childrenSize = int(configBuffer[13])
 survivalSize = int(configBuffer[14])
-
 print configFile
 print logFile
 logFile.write("SESSION START : %s" % startTime + "\n")
 logFile.write("SESSION SEED  : %s" % seed + "\n")
 logFile.write("CONFIG FILE : %s" % inFile + "\n")
+if parentSelType == "tournament":
+    logFile.write("PARENT SELECTION : %s T-SIZE: %s" % (parentSelType,  str(pTournSize)) + "\n")
+else:
+    logFile.write("PARENT SELECTION TYPE: %s " % parentSelType + "\n")
+logFile.write("SURVIVAL STRATEGY: %s " %survivalStrategy + "\n")
 if survivalType == "tournament":
     logFile.write("SURVIVAL SELECTION: %s T-SIZE: %s" % (survivalType, str(survivalTournSize)) + "\n")
 else:
     logFile.write("SURVIVAL SELECTION: %s " % survivalType + "\n")
-if parentSelType == "tournament":
-    logFile.write("PARENT SELECTION : %s T-SIZE: %s" % (parentSelType,  str(pTournSize)) + "\n")
-else:
-    logFile.write("SURVIVAL SELECTION: %s " % parentSelType + "\n")
 if recombType == "npoint":
     logFile.write("RECOMBINATION: %s  N-SIZE: %s" % (recombType, str(numSplits)) + "\n")
 else:
     logFile.write("RECOMBINATION: %s" % recombType + "\n")
 logFile.write("MUTATION: BIT FLIP\n")
+logFile.write("EVALS UNTIL TERMINATION: %s" %evalsUntilTermination + "\n")
 logFile.write("POPULATION SIZE: " + str(parentSize) + "\n")
 logFile.write("OFFSPRING SIZE: " + str(childrenSize) + "\n")
 numNodes = inFileBuffer[0]
@@ -103,8 +105,14 @@ for i in range(int(numRuns)):
         #select parents
         if parentSelType == "tournament":
             parents = tournSelect(edges, population, parentSize, pTournSize, True)
-        else:
+        elif parentSelType == "fitprop":
             parents = fitPropSelect(edges, population, parentSize)
+        elif parentSelType == "random":
+            print "IN RANDOM"
+            #TODO:
+        else:
+            print "INVALID PARENT SELECTION TYPE"
+            sys.exit()
         #make children by recombination
         children = recombinate(edges, parents, recombType, int(numSplits))[0:childrenSize]
         #mutate children
@@ -112,8 +120,17 @@ for i in range(int(numRuns)):
         #select survivors
         if survivalType == "tournament":
             population = sorted(tournSelect(edges, children + parents, survivalSize, survivalTournSize, False), key=itemgetter("fitness"), reverse=True)
-        else:  #truncation
+        elif survivalType == "truncation":
             population = sorted(children + parents, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
+        elif survivalType == "fitprop":
+            print "IN FITPROP"
+            #TODO:
+        elif survivalType == "random":
+            print "IN RANDOM"
+            #TODO:
+        else:
+            print "INVALID SURVIVAL TYPE"
+            sys.exit()
         localBestFitness = population[0]["fitness"]
         localAvgFitness = averageFitness(population)
         #update the localBestFitness if needed
@@ -128,14 +145,14 @@ for i in range(int(numRuns)):
                 globalBestFitness = localBestFitness
                 globalBestCut = population[0]["cut"]
          #termination condition - reset population if there isn't enough variance
-        if len(lastEvals) < 100:
+        if len(lastEvals) < evalsUntilTermination:
             lastEvals.append({"bestFitness": localBestFitness, "avgFitness": localAvgFitness})
         else:
             lastEvals.pop(0)
             lastEvals.append({"bestFitness": localBestFitness, "avgFitness": localAvgFitness})
             low = min(item["avgFitness"] for item in lastEvals)
             high = max(item["avgFitness"] for item in lastEvals)
-            if high - low <= .00001:
+            if high - low <= diversityRange:
                 print "RESET: " + str(j)
                 population = initPopulation(populationSize, numNodes)
                 for curIndex in range(len(population)):
