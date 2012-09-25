@@ -148,7 +148,7 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
     else:
         #penalize an unconnected subgraph
         numSubgraphs = 0
-#       exploredNodes = [0]*len(cut)
+        exploredNodes = [0]*len(cut)
         edgeIter = edges.iterkeys()
         curNode = int(edgeIter.next())
         curNodeGraph = cut[curNode - 1]
@@ -156,15 +156,13 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
         explorable = []
         print cut
 
-
-#        while exploredNodes.count(0) > 1:
-
+        while exploredNodes.count(1) < cut.count(curNodeGraph):
             for edgeIndex in range(len(edges[str(curNode)])):
                 adjacentNode = int(edges[str(curNode)][edgeIndex])
                 if cut[adjacentNode - 1] == curNodeGraph:
                     reachable.append(adjacentNode)
                     explorable.append(adjacentNode)
-#            exploredNodes[curNode - 1] = 1
+            exploredNodes[curNode - 1] = 1
 
             while len(explorable) > 0:
                 curNode = explorable.pop()
@@ -174,13 +172,17 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
                     if cut[adjacentNode - 1] == curNodeGraph and adjacentNode not in reachable:
                         reachable.append(adjacentNode)
                         explorable.append(adjacentNode)
-#                exploredNodes[curNode - 1] = 1
-            if len(reachable) < cut.count(curNodeGraph):
+                exploredNodes[curNode - 1] = 1
+            if exploredNodes.count(1) < cut.count(curNodeGraph):
                 numSubgraphs += 1
-                print "GRAPH %s UNCONNECTED" % curNodeGraph
-            else:
-                print "GRAPH %s CONNECTED" % curNodeGraph
-#            curNode = int(edgeIter.next())
-#            curNodeGraph = cut[curNode - 1]
-#            reachable = [curNode]
-#            explorable = []
+                nextNode = int(edgeIter.next())
+                nextNodeGraph = cut[nextNode - 1]
+                while nextNodeGraph != curNodeGraph and exploredNodes[nextNode - 1] != 0:
+                    nextNode = int(edgeIter.next())
+                    nextNodeGraph = cut[nextNode - 1]
+                curNode = nextNode
+                curNodeGraph = nextNodeGraph
+                exploredNodes[curNode - 1] = 1
+                reachable = [curNode]
+                explorable = []
+        print "^GRAPH %s SUBGRAPHS: %d^" %(curNodeGraph, numSubgraphs)
