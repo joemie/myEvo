@@ -132,16 +132,55 @@ def mutate(edges, population):
 #        population[i]["fitness"] = calculateFitness(edges, population[i]["cut"])
 #    return population
 
-def calculateFitness(edges, cut):
+def calculateFitness(edges, cut, penaltyCoefficient = 0):
     numCuts = 0
-    for key in edges.iterkeys():
-        for edgeIndex in range(len(edges[key])):
-            value = edges[key][edgeIndex]
-            if cut[int(key) - 1] != cut[int(value) - 1]:
-                numCuts += 1
-    if numCuts == 0:
-        return float("-inf")  # the graph wasn't cut so return infinity
+    if penaltyCoefficient == 0:
+        #there is no penalty for an unconnected subgraph
+        for key in edges.iterkeys():
+            for edgeIndex in range(len(edges[key])):
+                value = edges[key][edgeIndex]
+                if cut[int(key) - 1] != cut[int(value) - 1]:
+                    numCuts += 1
+        if numCuts == 0:
+            return float("-inf")  # the graph wasn't cut so return infinity
+        else:
+            return float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1
     else:
-        return float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1
+        #penalize an unconnected subgraph
+        numSubgraphs = 0
+#       exploredNodes = [0]*len(cut)
+        edgeIter = edges.iterkeys()
+        curNode = int(edgeIter.next())
+        curNodeGraph = cut[curNode - 1]
+        reachable = [curNode]
+        explorable = []
+        print cut
 
 
+#        while exploredNodes.count(0) > 1:
+
+            for edgeIndex in range(len(edges[str(curNode)])):
+                adjacentNode = int(edges[str(curNode)][edgeIndex])
+                if cut[adjacentNode - 1] == curNodeGraph:
+                    reachable.append(adjacentNode)
+                    explorable.append(adjacentNode)
+#            exploredNodes[curNode - 1] = 1
+
+            while len(explorable) > 0:
+                curNode = explorable.pop()
+                curNodeGraph = cut[curNode - 1]
+                for edgeIndex in range(len(edges[str(curNode)])):
+                    adjacentNode = int(edges[str(curNode)][edgeIndex])
+                    if cut[adjacentNode - 1] == curNodeGraph and adjacentNode not in reachable:
+                        reachable.append(adjacentNode)
+                        explorable.append(adjacentNode)
+#                exploredNodes[curNode - 1] = 1
+            if len(reachable) < cut.count(curNodeGraph):
+                numSubgraphs += 1
+                print "GRAPH %s UNCONNECTED" % curNodeGraph
+            else:
+                print "GRAPH %s CONNECTED" % curNodeGraph
+#            curNode = int(edgeIter.next())
+#            curNodeGraph = cut[curNode - 1]
+#            reachable = [curNode]
+#            explorable = []
