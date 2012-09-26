@@ -94,7 +94,7 @@ for i in range(int(numRuns)):
     population = initPopulation(populationSize, numNodes)
     #calculate the fitness for each item in the population
     for curIndex in range(len(population)):
-        population[curIndex]["fitness"] = calculateFitness(edges, population[curIndex]["cut"], .5)
+        population[curIndex]["fitness"] = calculateFitness(edges, population[curIndex]["cut"],.5)
     runBestFitness = float("-inf")
     #local is the best for each run
     lobalBestCut = []

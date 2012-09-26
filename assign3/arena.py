@@ -147,21 +147,43 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
             return float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1
     else:
         #penalize an unconnected subgraph
-        numSubgraphs = 0
-        exploredNodes = [0]*len(cut)
-        edgeIter = edges.iterkeys()
-        curNode = int(edgeIter.next())
-        curNodeGraph = cut[curNode - 1]
+        tempGraph0 = countSubGraphs(edges, cut, '0')
+        tempGraph1 = countSubGraphs(edges, cut, '1')
+        numZeroSubGraphs = tempGraph0[0]
+        numZeroCuts = tempGraph0[1]
+        numOneSubGraphs = tempGraph1[0]
+        numOneCuts = tempGraph1[1]
+        numCuts = numZeroCuts + numOneCuts
+        if numCuts == 0:
+            return  float("-inf")  # the graph wasn't cut so return infinity
+        else:
+            return float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1
+
+def countSubGraphs(edges, cut, graph):
+    numSubgraphs = 0
+    exploredNodes = [0]*len(cut)
+    edgeIter = edges.iterkeys()
+    curNode = int(edgeIter.next())
+    curNodeGraph = cut[curNode - 1]
+    numCuts = 0
+    if cut.count(graph) >= 1:
+        #ensures the node belongs to the correct graph
+        while curNodeGraph != graph:
+            curNode = int(edgeIter.next())
+            curNodeGraph = cut[curNode - 1]
         reachable = [curNode]
         explorable = []
-        print cut
 
-        while exploredNodes.count(1) < cut.count(curNodeGraph):
+        #loop until all nodes in the graph are explored
+        while exploredNodes.count(1) < cut.count(graph):
             for edgeIndex in range(len(edges[str(curNode)])):
                 adjacentNode = int(edges[str(curNode)][edgeIndex])
-                if cut[adjacentNode - 1] == curNodeGraph:
+                if cut[adjacentNode - 1] == curNodeGraph and adjacentNode not in reachable:
                     reachable.append(adjacentNode)
                     explorable.append(adjacentNode)
+                if cut[adjacentNode - 1] != curNodeGraph:
+                    numCuts += 1
+                   # print "%d : %d" %(curNode, adjacentNode)
             exploredNodes[curNode - 1] = 1
 
             while len(explorable) > 0:
@@ -172,17 +194,17 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
                     if cut[adjacentNode - 1] == curNodeGraph and adjacentNode not in reachable:
                         reachable.append(adjacentNode)
                         explorable.append(adjacentNode)
+                    if cut[adjacentNode - 1] != curNodeGraph:
+                        #print "%d : %d" %(curNode, adjacentNode)
+                        numCuts += 1
                 exploredNodes[curNode - 1] = 1
-            if exploredNodes.count(1) < cut.count(curNodeGraph):
-                numSubgraphs += 1
-                nextNode = int(edgeIter.next())
-                nextNodeGraph = cut[nextNode - 1]
-                while nextNodeGraph != curNodeGraph and exploredNodes[nextNode - 1] != 0:
-                    nextNode = int(edgeIter.next())
-                    nextNodeGraph = cut[nextNode - 1]
-                curNode = nextNode
-                curNodeGraph = nextNodeGraph
-                exploredNodes[curNode - 1] = 1
+            if exploredNodes.count(1) < cut.count(graph):
+                curNode = int(edgeIter.next())
+                curNodeGraph = cut[curNode - 1]
+                while curNodeGraph != graph or exploredNodes[curNode -1] == 1:
+                    curNode = int(edgeIter.next())
+                    curNodeGraph = cut[curNode - 1]
                 reachable = [curNode]
                 explorable = []
-        print "^GRAPH %s SUBGRAPHS: %d^" %(curNodeGraph, numSubgraphs)
+            numSubgraphs += 1
+    return [numSubgraphs, numCuts]
