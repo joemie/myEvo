@@ -9,6 +9,7 @@ CONFIG FILE FORMAT |
 100             - numEvals
 \logFiles\logEx.txt    -log file
 \solnFiles\solutionEx.txt -solution file
+.05             - penalty coefficient for an unconnected graph
 tournament | 10 - parent selection (tournament/fitprop/random | tourn Size)
 npoint | 3      - recomb type (uniform/npoint | n)
 +               - survival strategy (+/,)

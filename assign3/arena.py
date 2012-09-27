@@ -8,6 +8,7 @@ def initPopulation(popSize, strSize):
         pop.append({"cut": list(bin(random.randrange(2 ** (int(strSize) - 1), 2 ** int(strSize)))[2:])})
     return pop
 
+
 def averageFitness(population):
     totalFitness = 0
     popSize = 0
@@ -19,7 +20,8 @@ def averageFitness(population):
             popSize = popSize + 1
     return totalFitness / popSize
 
-def tournSelect(edges, population, survivalSize, tournSize, replacement):
+
+def tournSelect(edges, population, survivalSize, tournSize, replacement, penaltyCoefficient = 0):
     selected = []
     if replacement == True:
         for i in range(int(survivalSize)):
@@ -27,7 +29,7 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement):
             #build a tournament by selecting random items in the popuation
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": calculateFitness(edges, population[popIndex]["cut"])})
+                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)})
             #select the most fit in the tournament
             tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
             selected.append(tournSelect[0])
@@ -37,7 +39,7 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement):
             #build a tournament by selecting random items in the popuation
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": calculateFitness(edges, population[popIndex]["cut"])})
+                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)})
             del population[popIndex]
             #select the most fit in the tournament
             tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
@@ -61,7 +63,7 @@ def fitPropSelect(edges, population, survivalSize):
     return propPop[0:survivalSize]
 
 
-def recombinate(edges, parents, recombType, numSplits = None):
+def recombinate(edges, parents, recombType, numSplits = None, penaltyCoefficient = 0):
     children = []
     if recombType == "npoint" and numSplits == None:
         print "INVALID CALL TO RECOMBINATE - SPLIT SIZE NOT SPECIFIED"
@@ -88,7 +90,7 @@ def recombinate(edges, parents, recombType, numSplits = None):
                         cut[curPosition:] = parent2[curPosition:curPosition + splitSize]
                         curParent = 1
                     curPosition += splitSize
-                children.append({"cut" :cut, "fitness": calculateFitness(edges, cut)})
+                children.append({"cut" :cut, "fitness": calculateFitness(edges, cut, penaltyCoefficient)})
     elif recombType == "uniform":
         for i in range(len(parents) - 1):
             parent1 = parents[i]['cut']
@@ -102,13 +104,13 @@ def recombinate(edges, parents, recombType, numSplits = None):
                     cut.append(parent1[j])
                 else:
                     cut.append(parent2[j])
-            children.append({"cut": cut, "fitness": calculateFitness(edges, cut)})
+            children.append({"cut": cut, "fitness": calculateFitness(edges, cut, penaltyCoefficient)})
     else:
         print "INVALID RECOMBINATION TYPE IN CONFIG FILE"
     return children
 
 
-def mutate(edges, population):
+def mutate(edges, population, penaltyCoefficient):
     for i in range(len(population)):
         numMutations = random.randrange(0,len(population[0]["cut"]))
         for j in range(numMutations):
@@ -118,7 +120,7 @@ def mutate(edges, population):
                 population[i]["cut"][index] = '1'
             else:
                 population[i]["cut"][index] = '0'
-        population[i]["fitness"] = calculateFitness(edges, population[i]["cut"])
+        population[i]["fitness"] = calculateFitness(edges, population[i]["cut"], penaltyCoefficient)
         return population
 #    only 1 call to random but slower
 #    for i in range(len(population)):
@@ -129,8 +131,9 @@ def mutate(edges, population):
 #                population[i]["cut"][j] = '1'
 #            elif flipList[j] == '1' and population[i]["cut"][j] == '1':
 #                population[i]["cut"][j] = '0'
-#        population[i]["fitness"] = calculateFitness(edges, population[i]["cut"])
+#        population[i]["fitness"] = calculateFitness(edges, population[i]["cut"], penaltyCoefficient)
 #    return population
+
 
 def calculateFitness(edges, cut, penaltyCoefficient = 0):
     numCuts = 0
@@ -147,19 +150,21 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
             return float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1
     else:
         #penalize an unconnected subgraph
-        tempGraph0 = countSubGraphs(edges, cut, '0')
-        tempGraph1 = countSubGraphs(edges, cut, '1')
-        numZeroSubGraphs = tempGraph0[0]
+        tempGraph0 = countSubgraphsAndCuts(edges, cut, '0')
+        tempGraph1 = countSubgraphsAndCuts(edges, cut, '1')
+        numZeroSubgraphs = tempGraph0[0]
         numZeroCuts = tempGraph0[1]
-        numOneSubGraphs = tempGraph1[0]
+        numOneSubgraphs = tempGraph1[0]
         numOneCuts = tempGraph1[1]
         numCuts = numZeroCuts + numOneCuts
+        numSubgraphs = numZeroSubgraphs + numOneSubgraphs
         if numCuts == 0:
             return  float("-inf")  # the graph wasn't cut so return infinity
         else:
-            return float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1
+            return (float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1) - (numSubgraphs * float(penaltyCoefficient))
 
-def countSubGraphs(edges, cut, graph):
+
+def countSubgraphsAndCuts(edges, cut, graph):
     numSubgraphs = 0
     exploredNodes = [0]*len(cut)
     edgeIter = edges.iterkeys()
@@ -207,4 +212,4 @@ def countSubGraphs(edges, cut, graph):
                 reachable = [curNode]
                 explorable = []
             numSubgraphs += 1
-    return [numSubgraphs, numCuts]
+    return [int(numSubgraphs), int(numCuts)]

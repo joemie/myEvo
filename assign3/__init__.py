@@ -37,28 +37,30 @@ numRuns = configBuffer[2]
 numEvals = configBuffer[3]
 logFile = open(str(configBuffer[4]), 'a+')
 solutionFile = open(str(configBuffer[5]), 'a+')
-parentSelType = str(configBuffer[6]).partition("|")[0].strip()
+penaltyCoefficient = str(configBuffer[6])
+parentSelType = str(configBuffer[7]).partition("|")[0].strip()
 if(parentSelType == "tournament"):
-    pTournSize = str(configBuffer[6].partition("|")[2])
+    pTournSize = str(configBuffer[7].partition("|")[2])
 else:
     pTournSize = 0
-recombType = str(configBuffer[7]).partition("|")[0].strip()
+recombType = str(configBuffer[8]).partition("|")[0].strip()
 if(recombType == "npoint"):
-    numSplits = str(configBuffer[7].partition("|")[2])
+    numSplits = str(configBuffer[8].partition("|")[2])
 else:
     numSplits = 0
-survivalStrategy = str(configBuffer[8]).strip()
-survivalType = str(configBuffer[9]).partition("|")[0].strip()
+survivalStrategy = str(configBuffer[9]).strip()
+survivalType = str(configBuffer[10]).partition("|")[0].strip()
 if(survivalType == "tournament"):
-    survivalTournSize = str(configBuffer[9].partition("|")[2])
+    survivalTournSize = str(configBuffer[10].partition("|")[2])
 else:
     survivalTournSize = 0
-evalsUntilTermination = str(configBuffer[10].partition("|")[0])
-diversityRange = str(configBuffer[10].partition("|")[2])
-populationSize = int(configBuffer[11])
-parentSize = int(configBuffer[12])
-childrenSize = int(configBuffer[13])
-survivalSize = int(configBuffer[14])
+evalsUntilTermination = str(configBuffer[11].partition("|")[0])
+diversityRange = str(configBuffer[11].partition("|")[2])
+populationSize = int(configBuffer[12])
+parentSize = int(configBuffer[13])
+childrenSize = int(configBuffer[14])
+survivalSize = int(configBuffer[15])
+
 print configFile
 print logFile
 logFile.write("SESSION START : %s" % startTime + "\n")
@@ -94,7 +96,7 @@ for i in range(int(numRuns)):
     population = initPopulation(populationSize, numNodes)
     #calculate the fitness for each item in the population
     for curIndex in range(len(population)):
-        population[curIndex]["fitness"] = calculateFitness(edges, population[curIndex]["cut"],.5)
+        population[curIndex]["fitness"] = calculateFitness(edges, population[curIndex]["cut"],penaltyCoefficient)
     runBestFitness = float("-inf")
     #local is the best for each run
     lobalBestCut = []
@@ -104,7 +106,7 @@ for i in range(int(numRuns)):
     for j in range(int(numEvals)):
         #select parents
         if parentSelType == "tournament":
-            parents = tournSelect(edges, population, parentSize, pTournSize, True)
+            parents = tournSelect(edges, population, parentSize, pTournSize, True, penaltyCoefficient)
         elif parentSelType == "fitprop":
             parents = fitPropSelect(edges, population, parentSize)
         elif parentSelType == "random":
@@ -114,12 +116,12 @@ for i in range(int(numRuns)):
             print "INVALID PARENT SELECTION TYPE"
             sys.exit()
         #make children by recombination
-        children = recombinate(edges, parents, recombType, int(numSplits))[0:childrenSize]
+        children = recombinate(edges, parents, recombType, int(numSplits), penaltyCoefficient)[0:childrenSize]
         #mutate children
-        children = mutate(edges, children)
+        children = mutate(edges, children, penaltyCoefficient)
         #select survivors
         if survivalType == "tournament":
-            population = sorted(tournSelect(edges, children + parents, survivalSize, survivalTournSize, False), key=itemgetter("fitness"), reverse=True)
+            population = sorted(tournSelect(edges, children + parents, survivalSize, survivalTournSize, False, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
         elif survivalType == "truncation":
             population = sorted(children + parents, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
         elif survivalType == "fitprop":
@@ -156,7 +158,7 @@ for i in range(int(numRuns)):
                 print "RESET: " + str(j)
                 population = initPopulation(populationSize, numNodes)
                 for curIndex in range(len(population)):
-                    population[curIndex]["fitness"] = calculateFitness(edges, population[curIndex]["cut"])
+                    population[curIndex]["fitness"] = calculateFitness(edges, population[curIndex]["cut"], penaltyCoefficient)
         #write the avg and best fitness for the last evaluation
         if j + 1 == int(numEvals):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
