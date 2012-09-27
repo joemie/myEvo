@@ -1,3 +1,4 @@
+
 #import logging
 #logging.basicConfig(level=logging.DEBUG, filename=configBuffer[3])
 #logging.debug('in de boog')
@@ -110,8 +111,7 @@ for i in range(int(numRuns)):
         elif parentSelType == "fitprop":
             parents = fitPropSelect(edges, population, parentSize)
         elif parentSelType == "random":
-            print "IN RANDOM"
-            #TODO:
+            parents = randomSelect(population, parentSize)
         else:
             print "INVALID PARENT SELECTION TYPE"
             sys.exit()
@@ -119,17 +119,26 @@ for i in range(int(numRuns)):
         children = recombinate(edges, parents, recombType, int(numSplits), penaltyCoefficient)[0:childrenSize]
         #mutate children
         children = mutate(edges, children, penaltyCoefficient)
+
+        #set the population depending on the survival strategy
+        if survivalStrategy == "+":
+            population = children + parents
+        elif survivalStrategy == "-":
+            population = children
+        else:
+            print "INVALID SURVIVAL STRATEGY"
+            sys.exit()
+
         #select survivors
         if survivalType == "tournament":
-            population = sorted(tournSelect(edges, children + parents, survivalSize, survivalTournSize, False, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
+            population = sorted(tournSelect(edges, population, survivalSize, survivalTournSize, False, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
         elif survivalType == "truncation":
-            population = sorted(children + parents, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
+            population = sorted(population, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
         elif survivalType == "fitprop":
             print "IN FITPROP"
             #TODO:
         elif survivalType == "random":
-            print "IN RANDOM"
-            #TODO:
+            population = randomSelect(population, size)
         else:
             print "INVALID SURVIVAL TYPE"
             sys.exit()

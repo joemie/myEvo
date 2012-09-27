@@ -1,3 +1,4 @@
+
 import random
 from operator import itemgetter
 
@@ -44,6 +45,13 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, penalty
             #select the most fit in the tournament
             tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
             selected.append(tournSelect[0])
+    return selected
+
+
+def randomSelect(population, size):
+    selected = []
+    for i in range(int(size)):
+        selected.append(random.choice(population))
     return selected
 
 
@@ -162,6 +170,7 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
             return  float("-inf")  # the graph wasn't cut so return infinity
         else:
             return (float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1) - (numSubgraphs * float(penaltyCoefficient))
+
 
 
 def countSubgraphsAndCuts(edges, cut, graph):
