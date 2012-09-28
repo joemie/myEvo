@@ -83,22 +83,54 @@ def recombinate(edges, parents, recombType, numSplits = None, penaltyCoefficient
             #000011110000 - p1
             #111111111111 - p2
             #001111110011 - child
-            splitSize = len(parents[0]['cut']) / numSplits
-            for i in range(len(parents) - 1):
-                parent1 = parents[i]['cut']
-                parent2 = parents[i + 1]['cut']
-                cut = []
-                curParent = 1
+            pCutSize = len(parents[0]['cut'])
+            maxSplitRange = pCutSize / numSplits + 1
+            for index in range(len(parents) - 1):
+                parent0 = parents[index]['cut']
+                parent1 = parents[index + 1]['cut']
+                splitStart = 0
+                curParent = 0
                 curPosition = 0
-                while curPosition < len(parent1):
-                    if curParent == 1:
-                        cut[curPosition:] = parent1[curPosition:curPosition + splitSize]
-                        curParent = 0
+                cut = []
+                for i in range(numSplits):
+                    splitEnd = splitStart + random.randrange(1, maxSplitRange)
+                    splitSize = splitEnd - splitStart
+                    print "START: %d\tEND: %d\tSIZE: %d" %(splitStart, splitEnd, splitSize)
+                    if curParent == 0:
+                        cut[curPosition:] = parent0[curPosition:curPosition + splitSize]
                     else:
-                        cut[curPosition:] = parent2[curPosition:curPosition + splitSize]
-                        curParent = 1
+                        cut[curPosition:] = parent0[curPosition:curPosition + splitSize]
                     curPosition += splitSize
-                children.append({"cut" :cut, "fitness": calculateFitness(edges, cut, penaltyCoefficient)})
+                    splitStart += splitSize
+                    if  curParent == 0:
+                        curParent = 1
+                    else:
+                        curParent = 0
+                if curPosition < pCutSize:
+                    if curParent == 0:
+                        cut[curPosition:] = parent0[curPosition:]
+                    else:
+                        cut[curPosition:] = parent1[curPosition:]
+                print parent0
+                print parent1
+                print cut
+                children.append({"cut": cut, "fitness": calculateFitness(edges, cut, penaltyCoefficient)})
+#            splitSize = len(parents[0]['cut']) / numSplits
+#            for i in range(len(parents) - 1):
+#                parent1 = parents[i]['cut']
+#                parent2 = parents[i + 1]['cut']
+#                cut = []
+#                curParent = 1
+#                curPosition = 0
+#                while curPosition < len(parent1):
+#                    if curParent == 1:
+#                        cut[curPosition:] = parent1[curPosition:curPosition + splitSize]
+#                        curParent = 0
+#                    else:
+#                        cut[curPosition:] = parent2[curPosition:curPosition + splitSize]
+#                        curParent = 1
+#                    curPosition += splitSize
+#                children.append({"cut" :cut, "fitness": calculateFitness(edges, cut, penaltyCoefficient)})
     elif recombType == "uniform":
         for i in range(len(parents) - 1):
             parent1 = parents[i]['cut']

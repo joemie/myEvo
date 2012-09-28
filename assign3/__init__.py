@@ -119,7 +119,6 @@ for i in range(int(numRuns)):
         children = recombinate(edges, parents, recombType, int(numSplits), penaltyCoefficient)[0:childrenSize]
         #mutate children
         children = mutate(edges, children, penaltyCoefficient)
-
         #set the population depending on the survival strategy
         if survivalStrategy == "+":
             population = children + parents
@@ -135,8 +134,7 @@ for i in range(int(numRuns)):
         elif survivalType == "truncation":
             population = sorted(population, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
         elif survivalType == "fitprop":
-            print "IN FITPROP"
-            #TODO:
+            population = fitPropSelect(edges, population, survivalSize)
         elif survivalType == "random":
             population = randomSelect(population, size)
         else:
