@@ -93,19 +93,17 @@ def recombinate(edges, parents, recombType, numSplits = None, penaltyCoefficient
                 curPosition = 0
                 cut = []
                 for i in range(numSplits):
-                    splitEnd = splitStart + random.randrange(1, maxSplitRange)
+                    splitEnd = splitStart + random.randrange(maxSplitRange * i, maxSplitRange * (i + 1))
                     splitSize = splitEnd - splitStart
-                    print "START: %d\tEND: %d\tSIZE: %d" %(splitStart, splitEnd, splitSize)
+                    print "START: %d\tEND: %d\tPARENT: %d" %(splitStart, splitEnd, curParent)
                     if curParent == 0:
                         cut[curPosition:] = parent0[curPosition:curPosition + splitSize]
-                    else:
-                        cut[curPosition:] = parent0[curPosition:curPosition + splitSize]
-                    curPosition += splitSize
-                    splitStart += splitSize
-                    if  curParent == 0:
                         curParent = 1
                     else:
+                        cut[curPosition:] = parent1[curPosition:curPosition + splitSize]
                         curParent = 0
+                    curPosition += splitSize
+                    splitStart += splitSize
                 if curPosition < pCutSize:
                     if curParent == 0:
                         cut[curPosition:] = parent0[curPosition:]
