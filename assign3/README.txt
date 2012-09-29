@@ -10,10 +10,10 @@ CONFIG FILE FORMAT |
 \logFiles\logEx.txt    -log file
 \solnFiles\solutionEx.txt -solution file
 .05             - penalty coefficient for an unconnected graph
-tournament | 10 - parent selection (tournament/fitprop/random | tourn Size)
+tournament | 10 | r - parent selection (tournament/fitprop/random | tourn Size | r/nr) r = replacement nr = no replacement
 npoint | 3      - recomb type (uniform/npoint | n)
 +               - survival strategy (+/,)
-tournament | 10 - survival selection (tournament/trunc/random/fitprop | tourn Size)
+tournament | 10 | r - survival selection (tournament/trunc/random/fitprop | tourn Size | tourn Size | r/nr) r = replacement nr = no replacement
 100             - termination criteria (num evals before termination)
 500             - population size
 250             - parent size

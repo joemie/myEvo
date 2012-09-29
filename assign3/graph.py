@@ -16,4 +16,5 @@ def buildGraph(myFileBuffer):
             edges[endNode] = temp
         else:
             edges[endNode] = list(startNode)
+    print edges
     return edges

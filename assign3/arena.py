@@ -95,7 +95,6 @@ def recombinate(edges, parents, recombType, numSplits = None, penaltyCoefficient
                 for i in range(numSplits):
                     splitEnd = splitStart + random.randrange(maxSplitRange * i, maxSplitRange * (i + 1))
                     splitSize = splitEnd - splitStart
-                    print "START: %d\tEND: %d\tPARENT: %d" %(splitStart, splitEnd, curParent)
                     if curParent == 0:
                         cut[curPosition:] = parent0[curPosition:curPosition + splitSize]
                         curParent = 1
@@ -109,9 +108,6 @@ def recombinate(edges, parents, recombType, numSplits = None, penaltyCoefficient
                         cut[curPosition:] = parent0[curPosition:]
                     else:
                         cut[curPosition:] = parent1[curPosition:]
-                print parent0
-                print parent1
-                print cut
                 children.append({"cut": cut, "fitness": calculateFitness(edges, cut, penaltyCoefficient)})
 #            splitSize = len(parents[0]['cut']) / numSplits
 #            for i in range(len(parents) - 1):
@@ -198,6 +194,9 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
         numSubgraphs = numZeroSubgraphs + numOneSubgraphs
         if numCuts == 0:
             return  float("-inf")  # the graph wasn't cut so return infinity
+        elif numSubgraphs == 2:
+            #both subgraphs are connected -> no penalty
+            return (float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1)
         else:
             return (float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1) - (numSubgraphs * float(penaltyCoefficient))
 
@@ -227,11 +226,10 @@ def countSubgraphsAndCuts(edges, cut, graph):
                     explorable.append(adjacentNode)
                 if cut[adjacentNode - 1] != curNodeGraph:
                     numCuts += 1
-                   # print "%d : %d" %(curNode, adjacentNode)
             exploredNodes[curNode - 1] = 1
-
             while len(explorable) > 0:
                 curNode = explorable.pop()
+                print curNode
                 curNodeGraph = cut[curNode - 1]
                 for edgeIndex in range(len(edges[str(curNode)])):
                     adjacentNode = int(edges[str(curNode)][edgeIndex])
@@ -239,7 +237,6 @@ def countSubgraphsAndCuts(edges, cut, graph):
                         reachable.append(adjacentNode)
                         explorable.append(adjacentNode)
                     if cut[adjacentNode - 1] != curNodeGraph:
-                        #print "%d : %d" %(curNode, adjacentNode)
                         numCuts += 1
                 exploredNodes[curNode - 1] = 1
             if exploredNodes.count(1) < cut.count(graph):

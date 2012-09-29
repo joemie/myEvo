@@ -39,24 +39,26 @@ numEvals = configBuffer[3]
 logFile = open(str(configBuffer[4]), 'a+')
 solutionFile = open(str(configBuffer[5]), 'a+')
 penaltyCoefficient = str(configBuffer[6])
-parentSelType = str(configBuffer[7]).partition("|")[0].strip()
+parentSelType = str(configBuffer[7]).split("|")[0].strip()
 if(parentSelType == "tournament"):
-    pTournSize = str(configBuffer[7].partition("|")[2])
+    pTournSize = str(configBuffer[7].split("|")[1])
+    pReplace = str(configBuffer[7].split("|")[2]).strip()
 else:
     pTournSize = 0
-recombType = str(configBuffer[8]).partition("|")[0].strip()
+recombType = str(configBuffer[8]).split("|")[0].strip()
 if(recombType == "npoint"):
-    numSplits = str(configBuffer[8].partition("|")[2])
+    numSplits = str(configBuffer[8].split("|")[1])
 else:
     numSplits = 0
 survivalStrategy = str(configBuffer[9]).strip()
-survivalType = str(configBuffer[10]).partition("|")[0].strip()
+survivalType = str(configBuffer[10]).split("|")[0].strip()
 if(survivalType == "tournament"):
-    survivalTournSize = str(configBuffer[10].partition("|")[2])
+    survivalTournSize = str(configBuffer[10].split("|")[1])
+    survivalReplace = str(configBuffer[10].split("|")[2]).strip()
 else:
     survivalTournSize = 0
-evalsUntilTermination = str(configBuffer[11].partition("|")[0])
-diversityRange = str(configBuffer[11].partition("|")[2])
+evalsUntilTermination = str(configBuffer[11].split("|")[0])
+diversityRange = str(configBuffer[11].split("|")[1])
 populationSize = int(configBuffer[12])
 parentSize = int(configBuffer[13])
 childrenSize = int(configBuffer[14])
@@ -64,35 +66,37 @@ survivalSize = int(configBuffer[15])
 
 print configFile
 print logFile
-logFile.write("SESSION START : %s" % startTime + "\n")
-logFile.write("SESSION SEED  : %s" % seed + "\n")
-logFile.write("CONFIG FILE : %s" % inFile + "\n")
+logFile.write("SESSION START : %s\n" % startTime)
+logFile.write("SESSION SEED  : %s\n" % seed)
+logFile.write("CONFIG FILE : %s\n" % inFile)
 if parentSelType == "tournament":
-    logFile.write("PARENT SELECTION : %s T-SIZE: %s" % (parentSelType,  str(pTournSize)) + "\n")
+    logFile.write("PARENT SELECTION : %s T-SIZE: %s REPLACE: %s\n" % (parentSelType,  str(pTournSize),pReplace))
 else:
-    logFile.write("PARENT SELECTION TYPE: %s " % parentSelType + "\n")
-logFile.write("SURVIVAL STRATEGY: %s " %survivalStrategy + "\n")
+    logFile.write("PARENT SELECTION TYPE: %s \n" % parentSelType)
+logFile.write("SURVIVAL STRATEGY: %s \n" % survivalStrategy)
 if survivalType == "tournament":
-    logFile.write("SURVIVAL SELECTION: %s T-SIZE: %s" % (survivalType, str(survivalTournSize)) + "\n")
+    logFile.write("SURVIVAL SELECTION: %s T-SIZE: %s REPLACE: %s\n" % (survivalType, str(survivalTournSize), survivalReplace))
 else:
     logFile.write("SURVIVAL SELECTION: %s " % survivalType + "\n")
 if recombType == "npoint":
-    logFile.write("RECOMBINATION: %s  N-SIZE: %s" % (recombType, str(numSplits)) + "\n")
+    logFile.write("RECOMBINATION: %s  N-SIZE: %s\n" % (recombType, str(numSplits)))
 else:
-    logFile.write("RECOMBINATION: %s" % recombType + "\n")
+    logFile.write("RECOMBINATION: %s\n" % recombType)
 logFile.write("MUTATION: BIT FLIP\n")
-logFile.write("EVALS UNTIL TERMINATION: %s" %evalsUntilTermination + "\n")
-logFile.write("POPULATION SIZE: " + str(parentSize) + "\n")
-logFile.write("OFFSPRING SIZE: " + str(childrenSize) + "\n")
+logFile.write("EVALS UNTIL TERMINATION: %s\n" % evalsUntilTermination)
+logFile.write("POPULATION SIZE: \n" + str(parentSize))
+logFile.write("OFFSPRING SIZE: \n" + str(childrenSize))
 numNodes = inFileBuffer[0]
 numEdges = inFileBuffer[1]
 numCuts = 0
 edges = buildGraph(inFileBuffer[2:])
+print edges
 #global is the best in ALL runs
 globalBestCut = []
 globalBestFitness = float("-inf")
 lastEvals = []
 for i in range(int(numRuns)):
+    runStart =  Decimal(time.time() * 1000)
     #reinitialize the population for each run
     population = initPopulation(populationSize, numNodes)
     #calculate the fitness for each item in the population
@@ -100,14 +104,20 @@ for i in range(int(numRuns)):
         population[curIndex]["fitness"] = calculateFitness(edges, population[curIndex]["cut"],penaltyCoefficient)
     runBestFitness = float("-inf")
     #local is the best for each run
-    lobalBestCut = []
+    runBestCut = []
     lastEvals = []
     logFile.write("RUN: " + str(i + 1) + "\n")
     print("RUN: " + str(i + 1))
     for j in range(int(numEvals)):
         #select parents
         if parentSelType == "tournament":
-            parents = tournSelect(edges, population, parentSize, pTournSize, True, penaltyCoefficient)
+            if pReplace == "r":
+                parents = tournSelect(edges, population, parentSize, pTournSize, True, penaltyCoefficient)
+            elif pReplace in 'nr':
+                parents = tournSelect(edges, population, parentSize, pTournSize, False, penaltyCoefficient)
+            else:
+                print "INVALID PARENT SELECTION PARAMETER"
+                sys.exit()
         elif parentSelType == "fitprop":
             parents = fitPropSelect(edges, population, parentSize)
         elif parentSelType == "random":
@@ -130,7 +140,13 @@ for i in range(int(numRuns)):
 
         #select survivors
         if survivalType == "tournament":
-            population = sorted(tournSelect(edges, population, survivalSize, survivalTournSize, False, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
+            if survivalReplace == "r":
+                population = sorted(tournSelect(edges, population, survivalSize, survivalTournSize, True, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
+            elif survivalReplace == "nr":
+                population = sorted(tournSelect(edges, population, survivalSize, survivalTournSize, False, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
+            else:
+                print "INVALID SURVIVAL SELECTION PARAMETER"
+                sys.exit()
         elif survivalType == "truncation":
             population = sorted(population, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
         elif survivalType == "fitprop":
@@ -140,15 +156,16 @@ for i in range(int(numRuns)):
         else:
             print "INVALID SURVIVAL TYPE"
             sys.exit()
+        population = sorted(population, key=itemgetter("fitness"), reverse=True)
         localBestFitness = population[0]["fitness"]
         localAvgFitness = averageFitness(population)
-        #update the localBestFitness if needed
+        logFile.write('\t' + str(j + 1) + "\t" + str(localAvgFitness) + "\t" + str(localBestFitness) + "\n")
+        logFile.flush()
+        #update the runBestFitness if needed
         if localBestFitness > runBestFitness:
             lastEvals = []
             runBestFitness = localBestFitness
             runBestCut = population[0]["cut"]
-            logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
-            logFile.flush()
             #update globalBestFitness if needed
             if runBestFitness > globalBestFitness:
                 globalBestFitness = localBestFitness
@@ -169,6 +186,8 @@ for i in range(int(numRuns)):
         #write the avg and best fitness for the last evaluation
         if j + 1 == int(numEvals):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
+    runEnd =  Decimal(time.time() * 1000)
+    print runEnd - runStart
 solutionFile.write(str(globalBestFitness) + "\n")
 solutionFile.write(str(globalBestCut) + "\n")
 print (str(globalBestFitness))
