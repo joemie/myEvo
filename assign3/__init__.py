@@ -84,13 +84,12 @@ else:
     logFile.write("RECOMBINATION: %s\n" % recombType)
 logFile.write("MUTATION: BIT FLIP\n")
 logFile.write("EVALS UNTIL TERMINATION: %s\n" % evalsUntilTermination)
-logFile.write("POPULATION SIZE: \n" + str(parentSize))
-logFile.write("OFFSPRING SIZE: \n" + str(childrenSize))
+logFile.write("POPULATION SIZE: %s\n" % str(parentSize))
+logFile.write("OFFSPRING SIZE: %s\n" % str(childrenSize))
 numNodes = inFileBuffer[0]
 numEdges = inFileBuffer[1]
 numCuts = 0
 edges = buildGraph(inFileBuffer[2:])
-print edges
 #global is the best in ALL runs
 globalBestCut = []
 globalBestFitness = float("-inf")

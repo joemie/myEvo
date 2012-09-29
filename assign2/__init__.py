@@ -82,7 +82,6 @@ numNodes = inFileBuffer[0]
 numEdges = inFileBuffer[1]
 numCuts = 0
 edges = buildGraph(inFileBuffer[2:])
-print edges
 #global is the best in ALL runs
 globalBestCut = []
 globalBestFitness = float("-inf")

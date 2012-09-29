@@ -9,12 +9,11 @@ def buildGraph(myFileBuffer):
             temp.append(endNode)
             edges[startNode] = temp
         else:
-            edges[startNode] = list(endNode)
+            edges[startNode] = [endNode]
         if endNode in edges:
             temp = list(edges.pop(endNode))
             temp.append(startNode)
             edges[endNode] = temp
         else:
-            edges[endNode] = list(startNode)
-    print edges
+            edges[endNode] = [startNode]
     return edges

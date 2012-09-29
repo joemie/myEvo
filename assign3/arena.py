@@ -229,7 +229,6 @@ def countSubgraphsAndCuts(edges, cut, graph):
             exploredNodes[curNode - 1] = 1
             while len(explorable) > 0:
                 curNode = explorable.pop()
-                print curNode
                 curNodeGraph = cut[curNode - 1]
                 for edgeIndex in range(len(edges[str(curNode)])):
                     adjacentNode = int(edges[str(curNode)][edgeIndex])
