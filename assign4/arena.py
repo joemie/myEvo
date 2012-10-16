@@ -1,4 +1,4 @@
-
+import sys
 import random
 from operator import itemgetter
 
@@ -31,7 +31,7 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, objecti
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
                 fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "moeaData": fitnessList[1]})
+                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
             #select the most fit in the tournament
             tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
             selected.append(tournSelect[0])
@@ -42,7 +42,7 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, objecti
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
                 fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "moeaData": fitnessList[1]})
+                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
             del population[popIndex]
             #select the most fit in the tournament
             tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
@@ -111,7 +111,7 @@ def recombinate(edges, parents, recombType, objectiveType, numSplits = None, pen
                     else:
                         cut[curPosition:] = parent1[curPosition:]
                 fitnessList = calculateFitness(edges, cut, penaltyCoefficient)
-                children.append({"cut": cut, "fitness": fitnessList[0], "moeaData": fitnessList[1]})
+                children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
 #            splitSize = len(parents[0]['cut']) / numSplits
 #            for i in range(len(parents) - 1):
 #                parent1 = parents[i]['cut']
@@ -128,7 +128,7 @@ def recombinate(edges, parents, recombType, objectiveType, numSplits = None, pen
 #                        curParent = 1
 #                    curPosition += splitSize
 #                fitnessList = calculateFitness(edges, cut, penaltyCoefficient)
-#                children.append({"cut" :cut, "fitness": fitnessList[0], "moeaData": fitnessList[1]})
+#                children.append({"cut" :cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
     elif recombType == "uniform":
         for i in range(len(parents) - 1):
             parent1 = parents[i]['cut']
@@ -143,7 +143,7 @@ def recombinate(edges, parents, recombType, objectiveType, numSplits = None, pen
                 else:
                     cut.append(parent2[j])
             fitnessList = calculateFitness(edges, cut, penaltyCoefficient)
-            children.append({"cut": cut, "fitness": fitnessList[0], "moeaData": fitnessList[1]})
+            children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
     else:
         print "INVALID RECOMBINATION TYPE IN CONFIG FILE"
     return children
@@ -161,7 +161,8 @@ def mutate(edges, population, objectiveType, penaltyCoefficient):
                 population[i]["cut"][index] = '0'
         fitnessList = calculateFitness(edges, population[i]["cut"], penaltyCoefficient)
         population[i]["fitness"] = fitnessList[0]
-        population[i]["moeaData"] = fitnessList[1]
+        population[i]["cutCount"] = fitnessList[1]
+        population[i]["vertCount"] = fitnessList[2]
         return population
 #    only 1 call to random but slower
 #    for i in range(len(population)):
@@ -174,7 +175,8 @@ def mutate(edges, population, objectiveType, penaltyCoefficient):
 #                population[i]["cut"][j] = '0'
 #        fitnessList = calculateFitness(edges, population[i]["cut"], penaltyCoefficient)
 #        population[i]["fitness"] = fitnessList[0]
-#        population[i]["moeaData"] = fitnessList[1]
+#        population[i]["cutCount"] = fitnessList[1]
+#        population[i]["vertCount"] = fitnessList[2]
 #    return population
 
 
@@ -190,9 +192,9 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
                     numCuts += 1
         #[fitness, [numerator, denominator]]
         if numCuts == 0:
-            return [float("-inf"), [float("-inf"), float("-inf")]]
+            return [float("-inf"), float("-inf"), float("-inf")]
         else:
-            return [float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1, [float(numCuts / 2), min(cut.count('0'), cut.count('1'))]]
+            return [float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1, float(numCuts / 2), min(cut.count('0'), cut.count('1'))]
     else:
         #penalize an unconnected subgraph
         tempGraph0 = countSubgraphsAndCuts(edges, cut, '0')
@@ -205,11 +207,11 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
         numSubgraphs = numZeroSubgraphs + numOneSubgraphs
         #[fitness, [numerator, denominator]]
         if numCuts == 0:
-            return [float("-inf"), [float("-inf"), float("-inf")]]
+            return [float("-inf"), float("-inf"), float("-inf")]
         elif numSubgraphs == 2:
-            return [(float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1), [float(numCuts / 2), min(cut.count('0'), cut.count('1'))]]
+            return [(float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1), float(numCuts / 2), min(cut.count('0'), cut.count('1'))]
         else:
-            return [(float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1) - (numSubgraphs * float(penaltyCoefficient)), [float(numCuts / 2), min(cut.count('0'), cut.count('1'))]]
+            return [(float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1) - (numSubgraphs * float(penaltyCoefficient)), float(numCuts / 2), min(cut.count('0'), cut.count('1'))]
 
 
 def countSubgraphsAndCuts(edges, cut, graph):
@@ -258,3 +260,8 @@ def countSubgraphsAndCuts(edges, cut, graph):
                 explorable = []
             numSubgraphs += 1
     return [int(numSubgraphs), int(numCuts)]
+
+
+def sortByDominance(population):
+    minCutSort = sorted(population, key=itemgetter("fitness"), reverse=True)
+    maxVertSort = sorted(population, key=itemgetter("fitness"), reverse=True)

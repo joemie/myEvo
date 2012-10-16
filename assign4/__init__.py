@@ -103,7 +103,10 @@ for i in range(int(numRuns)):
     for curIndex in range(len(population)):
         fitnessList = calculateFitness(edges, population[curIndex]["cut"], penaltyCoefficient)
         population[curIndex]["fitness"] = fitnessList[0]
-        population[curIndex]["moeaData"] = fitnessList[1]
+        population[curIndex]["cutCount"] = fitnessList[1]
+        population[curIndex]["vertCount"] = fitnessList[2]
+    #TODO: REMOVE THIS ITS FOR TESTING THE FUNCTION ONLY
+    sortByDominance(population)
     runBestFitness = float("-inf")
     #local is the best for each run
     runBestCut = []
@@ -186,7 +189,8 @@ for i in range(int(numRuns)):
                 for curIndex in range(len(population)):
                     fitnessList = calculateFitness(edges, population[curIndex]["cut"], penaltyCoefficient)
                     population[curIndex]["fitness"] = fitnessList[0]
-                    population[curIndex]["moeaData"] = fitnessList[1]
+                    population[curIndex]["cutCount"] = fitnessList[1]
+                    population[curIndex]["vertCount"] = fitnessList[2]
         #write the avg and best fitness for the last evaluation
         if j + 1 == int(numEvals):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
