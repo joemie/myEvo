@@ -14,7 +14,7 @@ tournament | 10 | r - parent selection (tournament/fitprop/random | tourn Size |
 npoint | 3      - recomb type (uniform/npoint | n)
 +               - survival strategy (+/,)
 tournament | 10 | r - survival selection (tournament/trunc/random/fitprop | tourn Size | tourn Size | r/nr) r = replacement nr = no replacement
-100             - termination criteria (num evals before termination)
+100             - termination criteria (num evals before termination | diversity)
 500             - population size
 250             - parent size
 50              - children size
