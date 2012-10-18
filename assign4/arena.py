@@ -25,24 +25,28 @@ def averageFitness(population):
 def tournSelect(edges, population, survivalSize, tournSize, replacement, objectiveType, penaltyCoefficient = 0):
     selected = []
     if replacement == True:
+        uid = 0
         for i in range(int(survivalSize)):
             tournSelect = []
             #build a tournament by selecting random items in the popuation
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
                 fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
+                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                uid += 1
             #select the most fit in the tournament
             tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
             selected.append(tournSelect[0])
     else:
+        uid = 0
         for i in range(int(survivalSize)):
             tournSelect = []
             #build a tournament by selecting random items in the popuation
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
                 fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
+                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                uid += 1
             del population[popIndex]
             #select the most fit in the tournament
             tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
@@ -111,7 +115,7 @@ def recombinate(edges, parents, recombType, objectiveType, numSplits = None, pen
                     else:
                         cut[curPosition:] = parent1[curPosition:]
                 fitnessList = calculateFitness(edges, cut, penaltyCoefficient)
-                children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
+                children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": index})
 #            splitSize = len(parents[0]['cut']) / numSplits
 #            for i in range(len(parents) - 1):
 #                parent1 = parents[i]['cut']
@@ -143,7 +147,7 @@ def recombinate(edges, parents, recombType, objectiveType, numSplits = None, pen
                 else:
                     cut.append(parent2[j])
             fitnessList = calculateFitness(edges, cut, penaltyCoefficient)
-            children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2]})
+            children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": i})
     else:
         print "INVALID RECOMBINATION TYPE IN CONFIG FILE"
     return children
@@ -163,7 +167,7 @@ def mutate(edges, population, objectiveType, penaltyCoefficient):
         population[i]["fitness"] = fitnessList[0]
         population[i]["cutCount"] = fitnessList[1]
         population[i]["vertCount"] = fitnessList[2]
-        return population
+    return population
 #    only 1 call to random but slower
 #    for i in range(len(population)):
 #        #generate a list of binaries flip the element if flipList[j] is 1
@@ -192,7 +196,7 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
                     numCuts += 1
         #[fitness, [numerator, denominator]]
         if numCuts == 0:
-            return [float("-inf"), float("-inf"), float("-inf")]
+            return [float("-inf"), float("inf"), float("-inf")]
         else:
             return [float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1, float(numCuts / 2), min(cut.count('0'), cut.count('1'))]
     else:
@@ -207,7 +211,7 @@ def calculateFitness(edges, cut, penaltyCoefficient = 0):
         numSubgraphs = numZeroSubgraphs + numOneSubgraphs
         #[fitness, [numerator, denominator]]
         if numCuts == 0:
-            return [float("-inf"), float("-inf"), float("-inf")]
+            return [float("-inf"), float("inf"), float("-inf")]
         elif numSubgraphs == 2:
             return [(float(numCuts / 2) / min(cut.count('0'), cut.count('1')) * -1), float(numCuts / 2), min(cut.count('0'), cut.count('1'))]
         else:
@@ -262,6 +266,36 @@ def countSubgraphsAndCuts(edges, cut, graph):
     return [int(numSubgraphs), int(numCuts)]
 
 
-def sortByDominance(population):
-    minCutSort = sorted(population, key=itemgetter("fitness"), reverse=True)
-    maxVertSort = sorted(population, key=itemgetter("fitness"), reverse=True)
+def calculateParetoFront(population):
+    domList = determineDomination(population)
+    domLevels = []
+    print domList[0]
+    for i in range (len(domList)):
+        print domList[i]['0']
+
+
+def determineDomination(population):
+    domList = []
+    for i in range(len(population)):
+        curIndy = population[i]
+        curDomList = [{"dominates": [], "dominatedBy": []}]
+        for j in range(i+1, len(population)):
+            nextIndy = population[j]
+            if dominates(curIndy, nextIndy):
+                #curIndy dominates nextIndy
+                curDomList[0]["dominates"].append(nextIndy["uid"])
+            elif dominates(nextIndy, curIndy):
+                #nextIndy dominates curIndy
+                curDomList[0]["dominatedBy"].append(nextIndy["uid"])
+        domList.append({population[i]["uid"]:curDomList})
+    return domList
+
+
+def dominates(challenger, individual):
+    if challenger["cutCount"] < individual["cutCount"] and challenger["vertCount"] > individual["vertCount"]:
+        return True
+    else:
+        return False
+
+
+

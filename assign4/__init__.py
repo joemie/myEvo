@@ -105,8 +105,9 @@ for i in range(int(numRuns)):
         population[curIndex]["fitness"] = fitnessList[0]
         population[curIndex]["cutCount"] = fitnessList[1]
         population[curIndex]["vertCount"] = fitnessList[2]
+        population[curIndex]["uid"] = curIndex
     #TODO: REMOVE THIS ITS FOR TESTING THE FUNCTION ONLY
-    sortByDominance(population)
+    calculateParetoFront(population)
     runBestFitness = float("-inf")
     #local is the best for each run
     runBestCut = []
@@ -155,13 +156,12 @@ for i in range(int(numRuns)):
         elif survivalType == "truncation":
             population = sorted(population, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
         elif survivalType == "fitprop":
-            population = fitPropSelect(edges, population, survivalSize)
+            population = sorted(fitPropSelect(edges, population, survivalSize), key=itemgetter("fitness"), reverse=True)
         elif survivalType == "random":
-            population = randomSelect(population, size)
+            population = sorted(randomSelect(population, size), key=itemgetter("fitness"), reverse=True)
         else:
             print "INVALID SURVIVAL TYPE"
             sys.exit()
-        population = sorted(population, key=itemgetter("fitness"), reverse=True)
         localBestFitness = population[0]["fitness"]
         localAvgFitness = averageFitness(population)
         logFile.write('\t' + str(j + 1) + "\t" + str(localAvgFitness) + "\t" + str(localBestFitness) + "\n")
@@ -191,6 +191,7 @@ for i in range(int(numRuns)):
                     population[curIndex]["fitness"] = fitnessList[0]
                     population[curIndex]["cutCount"] = fitnessList[1]
                     population[curIndex]["vertCount"] = fitnessList[2]
+                    population[curIndex]["uid"] = curIndex
         #write the avg and best fitness for the last evaluation
         if j + 1 == int(numEvals):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')

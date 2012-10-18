@@ -1800,3 +1800,1963 @@ RUN: 2
 	43	-0.5	-0.5
 	44	-0.5	-0.5
 	45	-0.5	-0.5
+SESSION START : 1350356382691
+SESSION SEED  : 1350356382691
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d48d68>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350356412804
+SESSION SEED  : 1350356412804
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02da6dd8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.83066666667	-1.33333333333
+	2	-1.38316666667	-0.5
+	3	-1.04166666667	-0.5
+	4	-0.525	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+SESSION START : 1350356488438
+SESSION SEED  : 1350356488438
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c66dd8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.61866666667	-0.5
+	2	-0.858333333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 2
+	1	-1.68	-0.5
+	2	-0.849833333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+SESSION START : 1350356510806
+SESSION SEED  : 1350356510806
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d26dd8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.81883333333	-0.5
+	2	-1.11383333333	-0.5
+	3	-0.516666666667	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+SESSION START : 1350358613143
+SESSION SEED  : 1350358613143
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c56dd8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.52583333333	-0.5
+	2	-0.621333333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 2
+	1	-1.729	-0.5
+	2	-1.15616666667	-0.5
+	3	-0.566666666667	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 3
+	1	-1.61833333333	-0.5
+	2	-0.791666666667	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 4
+	1	-1.67216666667	-0.5
+	2	-0.733333333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 5
+	1	-1.6775	-0.5
+	2	-0.883333333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 6
+	1	-1.79666666667	-0.5
+	2	-0.846	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 7
+	1	-1.658	-0.5
+	2	-0.881333333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 8
+	1	-1.51933333333	-0.5
+	2	-0.601666666667	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+	94	-0.5	-0.5
+	95	-0.5	-0.5
+	96	-0.5	-0.5
+	97	-0.5	-0.5
+	98	-0.5	-0.5
+	99	-0.5	-0.5
+	100	-0.5	-0.5
+	100	-0.5	-0.5
+RUN: 9
+	1	-1.69	-0.5
+	2	-0.94	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+SESSION START : 1350358688291
+SESSION SEED  : 1350358688291
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c66dd8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.65166666667	-0.5
+	2	-0.893166666667	-0.5
+SESSION START : 1350358713123
+SESSION SEED  : 1350358713123
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d16dd8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.688	-0.5
+	2	-0.852	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+SESSION START : 1350359413700
+SESSION SEED  : 1350359413700
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d07d68>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.7225	-0.5
+	2	-0.863833333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+SESSION START : 1350360043455
+SESSION SEED  : 1350360043455
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d26d68>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.60933333333	-0.5
+	2	-0.973166666667	-0.5
+	3	-0.516666666667	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+SESSION START : 1350360070049
+SESSION SEED  : 1350360070049
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d26d68>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.63266666667	-0.5
+	2	-0.943333333333	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+SESSION START : 1350360097271
+SESSION SEED  : 1350360097271
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c46d68>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.7045	-0.5
+	2	-1.00816666667	-0.5
+	3	-0.508333333333	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+SESSION START : 1350360108159
+SESSION SEED  : 1350360108159
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c86d68>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.742	-0.5
+	2	-1.1545	-0.5
+	3	-0.55	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.5	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.5	-0.5
+	41	-0.5	-0.5
+	42	-0.5	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.5	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+	50	-0.5	-0.5
+	51	-0.5	-0.5
+	52	-0.5	-0.5
+	53	-0.5	-0.5
+	54	-0.5	-0.5
+	55	-0.5	-0.5
+	56	-0.5	-0.5
+	57	-0.5	-0.5
+	58	-0.5	-0.5
+	59	-0.5	-0.5
+	60	-0.5	-0.5
+	61	-0.5	-0.5
+	62	-0.5	-0.5
+	63	-0.5	-0.5
+	64	-0.5	-0.5
+	65	-0.5	-0.5
+	66	-0.5	-0.5
+	67	-0.5	-0.5
+	68	-0.5	-0.5
+	69	-0.5	-0.5
+	70	-0.5	-0.5
+	71	-0.5	-0.5
+	72	-0.5	-0.5
+	73	-0.5	-0.5
+	74	-0.5	-0.5
+	75	-0.5	-0.5
+	76	-0.5	-0.5
+	77	-0.5	-0.5
+	78	-0.5	-0.5
+	79	-0.5	-0.5
+	80	-0.5	-0.5
+	81	-0.5	-0.5
+	82	-0.5	-0.5
+	83	-0.5	-0.5
+	84	-0.5	-0.5
+	85	-0.5	-0.5
+	86	-0.5	-0.5
+	87	-0.5	-0.5
+	88	-0.5	-0.5
+	89	-0.5	-0.5
+	90	-0.5	-0.5
+	91	-0.5	-0.5
+	92	-0.5	-0.5
+	93	-0.5	-0.5
+SESSION START : 1350579057431
+SESSION SEED  : 1350579057431
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02ce7dd8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.753	-0.5
+SESSION START : 1350579170188
+SESSION SEED  : 1350579170188
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d85e10>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350579818726
+SESSION SEED  : 1350579818726
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02ce1eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350579845578
+SESSION SEED  : 1350579845578
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02ce1eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350579873941
+SESSION SEED  : 1350579873941
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c81eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350579883075
+SESSION SEED  : 1350579883075
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c81eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.90383333333	-0.5
+	2	-1.36466666667	-0.5
+	3	-0.713166666667	-0.5
+	4	-0.5	-0.5
+	5	-0.508333333333	-0.5
+	6	-0.508333333333	-0.5
+	7	-0.5	-0.5
+	8	-0.5215	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.513166666667	-0.5
+	12	-0.517	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+SESSION START : 1350580021206
+SESSION SEED  : 1350580021206
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cb1eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.847	-0.5
+	2	-1.26316666667	-0.5
+	3	-0.7	-0.5
+SESSION START : 1350580199778
+SESSION SEED  : 1350580199778
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02dafeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350580304897
+SESSION SEED  : 1350580304897
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02e0eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350580345851
+SESSION SEED  : 1350580345851
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d5eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350580434049
+SESSION SEED  : 1350580434049
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c2eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350580458047
+SESSION SEED  : 1350580458047
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d6eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350580471705
+SESSION SEED  : 1350580471705
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d4eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350580619199
+SESSION SEED  : 1350580619199
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d10eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350580654003
+SESSION SEED  : 1350580654003
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cd0eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350581118567
+SESSION SEED  : 1350581118567
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02e20eb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.7545	-0.5
+	2	-0.837166666667	-0.5
+	3	-0.5	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+SESSION START : 1350581201858
+SESSION SEED  : 1350581201858
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c4eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350581304570
+SESSION SEED  : 1350581304570
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c6eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350581371266
+SESSION SEED  : 1350581371266
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d0eeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350581383854
+SESSION SEED  : 1350581383854
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cdeeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.68816666667	-0.5
+	2	-1.17	-0.5
+	3	-0.604833333333	-0.5
+	4	-0.5	-0.5
+	5	-0.5	-0.5
+	6	-0.5	-0.5
+	7	-0.508333333333	-0.5
+	8	-0.5	-0.5
+	9	-0.508333333333	-0.5
+	10	-0.5	-0.5
+	11	-0.5215	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.5	-0.5
+	17	-0.5	-0.5
+	18	-0.508333333333	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.513166666667	-0.5
+	24	-0.5	-0.5
+	25	-0.514	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.513166666667	-0.5
+	29	-0.5	-0.5
+	30	-0.51	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.5	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.514	-0.5
+	37	-0.514	-0.5
+	38	-0.519	-0.5
+	39	-0.5	-0.5
+	40	-0.508333333333	-0.5
+	41	-0.51	-0.5
+	42	-0.513166666667	-0.5
+	43	-0.5	-0.5
+	44	-0.5	-0.5
+	45	-0.51	-0.5
+	46	-0.5	-0.5
+	47	-0.5	-0.5
+	48	-0.5	-0.5
+	49	-0.5	-0.5
+SESSION START : 1350581425221
+SESSION SEED  : 1350581425221
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02ceeeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.78116666667	-0.5
+	2	-1.18066666667	-0.5
+	3	-0.65	-0.5
+	4	-0.5	-0.5
+SESSION START : 1350583487906
+SESSION SEED  : 1350583487906
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cceeb8>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.85416666667	-1.33333333333
+	2	-1.44966666667	-1.33333333333
+	3	-1.30483333333	-0.5
+	4	-1.08333333333	-0.5
+	5	-0.55	-0.5
+	6	-0.5	-0.5
+	7	-0.5	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.5	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.508333333333	-0.5
+	16	-0.5	-0.5
+	17	-0.508333333333	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.517	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.5	-0.5
+	25	-0.51	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.5	-0.5
+	30	-0.5	-0.5
+	31	-0.5	-0.5
+	32	-0.5	-0.5
+	33	-0.523166666667	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.513166666667	-0.5
+	39	-0.5	-0.5
+SESSION START : 1350584386435
+SESSION SEED  : 1350584386435
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d0df60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584406977
+SESSION SEED  : 1350584406977
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cedf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.6755	-0.5
+	2	-0.890333333333	-0.5
+	3	-0.5	-0.5
+	4	-0.515	-0.5
+	5	-0.52	-0.5
+	6	-0.513166666667	-0.5
+	7	-0.517	-0.5
+	8	-0.5	-0.5
+	9	-0.5	-0.5
+	10	-0.5	-0.5
+	11	-0.5	-0.5
+	12	-0.508333333333	-0.5
+	13	-0.5	-0.5
+	14	-0.5	-0.5
+	15	-0.5	-0.5
+	16	-0.51	-0.5
+	17	-0.5	-0.5
+	18	-0.5	-0.5
+	19	-0.5	-0.5
+	20	-0.5	-0.5
+	21	-0.5	-0.5
+	22	-0.5	-0.5
+	23	-0.5	-0.5
+	24	-0.513166666667	-0.5
+	25	-0.513166666667	-0.5
+	26	-0.5	-0.5
+	27	-0.5	-0.5
+	28	-0.5	-0.5
+	29	-0.508333333333	-0.5
+	30	-0.5	-0.5
+	31	-0.517	-0.5
+	32	-0.508333333333	-0.5
+	33	-0.515	-0.5
+	34	-0.5	-0.5
+	35	-0.5	-0.5
+	36	-0.5	-0.5
+	37	-0.5	-0.5
+	38	-0.5	-0.5
+	39	-0.5	-0.5
+	40	-0.51	-0.5
+SESSION START : 1350584435804
+SESSION SEED  : 1350584435804
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cadf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+RUN: 1
+	1	-1.83016666667	-0.5
+	2	-1.2265	-0.5
+SESSION START : 1350584707850
+SESSION SEED  : 1350584707850
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c2cf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584719709
+SESSION SEED  : 1350584719709
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cfcf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584761122
+SESSION SEED  : 1350584761122
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c9cf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584876515
+SESSION SEED  : 1350584876515
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d3cf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584907782
+SESSION SEED  : 1350584907782
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cdcf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584957080
+SESSION SEED  : 1350584957080
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02ddcf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584968262
+SESSION SEED  : 1350584968262
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02becf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350584990545
+SESSION SEED  : 1350584990545
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d0cf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350585050253
+SESSION SEED  : 1
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02c0cf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350585074019
+SESSION SEED  : 1
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cbcf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350585161526
+SESSION SEED  : 1
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02cbcf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350585169730
+SESSION SEED  : 1
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d3cf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
+SESSION START : 1350585325653
+SESSION SEED  : 1
+CONFIG FILE : <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign4\dataFiles\example.dat', mode 'r' at 0x02d0cf60>
+PARENT SELECTION : tournament T-SIZE:  3  REPLACE: r
+SURVIVAL STRATEGY: + 
+SURVIVAL SELECTION: tournament T-SIZE:  3  REPLACE: r
+RECOMBINATION: npoint  N-SIZE:  3
+MUTATION: BIT FLIP
+EVALS UNTIL TERMINATION: 100 
+POPULATION SIZE: 250
+OFFSPRING SIZE: 50
