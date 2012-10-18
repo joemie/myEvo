@@ -269,25 +269,55 @@ def countSubgraphsAndCuts(edges, cut, graph):
 def calculateParetoFront(population):
     domList = determineDomination(population)
     domLevels = []
-    print domList[0]
-    for i in range (len(domList)):
-        print domList[i]['0']
+    topLevel = []
+    for curIndy in domList:
+        if len(curIndy["dominatedBy"]) == 0:
+            topLevel.append(curIndy)
+            domList.remove(curIndy)
+    domLevels.append(topLevel)
+    domLevels.append([])
+    while(len(domList) > 0):
+        curIndy = domList.pop(0)
+        for i in range(1, len(domLevels)):
+            curLevel = domLevels[i]
+            validLevel = True
+            if len(curLevel) == 0:
+                curLevel.append(curIndy)
+                break
+            #check if any individuals in the level dominate the current individual
+            for j in range(len(curLevel)):
+                levelIndy = curLevel[j]
+                if curIndy["uid"] in levelIndy["dominates"]:
+                    validLevel = False
+                    break
+            if validLevel:
+                #check if curIndy dominates any individuals in the level, remove them
+                for levelIndy in curLevel:
+                    if levelIndy["uid"] in curIndy["dominates"]:
+                        curLevel.remove(levelIndy)
+                        domList.append(levelIndy)
+                curLevel.append(curIndy)
+            elif i == len(domLevels)-1:
+                domLevels.append([curIndy])
+    print domLevels
+   # print domLevels
 
 
 def determineDomination(population):
     domList = []
     for i in range(len(population)):
         curIndy = population[i]
-        curDomList = [{"dominates": [], "dominatedBy": []}]
-        for j in range(i+1, len(population)):
-            nextIndy = population[j]
-            if dominates(curIndy, nextIndy):
-                #curIndy dominates nextIndy
-                curDomList[0]["dominates"].append(nextIndy["uid"])
-            elif dominates(nextIndy, curIndy):
-                #nextIndy dominates curIndy
-                curDomList[0]["dominatedBy"].append(nextIndy["uid"])
-        domList.append({population[i]["uid"]:curDomList})
+        curDomList = {"uid": curIndy["uid"], "dominates": [], "dominatedBy": []}
+        for j in range(len(population)):
+            if i != j:
+                nextIndy = population[j]
+                if dominates(curIndy, nextIndy):
+                    #curIndy dominates nextIndy
+                    curDomList["dominates"].append(nextIndy["uid"])
+                elif dominates(nextIndy, curIndy):
+                    #nextIndy dominates curIndy
+                    curDomList["dominatedBy"].append(nextIndy["uid"])
+        domList.append(curDomList)
     return domList
 
 
