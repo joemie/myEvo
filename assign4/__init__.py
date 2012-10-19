@@ -92,8 +92,10 @@ numEdges = inFileBuffer[1]
 numCuts = 0
 edges = buildGraph(inFileBuffer[2:])
 #global is the best in ALL runs
+bestParetoFront = []
 globalBestCut = []
 globalBestFitness = float("-inf")
+globalBestAvgFitness = float("-inf")
 lastEvals = []
 for i in range(int(numRuns)):
     runStart =  Decimal(time.time() * 1000)
@@ -150,14 +152,21 @@ for i in range(int(numRuns)):
         #select survivors
         if survivalType == "tournament":
             if survivalReplace == "r":
-                population = sorted(tournSelect(edges, population, survivalSize, survivalTournSize, True, objectiveType, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
+                population = tournSelect(edges, population, survivalSize, survivalTournSize, True, objectiveType, penaltyCoefficient)
             elif survivalReplace == "nr":
-                population = sorted(tournSelect(edges, population, survivalSize, survivalTournSize, False, objectiveType, penaltyCoefficient), key=itemgetter("fitness"), reverse=True)
+                population = tournSelect(edges, population, survivalSize, survivalTournSize, False, objectiveType, penaltyCoefficient)
             else:
                 print "INVALID SURVIVAL SELECTION PARAMETER"
                 sys.exit()
+            if objectiveType == "SOEA":
+                population = sorted(population, key=itemgetter("fitness"), reverse=True)
+            if objectiveType == "MOEA":
+                population = sorted(population, key=itemgetter("domLevel"), reverse=False)
         elif survivalType == "truncation":
-            population = sorted(population, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
+            if objectiveType == "SOEA":
+                population = sorted(population, key=itemgetter("fitness"), reverse=True)[0:survivalSize]
+            if objectiveType == "MOEA":
+                population = sorted(population, key=itemgetter("domLevel"), reverse=False)[0:survivalSize]
         elif survivalType == "fitprop":
             population = sorted(fitPropSelect(edges, population, survivalSize), key=itemgetter("fitness"), reverse=True)
         elif survivalType == "random":
@@ -178,6 +187,14 @@ for i in range(int(numRuns)):
             if runBestFitness > globalBestFitness:
                 globalBestFitness = localBestFitness
                 globalBestCut = population[0]["cut"]
+        if globalBestAvgFitness < localAvgFitness:
+            globalBestAvgFitness = localAvgFitness
+            for i in range(len(population)):
+                curIndy = population[i]
+                if curIndy["domLevel"] == 0:
+                    bestParetoFront.append(curIndy)
+                else:
+                    break
          #termination condition - reset population if there isn't enough variance
         if len(lastEvals) < evalsUntilTermination:
             lastEvals.append({"bestFitness": localBestFitness, "avgFitness": localAvgFitness})
@@ -200,11 +217,15 @@ for i in range(int(numRuns)):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
     runEnd =  Decimal(time.time() * 1000)
     print runEnd - runStart
-solutionFile.write(str(globalBestFitness) + "\n")
-solutionFile.write(str(globalBestCut) + "\n")
-print (str(globalBestFitness))
-print (str(globalBestCut))
-solutionFile.close()
+if objectiveType == "SOEA":
+    solutionFile.write(str(globalBestFitness) + "\n")
+    solutionFile.write(str(globalBestCut) + "\n")
+    print (str(globalBestFitness))
+    print (str(globalBestCut))
+    solutionFile.close()
+if objectiveType == "MOEA":
+    for i in range(len(bestParetoFront)):
+        solutionFile.write(str(bestParetoFront[i]["cutCount"]) + "\t" + str(bestParetoFront[i]["vertCount"]) + "\t" + str(bestParetoFront[i]["fitness"]) + "\t" + str(bestParetoFront[i]["cut"]) + "\n")
 inFile.close
 endTime = Decimal(time.time() * 1000)
 logFile.write("SESSION END   : %s" % endTime + "\n")
