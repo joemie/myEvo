@@ -106,8 +106,9 @@ for i in range(int(numRuns)):
         population[curIndex]["cutCount"] = fitnessList[1]
         population[curIndex]["vertCount"] = fitnessList[2]
         population[curIndex]["uid"] = curIndex
-    #TODO: REMOVE THIS ITS FOR TESTING THE FUNCTION ONLY
-    calculateParetoFront(population)
+    #sort the population by levels of dominance
+    if objectiveType == "MOEA":
+        population = sortByDomination(population)
     runBestFitness = float("-inf")
     #local is the best for each run
     runBestCut = []

@@ -265,8 +265,18 @@ def countSubgraphsAndCuts(edges, cut, graph):
             numSubgraphs += 1
     return [int(numSubgraphs), int(numCuts)]
 
+def sortByDomination(population):
+    domList = calculateDominationList(population)
+    for i in range(len(domList)):
+        curLevel = domList[i]
+        for j in range(len(curLevel)):
+            population[curLevel[j]["uid"]]["domLevel"] = i
+    return sorted(population, key=itemgetter("domLevel"), reverse = False)
 
-def calculateParetoFront(population):
+
+
+
+def calculateDominationList(population):
     domList = determineDomination(population)
     domLevels = []
     topLevel = []
@@ -299,8 +309,7 @@ def calculateParetoFront(population):
                 curLevel.append(curIndy)
             elif i == len(domLevels)-1:
                 domLevels.append([curIndy])
-    print domLevels
-   # print domLevels
+    return domLevels
 
 
 def determineDomination(population):
