@@ -136,6 +136,8 @@ for i in range(int(numRuns)):
         children = recombinate(edges, parents, recombType, objectiveType, int(numSplits), penaltyCoefficient)[0:childrenSize]
         #mutate children
         children = mutate(edges, children, objectiveType, penaltyCoefficient)
+        if objectiveType == "MOEA":
+            children = sortByDomination(children)
         #set the population depending on the survival strategy
         if survivalStrategy == "+":
             population = children + parents

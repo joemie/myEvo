@@ -32,10 +32,19 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, objecti
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
                 fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                if objectiveType == "SOEA":
+                    tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                if objectiveType == "MOEA":
+                     tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid, "domLevel": population[popIndex]["domLevel"]})
                 uid += 1
             #select the most fit in the tournament
-            tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
+            if objectiveType == "SOEA":
+                tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
+            elif objectiveType == "MOEA":
+                tournSelect = sorted(tournSelect, key=itemgetter("domLevel"), reverse=False)
+            else:
+                print "INVALID OBJECTIVE TYPE\n"
+                sys.exit()
             selected.append(tournSelect[0])
     else:
         uid = 0
@@ -45,11 +54,20 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, objecti
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
                 fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
-                tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                if objectiveType == "SOEA":
+                    tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                if objectiveType == "MOEA":
+                    tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid, "domLevel": population[popIndex]["domLevel"]})
                 uid += 1
             del population[popIndex]
             #select the most fit in the tournament
-            tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
+            if objectiveType == "SOEA":
+                tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)
+            elif objectiveType == "MOEA":
+                tournSelect = sorted(tournSelect, key=itemgetter("domList"), reverse=False)
+            else:
+                print "INVALID OBJECTIVE TYPE\n"
+                sys.exit()
             selected.append(tournSelect[0])
     return selected
 
@@ -264,6 +282,7 @@ def countSubgraphsAndCuts(edges, cut, graph):
                 explorable = []
             numSubgraphs += 1
     return [int(numSubgraphs), int(numCuts)]
+
 
 def sortByDomination(population):
     domList = calculateDominationList(population)
