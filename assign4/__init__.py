@@ -91,6 +91,8 @@ numNodes = inFileBuffer[0]
 numEdges = inFileBuffer[1]
 numCuts = 0
 edges = buildGraph(inFileBuffer[2:])
+print edges
+sys.exit()
 #global is the best in ALL runs
 bestParetoFront = []
 globalBestCut = []
@@ -188,11 +190,13 @@ for i in range(int(numRuns)):
                 globalBestFitness = localBestFitness
                 globalBestCut = population[0]["cut"]
         if globalBestAvgFitness < localAvgFitness:
+            solutionFile.write("NEW BEST" + str(localAvgFitness) + "\n")
             globalBestAvgFitness = localAvgFitness
             for i in range(len(population)):
                 curIndy = population[i]
                 if curIndy["domLevel"] == 0:
                     bestParetoFront.append(curIndy)
+                    solutionFile.write(str(bestParetoFront[i]["cutCount"]) + "\t" + str(bestParetoFront[i]["vertCount"]) + "\t" + str(bestParetoFront[i]["fitness"]) + "\t" + str(bestParetoFront[i]["cut"]) + "\n")
                 else:
                     break
          #termination condition - reset population if there isn't enough variance
