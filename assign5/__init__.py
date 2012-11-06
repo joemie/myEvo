@@ -1,4 +1,3 @@
-
 #import logging
 #logging.basicConfig(level=logging.DEBUG, filename=configBuffer[3])
 #logging.debug('in de boog')
@@ -26,8 +25,7 @@ else:
     sys.exit()
 configBuffer = configFile.read().splitlines()
 #parse config file
-inFile = open(configBuffer[0])
-inFileBuffer = inFile.read().splitlines()
+numNodes = int(configBuffer[0])
 logFile = open(str(configBuffer[4]), 'a+')
 if int(configBuffer[1]) == 00:
     seed = startTime
@@ -69,7 +67,6 @@ print configFile
 print logFile
 logFile.write("SESSION START : %s\n" % startTime)
 logFile.write("SESSION SEED  : %s\n" % seed)
-logFile.write("CONFIG FILE : %s\n" % inFile)
 if parentSelType == "tournament":
     logFile.write("PARENT SELECTION : %s T-SIZE: %s REPLACE: %s\n" % (parentSelType,  str(pTournSize),pReplace))
 else:
@@ -87,11 +84,12 @@ logFile.write("MUTATION: BIT FLIP\n")
 logFile.write("EVALS UNTIL TERMINATION: %s\n" % evalsUntilTermination)
 logFile.write("POPULATION SIZE: %s\n" % str(parentSize))
 logFile.write("OFFSPRING SIZE: %s\n" % str(childrenSize))
-numNodes = inFileBuffer[0]
-numEdges = inFileBuffer[1]
-numCuts = 0
-edges = buildGraph(inFileBuffer[2:])
+#TODO: SET THESE VALUES
+edges = buildGraph(numNodes)
 print edges
+numNodes = 100
+numEdges = 100
+numCuts = 0
 sys.exit()
 #global is the best in ALL runs
 bestParetoFront = []
@@ -230,7 +228,6 @@ if objectiveType == "SOEA":
 if objectiveType == "MOEA":
     for i in range(len(bestParetoFront)):
         solutionFile.write(str(bestParetoFront[i]["cutCount"]) + "\t" + str(bestParetoFront[i]["vertCount"]) + "\t" + str(bestParetoFront[i]["fitness"]) + "\t" + str(bestParetoFront[i]["cut"]) + "\n")
-inFile.close
 endTime = Decimal(time.time() * 1000)
 logFile.write("SESSION END   : %s" % endTime + "\n")
 logFile.write("SESSION Length: %s" % (endTime - startTime) + "\n")

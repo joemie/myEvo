@@ -1,19 +1,14 @@
-def buildGraph(myFileBuffer):
+import random
+def buildGraph(numNodes):
     edges = {}
-    for line in myFileBuffer:
-        startNode = line[0:line.index(" ")]
-        endNode = line[line.index(" ") + 1:]
-        temp = []
-        if startNode in edges:
-            temp = list(edges.pop(startNode))
-            temp.append(endNode)
-            edges[startNode] = temp
-        else:
-            edges[startNode] = [endNode]
-        if endNode in edges:
-            temp = list(edges.pop(endNode))
-            temp.append(startNode)
-            edges[endNode] = temp
-        else:
-            edges[endNode] = [startNode]
+    edgeFlags = list(bin(random.randrange(2 ** (11025), 2 ** 11026))[2:])
+    flagIndex = 0
+    for i in range(1, numNodes):
+        edges[i] = []
+    for i in range(1,numNodes):
+        for j in range(i+1, numNodes):
+            if int(edgeFlags[flagIndex]) == 1:
+                edges[i].append(j)
+                edges[j].append(i)
+            flagIndex += 1
     return edges
