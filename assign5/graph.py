@@ -12,3 +12,9 @@ def buildGraph(numNodes):
                 edges[j].append(i)
             flagIndex += 1
     return edges
+
+def mutateGraph(edges):
+    for i in range(1, len(edges)):
+        for j in range(i+1, len(edges)):
+            print "DERP"
+    return edges

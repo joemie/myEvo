@@ -26,42 +26,42 @@ else:
 configBuffer = configFile.read().splitlines()
 #parse config file
 numNodes = int(configBuffer[0])
-logFile = open(str(configBuffer[4]), 'a+')
-if int(configBuffer[1]) == 00:
+graphPopSize = int(configBuffer[1])
+if int(configBuffer[2]) == 00:
     seed = startTime
 else:
-    seed = configBuffer[1]
+    seed = configBuffer[2]
 random.seed(seed)
-numRuns = configBuffer[2]
-numEvals = configBuffer[3]
-logFile = open(str(configBuffer[4]), 'a+')
-solutionFile = open(str(configBuffer[5]), 'a+')
-objectiveType = str(configBuffer[6]);
-penaltyCoefficient = str(configBuffer[7])
-parentSelType = str(configBuffer[8]).split("|")[0].strip()
+numRuns = configBuffer[3]
+numEvals = configBuffer[4]
+logFile = open(str(configBuffer[5]), 'a+')
+solutionFile = open(str(configBuffer[6]), 'a+')
+objectiveType = str(configBuffer[7]);
+penaltyCoefficient = str(configBuffer[8])
+parentSelType = str(configBuffer[9]).split("|")[0].strip()
 if(parentSelType == "tournament"):
-    pTournSize = str(configBuffer[8].split("|")[1])
-    pReplace = str(configBuffer[8].split("|")[2]).strip()
+    pTournSize = str(configBuffer[9].split("|")[1])
+    pReplace = str(configBuffer[9].split("|")[2]).strip()
 else:
     pTournSize = 0
-recombType = str(configBuffer[9]).split("|")[0].strip()
+recombType = str(configBuffer[10]).split("|")[0].strip()
 if(recombType == "npoint"):
-    numSplits = str(configBuffer[9].split("|")[1])
+    numSplits = str(configBuffer[10].split("|")[1])
 else:
     numSplits = 0
-survivalStrategy = str(configBuffer[10]).strip()
-survivalType = str(configBuffer[11]).split("|")[0].strip()
+survivalStrategy = str(configBuffer[11]).strip()
+survivalType = str(configBuffer[12]).split("|")[0].strip()
 if(survivalType == "tournament"):
-    survivalTournSize = str(configBuffer[11].split("|")[1])
-    survivalReplace = str(configBuffer[11].split("|")[2]).strip()
+    survivalTournSize = str(configBuffer[12].split("|")[1])
+    survivalReplace = str(configBuffer[12].split("|")[2]).strip()
 else:
     survivalTournSize = 0
-evalsUntilTermination = str(configBuffer[12].split("|")[0])
-diversityRange = str(configBuffer[12].split("|")[1])
-populationSize = int(configBuffer[13])
-parentSize = int(configBuffer[14])
-childrenSize = int(configBuffer[15])
-survivalSize = int(configBuffer[16])
+evalsUntilTermination = str(configBuffer[13].split("|")[0])
+diversityRange = str(configBuffer[13].split("|")[1])
+populationSize = int(configBuffer[14])
+parentSize = int(configBuffer[15])
+childrenSize = int(configBuffer[16])
+survivalSize = int(configBuffer[17])
 
 print configFile
 print logFile
@@ -84,12 +84,12 @@ logFile.write("MUTATION: BIT FLIP\n")
 logFile.write("EVALS UNTIL TERMINATION: %s\n" % evalsUntilTermination)
 logFile.write("POPULATION SIZE: %s\n" % str(parentSize))
 logFile.write("OFFSPRING SIZE: %s\n" % str(childrenSize))
-#TODO: SET THESE VALUES
-edges = buildGraph(numNodes)
-print edges
-numNodes = 100
-numEdges = 100
-numCuts = 0
+
+graphs = []
+for i in range(graphPopSize):
+   graphs.append(buildGraph(numNodes))
+print(len(graphs))
+
 sys.exit()
 #global is the best in ALL runs
 bestParetoFront = []
