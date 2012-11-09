@@ -246,15 +246,18 @@ def countSubgraphsAndCuts(edges, cut, graph):
     if cut.count(graph) >= 1:
         #ensures the node belongs to the correct graph
         while curNodeGraph != graph:
-            curNode = int(edgeIter.next())
+            try:
+                curNode = int(edgeIter.next())
+            except:
+                return [int(numSubgraphs), int(numCuts)]
             curNodeGraph = cut[curNode - 1]
         reachable = [curNode]
         explorable = []
 
         #loop until all nodes in the graph are explored
         while exploredNodes.count(1) < cut.count(graph):
-            for edgeIndex in range(len(edges[str(curNode)])):
-                adjacentNode = int(edges[str(curNode)][edgeIndex])
+            for edgeIndex in range(len(edges[curNode])):
+                adjacentNode = int(edges[curNode][edgeIndex])
                 if cut[adjacentNode - 1] == curNodeGraph and adjacentNode not in reachable:
                     reachable.append(adjacentNode)
                     explorable.append(adjacentNode)
@@ -264,8 +267,8 @@ def countSubgraphsAndCuts(edges, cut, graph):
             while len(explorable) > 0:
                 curNode = explorable.pop()
                 curNodeGraph = cut[curNode - 1]
-                for edgeIndex in range(len(edges[str(curNode)])):
-                    adjacentNode = int(edges[str(curNode)][edgeIndex])
+                for edgeIndex in range(len(edges[curNode])):
+                    adjacentNode = int(edges[curNode][edgeIndex])
                     if cut[adjacentNode - 1] == curNodeGraph and adjacentNode not in reachable:
                         reachable.append(adjacentNode)
                         explorable.append(adjacentNode)
@@ -273,10 +276,16 @@ def countSubgraphsAndCuts(edges, cut, graph):
                         numCuts += 1
                 exploredNodes[curNode - 1] = 1
             if exploredNodes.count(1) < cut.count(graph):
-                curNode = int(edgeIter.next())
+                try:
+                    curNode = int(edgeIter.next())
+                except StopIteration:
+                    return [int(numSubgraphs), int(numCuts)]
                 curNodeGraph = cut[curNode - 1]
                 while curNodeGraph != graph or exploredNodes[curNode -1] == 1:
-                    curNode = int(edgeIter.next())
+                    try:
+                        curNode = int(edgeIter.next())
+                    except StopIteration:
+                        return [int(numSubgraphs), int(numCuts)]
                     curNodeGraph = cut[curNode - 1]
                 reachable = [curNode]
                 explorable = []
@@ -291,7 +300,6 @@ def sortByDomination(population):
         for j in range(len(curLevel)):
             population[curLevel[j]["uid"]]["domLevel"] = i
     return sorted(population, key=itemgetter("domLevel"), reverse = False)
-
 
 
 

@@ -88,37 +88,46 @@ logFile.write("OFFSPRING SIZE: %s\n" % str(childrenSize))
 graphs = []
 for i in range(graphPopSize):
    graphs.append(buildGraph(numNodes))
-print(len(graphs))
+mutateGraph(graphs[0])
+recombinateGraphs(graphs[0], graphs[1])
 
-sys.exit()
 #global is the best in ALL runs
 bestParetoFront = []
 globalBestCut = []
 globalBestFitness = float("-inf")
 globalBestAvgFitness = float("-inf")
+globalBestGraphFitness = float("-inf")
+globalBestGraphAvgFitness = float("-inf")
+globalBestGraph = {}
 lastEvals = []
 for i in range(int(numRuns)):
     runStart =  Decimal(time.time() * 1000)
     #reinitialize the population for each run
     population = initPopulation(populationSize, numNodes)
-    #calculate the fitness for each item in the population
+    #calculate the fitness for each item in the cut population
     for curIndex in range(len(population)):
-        fitnessList = calculateFitness(edges, population[curIndex]["cut"], penaltyCoefficient)
-        population[curIndex]["fitness"] = fitnessList[0]
-        population[curIndex]["cutCount"] = fitnessList[1]
-        population[curIndex]["vertCount"] = fitnessList[2]
-        population[curIndex]["uid"] = curIndex
-    #sort the population by levels of dominance
+        #fitness is calculated against each graph
+        for graphIndex in range(graphPopSize):
+            #TODO - set the fitness of the graphs
+            edges = graphs[graphIndex]
+            fitnessList = calculateFitness(edges, population[curIndex]["cut"], penaltyCoefficient)
+            #calculateFitness returns a list - here it is parsed
+            population[curIndex]["fitness"] = fitnessList[0]
+            population[curIndex]["cutCount"] = fitnessList[1]
+            population[curIndex]["vertCount"] = fitnessList[2]
+            population[curIndex]["uid"] = curIndex
+    #sort the cut population by levels of dominance
     if objectiveType == "MOEA":
         population = sortByDomination(population)
-    runBestFitness = float("-inf")
     #local is the best for each run
+    runBestFitness = float("-inf")
     runBestCut = []
+    runBestGraphFitness = float("-inf")
     lastEvals = []
     logFile.write("RUN: " + str(i + 1) + "\n")
     print("RUN: " + str(i + 1))
     for j in range(int(numEvals)):
-        #select parents
+        #select cut parents
         if parentSelType == "tournament":
             if pReplace == "r":
                 parents = tournSelect(edges, population, parentSize, pTournSize, True, objectiveType, penaltyCoefficient)
@@ -134,13 +143,13 @@ for i in range(int(numRuns)):
         else:
             print "INVALID PARENT SELECTION TYPE"
             sys.exit()
-        #make children by recombination
+        #make cut children by recombination
         children = recombinate(edges, parents, recombType, objectiveType, int(numSplits), penaltyCoefficient)[0:childrenSize]
-        #mutate children
+        #mutate cut children
         children = mutate(edges, children, objectiveType, penaltyCoefficient)
         if objectiveType == "MOEA":
             children = sortByDomination(children)
-        #set the population depending on the survival strategy
+        #set the cut population depending on the survival strategy
         if survivalStrategy == "+":
             population = children + parents
         elif survivalStrategy == "-":
@@ -149,7 +158,7 @@ for i in range(int(numRuns)):
             print "INVALID SURVIVAL STRATEGY"
             sys.exit()
 
-        #select survivors
+        #select cut survivors
         if survivalType == "tournament":
             if survivalReplace == "r":
                 population = tournSelect(edges, population, survivalSize, survivalTournSize, True, objectiveType, penaltyCoefficient)
@@ -178,12 +187,12 @@ for i in range(int(numRuns)):
         localAvgFitness = averageFitness(population)
         logFile.write('\t' + str(j + 1) + "\t" + str(localAvgFitness) + "\t" + str(localBestFitness) + "\n")
         logFile.flush()
-        #update the runBestFitness if needed
+        #update the cut runBestFitness if needed
         if localBestFitness > runBestFitness:
             lastEvals = []
             runBestFitness = localBestFitness
             runBestCut = population[0]["cut"]
-            #update globalBestFitness if needed
+            #update cut globalBestFitness if needed
             if runBestFitness > globalBestFitness:
                 globalBestFitness = localBestFitness
                 globalBestCut = population[0]["cut"]
@@ -192,12 +201,13 @@ for i in range(int(numRuns)):
             globalBestAvgFitness = localAvgFitness
             for i in range(len(population)):
                 curIndy = population[i]
-                if curIndy["domLevel"] == 0:
-                    bestParetoFront.append(curIndy)
-                    solutionFile.write(str(bestParetoFront[i]["cutCount"]) + "\t" + str(bestParetoFront[i]["vertCount"]) + "\t" + str(bestParetoFront[i]["fitness"]) + "\t" + str(bestParetoFront[i]["cut"]) + "\n")
-                else:
-                    break
-         #termination condition - reset population if there isn't enough variance
+                if objectiveType == "MOEA":
+                    if curIndy["domLevel"] == 0:
+                        bestParetoFront.append(curIndy)
+                        solutionFile.write(str(bestParetoFront[i]["cutCount"]) + "\t" + str(bestParetoFront[i]["vertCount"]) + "\t" + str(bestParetoFront[i]["fitness"]) + "\t" + str(bestParetoFront[i]["cut"]) + "\n")
+                    else:
+                        break
+         #termination condition - reset cut population if there isn't enough variance
         if len(lastEvals) < evalsUntilTermination:
             lastEvals.append({"bestFitness": localBestFitness, "avgFitness": localAvgFitness})
         else:
@@ -214,7 +224,7 @@ for i in range(int(numRuns)):
                     population[curIndex]["cutCount"] = fitnessList[1]
                     population[curIndex]["vertCount"] = fitnessList[2]
                     population[curIndex]["uid"] = curIndex
-        #write the avg and best fitness for the last evaluation
+        #write the avg and best cut fitness for the last evaluation
         if j + 1 == int(numEvals):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
     runEnd =  Decimal(time.time() * 1000)
