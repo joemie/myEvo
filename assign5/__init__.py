@@ -87,9 +87,10 @@ logFile.write("OFFSPRING SIZE: %s\n" % str(childrenSize))
 
 graphs = []
 for i in range(graphPopSize):
-   graphs.append(buildGraph(numNodes))
+    graphs.append({"edges":buildGraph(numNodes)})
+    graphs[i]["fitness"] = 0
 mutateGraph(graphs[0])
-recombinateGraphs(graphs[0], graphs[1])
+recombinateGraphs(graphs[0]["edges"], graphs[1]["edges"])
 
 #global is the best in ALL runs
 bestParetoFront = []
@@ -106,16 +107,27 @@ for i in range(int(numRuns)):
     population = initPopulation(populationSize, numNodes)
     #calculate the fitness for each item in the cut population
     for curIndex in range(len(population)):
-        #fitness is calculated against each graph
+        #fitness of cut is calculated against each graph
+        sumFitness = 0
+        sumCutCount = 0
+        sumVertCount = 0
         for graphIndex in range(graphPopSize):
-            #TODO - set the fitness of the graphs
-            edges = graphs[graphIndex]
+            edges = graphs[graphIndex]["edges"]
             fitnessList = calculateFitness(edges, population[curIndex]["cut"], penaltyCoefficient)
             #calculateFitness returns a list - here it is parsed
-            population[curIndex]["fitness"] = fitnessList[0]
-            population[curIndex]["cutCount"] = fitnessList[1]
-            population[curIndex]["vertCount"] = fitnessList[2]
-            population[curIndex]["uid"] = curIndex
+            sumFitness += fitnessList[0]
+            sumCutCount += fitnessList[1]
+            sumVertCount += fitnessList[2]
+            graphs[graphIndex]["fitness"] += fitnessList[0]
+        population[curIndex]["fitness"] = sumFitness / graphPopSize
+        population[curIndex]["cutCount"] = sumCutCount / graphPopSize
+        population[curIndex]["vertCount"] = sumVertCount / graphPopSize
+        population[curIndex]["uid"] = curIndex
+    #make the fitness of a graph an average
+    for i in range(graphPopSize):
+        graphs[i]["fitness"] = graphs[i]["fitness"] / len(population)
+    print graphs
+    sys.exit()
     #sort the cut population by levels of dominance
     if objectiveType == "MOEA":
         population = sortByDomination(population)
