@@ -22,7 +22,7 @@ def averageFitness(population):
     return totalFitness / popSize
 
 
-def tournSelect(edges, population, survivalSize, tournSize, replacement, objectiveType, penaltyCoefficient = 0):
+def tournSelect(population, survivalSize, tournSize, replacement, objectiveType, penaltyCoefficient = 0):
     selected = []
     tPopulation = population[:]
     if replacement == True:
@@ -32,11 +32,10 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, objecti
             #build a tournament by selecting random items in the popuation
             for j in range(int(tournSize)):
                 popIndex = random.randint(0, len(population) - 1)
-                fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
                 if objectiveType == "SOEA":
-                    tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                    tournSelect.append(population[popIndex])
                 if objectiveType == "MOEA":
-                     tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid, "domLevel": population[popIndex]["domLevel"]})
+                     tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": population[popIndex]["fitness"], "cutCount":  population[popIndex]["cutCount"], "vertCount":  population[popIndex]["vertCount"], "domLevel": population[popIndex]["domLevel"], "uid": uid})
                 uid += 1
             #select the most fit in the tournament
             if objectiveType == "SOEA":
@@ -55,11 +54,10 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, objecti
             for j in range(int(tournSize)):
                 if len(tPopulation) > 1:
                     popIndex = random.randint(0, len(tPopulation) - 1)
-                    fitnessList = calculateFitness(edges, tPopulation[popIndex]["cut"], penaltyCoefficient)
                     if objectiveType == "SOEA":
-                        tournSelect.append({"cut" : tPopulation[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                        tournSelect.append({"cut" : tPopulation[popIndex]["cut"] , "fitness":  tPopulation[popIndex]["fitness"], "cutCount": tPopulation[popIndex]["cutCount"], "vertCount": tPopulation[popIndex]["vertCount"], "uid": uid})
                     if objectiveType == "MOEA":
-                        tournSelect.append({"cut" : tPopulation[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid, "domLevel": tPopulation[popIndex]["domLevel"]})
+                        tournSelect.append({"cut" : tPopulation[popIndex]["cut"] , "fitness":  tPopulation[popIndex]["fitness"], "cutCount": tPopulation[popIndex]["cutCount"], "vertCount": tPopulation[popIndex]["vertCount"], "uid": uid, "domLevel": tPopulation[popIndex]["domLevel"]})
                     uid += 1
                 else:
                     print "CUT TOURNAMENT POPULATION EMPTY"
@@ -84,7 +82,7 @@ def randomSelect(population, size):
     return selected
 
 
-def fitPropSelect(edges, population, survivalSize):
+def fitPropSelect(population, survivalSize):
     propPop = []
     totalFitness = 0
     for i in range(len(population)):
@@ -100,7 +98,7 @@ def fitPropSelect(edges, population, survivalSize):
     return propPop[0:survivalSize]
 
 
-def recombinate(edges, parents, recombType, objectiveType, numSplits = None, penaltyCoefficient = 0):
+def recombinate(parents, recombType, objectiveType, numSplits = None, penaltyCoefficient = 0):
     children = []
     if recombType == "npoint" and numSplits == None:
         print "INVALID CALL TO RECOMBINATE - SPLIT SIZE NOT SPECIFIED"
@@ -137,8 +135,7 @@ def recombinate(edges, parents, recombType, objectiveType, numSplits = None, pen
                         cut[curPosition:] = parent0[curPosition:]
                     else:
                         cut[curPosition:] = parent1[curPosition:]
-                fitnessList = calculateFitness(edges, cut, penaltyCoefficient)
-                children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": index})
+                children.append({"cut": cut, "fitness": 0, "cutCount": 0, "vertCount": 0, "evalCount": 0, "uid": index})
 #            splitSize = len(parents[0]['cut']) / numSplits
 #            for i in range(len(parents) - 1):
 #                parent1 = parents[i]['cut']
@@ -169,14 +166,13 @@ def recombinate(edges, parents, recombType, objectiveType, numSplits = None, pen
                     cut.append(parent1[j])
                 else:
                     cut.append(parent2[j])
-            fitnessList = calculateFitness(edges, cut, penaltyCoefficient)
-            children.append({"cut": cut, "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": i})
+            children.append({"cut": cut, "fitness": 0, "cutCount":0, "vertCount": 0, "evalCount": 0, "uid": i})
     else:
         print "INVALID RECOMBINATION TYPE IN CONFIG FILE"
     return children
 
 
-def mutate(edges, population, objectiveType, penaltyCoefficient):
+def mutate(population, objectiveType, penaltyCoefficient):
     for i in range(len(population)):
         numMutations = random.randrange(0,len(population[0]["cut"]))
         for j in range(numMutations):
@@ -186,10 +182,10 @@ def mutate(edges, population, objectiveType, penaltyCoefficient):
                 population[i]["cut"][index] = '1'
             else:
                 population[i]["cut"][index] = '0'
-        fitnessList = calculateFitness(edges, population[i]["cut"], penaltyCoefficient)
-        population[i]["fitness"] = fitnessList[0]
-        population[i]["cutCount"] = fitnessList[1]
-        population[i]["vertCount"] = fitnessList[2]
+        population[i]["fitness"] = 0
+        population[i]["cutCount"] = 0
+        population[i]["vertCount"] = 0
+        population[i]["evalCount"] = 0
     return population
 #    only 1 call to random but slower
 #    for i in range(len(population)):

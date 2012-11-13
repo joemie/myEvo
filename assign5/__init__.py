@@ -68,7 +68,7 @@ if(parentSelType == "tournament"):
     pTournSizeGraph = str(configBuffer[19].split("|")[1])
     pReplaceGraph = str(configBuffer[19].split("|")[2]).strip()
 else:
-    pGraphTournSize = 0
+    pTournSizeGraph = 0
 survivalStrategyGraph = str(configBuffer[20]).strip()
 survivalTypeGraph = str(configBuffer[21]).split("|")[0].strip()
 if(survivalTypeGraph == "tournament"):
@@ -76,6 +76,10 @@ if(survivalTypeGraph == "tournament"):
     survivalReplaceGraph = str(configBuffer[21].split("|")[2]).strip()
 else:
     survivalTournSizeGraph = 0
+parentSizeGraph = int(configBuffer[22])
+childrenSizeGraph = int(configBuffer[23])
+survivalSizeGraph = int(configBuffer[24])
+
 
 print configFile
 print logFile
@@ -105,11 +109,11 @@ if parentSelTypeGraph == "tournament":
     logFile.write("PARENT SELECTION : %s T-SIZE: %s REPLACE: %s\n" % (parentSelTypeGraph,  str(pTournSizeGraph), pReplaceGraph))
 else:
     logFile.write("PARENT SELECTION TYPE: %s \n" % parentSelTypeGraph)
-logFile.write("SURVIVAL STRATEGY: %s \n" % survivalStrategyGraph)
+logFile.write("GRAPH SURVIVAL STRATEGY: %s \n" % survivalStrategyGraph)
 if survivalTypeGraph == "tournament":
-    logFile.write("SURVIVAL SELECTION: %s T-SIZE: %s REPLACE: %s\n" % (survivalTypeGraph, str(survivalTournSizeGraph), survivalReplaceGraph))
+    logFile.write("GRAPH SURVIVAL SELECTION: %s T-SIZE: %s REPLACE: %s\n" % (survivalTypeGraph, str(survivalTournSizeGraph), survivalReplaceGraph))
 else:
-    logFile.write("SURVIVAL SELECTION: %s " % survivalTypeGraph + "\n")
+    logFile.write("GRAPH SURVIVAL SELECTION: %s " % survivalTypeGraph + "\n")
 
 graphs = []
 for i in range(graphPopSize):
@@ -166,14 +170,25 @@ for i in range(int(numRuns)):
     logFile.write("RUN: " + str(i + 1) + "\n")
     print("RUN: " + str(i + 1))
     for j in range(int(numEvals)):
-        #TODO ADD SELECTION PARAMETER TO INPUT FILE
-        graphsParents = tournSelectGraphs(graphs, 4, 2, False)
+        if parentSelTypeGraph == "tournament":
+            if pReplace == "r":
+                graphParents = tournSelectGraphs(graphs, parentSizeGraph, pTournSizeGraph, True)
+            elif pReplace == "nr":
+                graphParents = tournSelectGraphs(graphs, parentSizeGraph, pTournSizeGraph, False)
+            else:
+                print "INVALID PARENT SELECTION PARAMETER"
+                sys.exit()
+        elif parentSelTypeGraph == "random":
+            graphParents = randomSelect(graphs, parentSizeGraph)
+        else:
+            print "INVALID PARENT SELECTION TYPE FOR GRAPHS"
+            sys.exit()
         #select cut cutParents
         if parentSelType == "tournament":
             if pReplace == "r":
-                cutParents = tournSelect(edges, population, parentSize, pTournSize, True, objectiveType, penaltyCoefficient)
+                cutParents = tournSelect(population, parentSize, pTournSize, True, objectiveType, penaltyCoefficient)
             elif pReplace in 'nr':
-                cutParents = tournSelect(edges, population, parentSize, pTournSize, False, objectiveType, penaltyCoefficient)
+                cutParents = tournSelect(population, parentSize, pTournSize, False, objectiveType, penaltyCoefficient)
             else:
                 print "INVALID PARENT SELECTION PARAMETER"
                 sys.exit()
@@ -184,27 +199,72 @@ for i in range(int(numRuns)):
         else:
             print "INVALID PARENT SELECTION TYPE"
             sys.exit()
+        #make graph children by recombination
+        graphChildren = []
+        for i in range(len(graphParents) - 1):
+            graphChildren.append({"edges": recombinateGraphs(graphParents[i]["edges"], graphParents[i+1]["edges"]), "evalCount": 0})
         #make cut children by recombination
-        children = recombinate(edges, cutParents, recombType, objectiveType, int(numSplits), penaltyCoefficient)[0:childrenSize]
+        children = recombinate(cutParents, recombType, objectiveType, int(numSplits), penaltyCoefficient)[0:childrenSize]
+        #mutate graph children
+        #TODO  print graphChildren[0]
+        for indy in graphChildren:
+            indy["edges"] =  mutateGraph(indy["edges"])
+        print graphChildren[0]
+        sys.exit()
         #mutate cut children
-        children = mutate(edges, children, objectiveType, penaltyCoefficient)
+        children = mutate(children, objectiveType, penaltyCoefficient)
         if objectiveType == "MOEA":
             children = sortByDomination(children)
         #set the cut population depending on the survival strategy
         if survivalStrategy == "+":
             population = children + cutParents
+            for indy in cutParents:
+                indy["fitness"] = 0
+                indy["cutCount"] = 0
+                indy["vertCount"] = 0
+                indy["evalCount"] = 0
+            for indy in graphParents:
+                indy["evalCount"] = 0
         elif survivalStrategy == "-":
             population = children
         else:
             print "INVALID SURVIVAL STRATEGY"
             sys.exit()
+        #calculate the fitness for each item in the cut population
+        print "TODO: GOT IN"
+        for curIndex in range(len(population)):
+            for graphIndex in range(int(len(graphs) * (samplingSize/100.0))):  #this is 10
+                tempGraph = choice(graphs)
+                tempCut = choice(population)
+                #make sure a graph isn't evaluatied more than the sampling size allows
+                while(tempGraph["evalCount"] == int(graphPopSize * (samplingSize/100.0))):
+                    tempGraph = choice(graphs)
+                #make sure a cut isn't evaluatied more than the sampling size allows
+                while(tempCut["evalCount"] == int(populationSize * (samplingSize/100.0))):
+                    tempCut = choice(population)
+                fitnessList = calculateFitness(tempGraph["edges"], population[curIndex]["cut"], penaltyCoefficient)
+                tempCut["fitness"] += fitnessList[0]
+                tempCut["cutCount"] += fitnessList[1]
+                tempCut["vertCount"] += fitnessList[2]
+                tempGraph["fitness"] += fitnessList[0]
+                tempGraph["evalCount"] += 1
+                tempCut["evalCount"] += 1
+        print "TODO: GOT OUT "
+        #make the fitness of a graph an average
+        for index in range(graphPopSize):
+            graphs[index]["fitness"] = graphs[index]["fitness"] / graphs[index]["evalCount"]
+        #make the fitness of a cut an average
+        for index in range(len(population)):
+            population[index]["fitness"] = population[index]["fitness"] / population[index]["evalCount"]
+            population[index]["cutCount"] = population[index]["cutCount"] / population[index]["evalCount"]
+            population[index]["vertCount"] = population[index]["vertCount"] / population[index]["evalCount"]
 
         #select cut survivors
         if survivalType == "tournament":
             if survivalReplace == "r":
-                population = tournSelect(edges, population, survivalSize, survivalTournSize, True, objectiveType, penaltyCoefficient)
+                population = tournSelect(population, survivalSize, survivalTournSize, True, objectiveType, penaltyCoefficient)
             elif survivalReplace == "nr":
-                population = tournSelect(edges, population, survivalSize, survivalTournSize, False, objectiveType, penaltyCoefficient)
+                population = tournSelect(population, survivalSize, survivalTournSize, False, objectiveType, penaltyCoefficient)
             else:
                 print "INVALID SURVIVAL SELECTION PARAMETER"
                 sys.exit()
@@ -264,7 +324,6 @@ for i in range(int(numRuns)):
                     population[curIndex]["fitness"] = fitnessList[0]
                     population[curIndex]["cutCount"] = fitnessList[1]
                     population[curIndex]["vertCount"] = fitnessList[2]
-                    population[curIndex]["uid"] = curIndex
         #write the avg and best cut fitness for the last evaluation
         if j + 1 == int(numEvals):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')

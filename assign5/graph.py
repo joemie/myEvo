@@ -27,6 +27,10 @@ def mutateGraph(edges):
                 edges[i] = []
             if(j in edges[i] and mutationValues[mutationIndex] < 3):
                 #large chance of deleting an edge
+                print edges[i]
+                print edges[j]
+                print "I: " + str(i)
+                print "J: " + str(j)
                 edges[i].remove(j)
                 edges[j].remove(i)
             if(j not in edges[i] and mutationValues[mutationIndex] < 3):
@@ -54,6 +58,10 @@ def recombinateGraphs(graph1, graph2):
             child[i] = graph1[i]
         else:
             child[i] = graph2[i]
+    #print graph1
+    #print graph2
+    print child
+    sys.exit()
     return child
 
 def randomSelectGraphs(population, size):
