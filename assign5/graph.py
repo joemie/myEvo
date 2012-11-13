@@ -16,7 +16,7 @@ def buildGraph(numNodes):
     return edges
 
 def mutateGraph(edges):
-    mutationValues = map(int, str(random.randrange(2 ** (20000), 2 ** 20001)))
+    mutationValues = map(int, str(random.randrange(2 ** (40000), 2 ** 40001)))
     mutationIndex = 0
     for i in range(1, len(edges)):
         for j in range(i+1, len(edges)):
@@ -27,10 +27,6 @@ def mutateGraph(edges):
                 edges[i] = []
             if(j in edges[i] and mutationValues[mutationIndex] < 3):
                 #large chance of deleting an edge
-                print edges[i]
-                print edges[j]
-                print "I: " + str(i)
-                print "J: " + str(j)
                 edges[i].remove(j)
                 edges[j].remove(i)
             if(j not in edges[i] and mutationValues[mutationIndex] < 3):
@@ -42,27 +38,64 @@ def mutateGraph(edges):
                 edges[j].sort()
             mutationIndex += 1
             #make sure not to run off the end of the list
-            if(mutationIndex >= len(mutationValues)):
+            if(mutationIndex >= len(mutationValues) - 1):
                 mutationIndex = 0
     return edges
 
 def recombinateGraphs(graph1, graph2):
-    #keep odd edges from graph1
-    #keep even edges from graph2
-    #alternatively generate random of length 150 use odd/even with this
     child = {}
     for i in range(1, len(graph1)+1):
         child[i] = []
     for i in range(1, len(graph1)+1):
-        if i % 2 == 0:
-            child[i] = graph1[i]
-        else:
-            child[i] = graph2[i]
-    #print graph1
-    #print graph2
-    print child
-    sys.exit()
+        g1Node = graph1[i]
+        g2Node = graph2[i]
+        for j in range(i, len(graph2)+1):
+            if j in g1Node:
+                g1Flag = True
+            else:
+                g1Flag = False
+            if j in g2Node:
+                g2Flag = True
+            else:
+                g2Flag = False
+            if g1Flag and g2Flag:
+                child[i].append(j)
+                child[j].append(i)
+            elif g1Flag and not g2Flag:
+                #chance to add edge
+                bit = random.getrandbits(1)
+                if bit == 1:
+                    child[i].append(j)
+                    child[j].append(i)
+            elif g2Flag and not g1Flag:
+                #chance to add edge
+                bit = random.getrandbits(1)
+                if bit == 1:
+                    child[i].append(j)
+                    child[j].append(i)
     return child
+
+#keep odd edges from graph1
+#keep even edges from graph2
+#alternatively generate random of length 150 use odd/even with this
+#SLOW AS BALLS
+#    child = {}
+#    for i in range(1, len(graph1)+1):
+#        child[i] = []
+#    for i in range(1, len(graph1)+1):
+#        if i % 2 == 0:
+#            for node in graph1[i]:
+#                if node not in child[i]:
+#                    child[i].append(node)
+#                if i not in child[node]:
+#                    child[node].append(i)
+#        else:
+#            for node in graph2[i]:
+#                if node not in child[i]:
+#                    child[i].append(node)
+#                if i not in child[node]:
+#                    child[node].append(i)
+#    return child
 
 def randomSelectGraphs(population, size):
     selected = []
