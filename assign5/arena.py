@@ -6,7 +6,7 @@ from operator import itemgetter
 def initPopulation(popSize, strSize):
     pop = []
     for i in range(popSize):
-        pop.append({"cut": list(bin(random.randrange(2 ** (int(strSize) - 1), 2 ** int(strSize)))[2:])})
+        pop.append({"cut": list(bin(random.randrange(2 ** (int(strSize) - 1), 2 ** int(strSize)))[2:]), "fitness": 0, "cutCount": 0, "vertCount":0, "evalCount": 0})
     return pop
 
 
@@ -24,6 +24,7 @@ def averageFitness(population):
 
 def tournSelect(edges, population, survivalSize, tournSize, replacement, objectiveType, penaltyCoefficient = 0):
     selected = []
+    tPopulation = population[:]
     if replacement == True:
         uid = 0
         for i in range(int(survivalSize)):
@@ -52,14 +53,18 @@ def tournSelect(edges, population, survivalSize, tournSize, replacement, objecti
             tournSelect = []
             #build a tournament by selecting random items in the popuation
             for j in range(int(tournSize)):
-                popIndex = random.randint(0, len(population) - 1)
-                fitnessList = calculateFitness(edges, population[popIndex]["cut"], penaltyCoefficient)
-                if objectiveType == "SOEA":
-                    tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
-                if objectiveType == "MOEA":
-                    tournSelect.append({"cut" : population[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid, "domLevel": population[popIndex]["domLevel"]})
-                uid += 1
-            del population[popIndex]
+                if len(tPopulation) > 1:
+                    popIndex = random.randint(0, len(tPopulation) - 1)
+                    fitnessList = calculateFitness(edges, tPopulation[popIndex]["cut"], penaltyCoefficient)
+                    if objectiveType == "SOEA":
+                        tournSelect.append({"cut" : tPopulation[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid})
+                    if objectiveType == "MOEA":
+                        tournSelect.append({"cut" : tPopulation[popIndex]["cut"] , "fitness": fitnessList[0], "cutCount": fitnessList[1], "vertCount": fitnessList[2], "uid": uid, "domLevel": tPopulation[popIndex]["domLevel"]})
+                    uid += 1
+                else:
+                    print "CUT TOURNAMENT POPULATION EMPTY"
+                    sys.exit()
+            del tPopulation[popIndex]
             #select the most fit in the tournament
             if objectiveType == "SOEA":
                 tournSelect = sorted(tournSelect, key=itemgetter('fitness'), reverse=True)

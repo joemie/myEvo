@@ -11,7 +11,7 @@ import os
 from graph import *
 from arena import *
 from decimal import Decimal
-
+from random import choice
 startTime = Decimal(time.time() * 1000)
 args = sys.argv[1:]
 configFile = None
@@ -36,7 +36,7 @@ numRuns = configBuffer[3]
 numEvals = configBuffer[4]
 logFile = open(str(configBuffer[5]), 'a+')
 solutionFile = open(str(configBuffer[6]), 'a+')
-objectiveType = str(configBuffer[7]);
+objectiveType = str(configBuffer[7])
 penaltyCoefficient = str(configBuffer[8])
 parentSelType = str(configBuffer[9]).split("|")[0].strip()
 if(parentSelType == "tournament"):
@@ -62,9 +62,10 @@ populationSize = int(configBuffer[14])
 parentSize = int(configBuffer[15])
 childrenSize = int(configBuffer[16])
 survivalSize = int(configBuffer[17])
-
+samplingSize = int(configBuffer[18]) #as a percentage
 print configFile
 print logFile
+
 logFile.write("SESSION START : %s\n" % startTime)
 logFile.write("SESSION SEED  : %s\n" % seed)
 if parentSelType == "tournament":
@@ -84,13 +85,12 @@ logFile.write("MUTATION: BIT FLIP\n")
 logFile.write("EVALS UNTIL TERMINATION: %s\n" % evalsUntilTermination)
 logFile.write("POPULATION SIZE: %s\n" % str(parentSize))
 logFile.write("OFFSPRING SIZE: %s\n" % str(childrenSize))
+logFile.write("GRAPH POPULATION SIZE: %s\n" % str(graphPopSize))
+logFile.write("SAMPLING SIZE %s\n" % str(samplingSize))
 
 graphs = []
 for i in range(graphPopSize):
-    graphs.append({"edges":buildGraph(numNodes)})
-    graphs[i]["fitness"] = 0
-mutateGraph(graphs[0])
-recombinateGraphs(graphs[0]["edges"], graphs[1]["edges"])
+    graphs.append({"edges":buildGraph(numNodes), "fitness": 0, "evalCount": 0})
 
 #global is the best in ALL runs
 bestParetoFront = []
@@ -106,27 +106,32 @@ for i in range(int(numRuns)):
     #reinitialize the population for each run
     population = initPopulation(populationSize, numNodes)
     #calculate the fitness for each item in the cut population
-    for curIndex in range(len(population)):
-        #fitness of cut is calculated against each graph
-        sumFitness = 0
-        sumCutCount = 0
-        sumVertCount = 0
-        for graphIndex in range(graphPopSize):
-            edges = graphs[graphIndex]["edges"]
-            fitnessList = calculateFitness(edges, population[curIndex]["cut"], penaltyCoefficient)
-            #calculateFitness returns a list - here it is parsed
-            sumFitness += fitnessList[0]
-            sumCutCount += fitnessList[1]
-            sumVertCount += fitnessList[2]
-            graphs[graphIndex]["fitness"] += fitnessList[0]
-        population[curIndex]["fitness"] = sumFitness / graphPopSize
-        population[curIndex]["cutCount"] = sumCutCount / graphPopSize
-        population[curIndex]["vertCount"] = sumVertCount / graphPopSize
-        population[curIndex]["uid"] = curIndex
+    for curIndex in range(populationSize):
+        for graphIndex in range(int(graphPopSize * (samplingSize/100.0))):  #this is 10
+            tempGraph = choice(graphs)
+            tempCut = choice(population)
+            #make sure a graph isn't evaluatied more than the sampling size allows
+            while(tempGraph["evalCount"] == int(graphPopSize * (samplingSize/100.0))):
+                tempGraph = choice(graphs)
+            #make sure a cut isn't evaluatied more than the sampling size allows
+            while(tempCut["evalCount"] == int(populationSize * (samplingSize/100.0))):
+                tempCut = choice(population)
+            fitnessList = calculateFitness(tempGraph["edges"], population[curIndex]["cut"], penaltyCoefficient)
+            tempCut["fitness"] += fitnessList[0]
+            tempCut["cutCount"] += fitnessList[1]
+            tempCut["vertCount"] += fitnessList[2]
+            tempGraph["fitness"] += fitnessList[0]
+            tempGraph["evalCount"] += 1
+            tempCut["evalCount"] += 1
     #make the fitness of a graph an average
-    for i in range(graphPopSize):
-        graphs[i]["fitness"] = graphs[i]["fitness"] / len(population)
-    print graphs
+    for index in range(graphPopSize):
+        graphs[index]["fitness"] = graphs[index]["fitness"] / graphs[index]["evalCount"]
+    #make the fitness of a cut an average
+    for index in range(len(population)):
+        population[index]["fitness"] = population[index]["fitness"] / population[index]["evalCount"]
+        population[index]["cutCount"] = population[index]["cutCount"] / population[index]["evalCount"]
+        population[index]["vertCount"] = population[index]["vertCount"] / population[index]["evalCount"]
+        print "FIT:  %s\tCUT:  %s\tVERT:  %s\tEVAL:  %s\t"  %(str(population[index]["fitness"]), str(population[index]["cutCount"]), str(population[index]["vertCount"]), str(population[index]["evalCount"]))
     sys.exit()
     #sort the cut population by levels of dominance
     if objectiveType == "MOEA":
@@ -139,31 +144,33 @@ for i in range(int(numRuns)):
     logFile.write("RUN: " + str(i + 1) + "\n")
     print("RUN: " + str(i + 1))
     for j in range(int(numEvals)):
-        #select cut parents
+        #TODO ADD SELECTION PARAMETER TO INPUT FILE
+        graphsParents = tournSelectGraphs(graphs, 4, 2, False)
+        #select cut cutParents
         if parentSelType == "tournament":
             if pReplace == "r":
-                parents = tournSelect(edges, population, parentSize, pTournSize, True, objectiveType, penaltyCoefficient)
+                cutParents = tournSelect(edges, population, parentSize, pTournSize, True, objectiveType, penaltyCoefficient)
             elif pReplace in 'nr':
-                parents = tournSelect(edges, population, parentSize, pTournSize, False, objectiveType, penaltyCoefficient)
+                cutParents = tournSelect(edges, population, parentSize, pTournSize, False, objectiveType, penaltyCoefficient)
             else:
                 print "INVALID PARENT SELECTION PARAMETER"
                 sys.exit()
         elif parentSelType == "fitprop":
-            parents = fitPropSelect(edges, population, parentSize)
+            cutParents = fitPropSelect(edges, population, parentSize)
         elif parentSelType == "random":
-            parents = randomSelect(population, parentSize)
+            cutParents = randomSelect(population, parentSize)
         else:
             print "INVALID PARENT SELECTION TYPE"
             sys.exit()
         #make cut children by recombination
-        children = recombinate(edges, parents, recombType, objectiveType, int(numSplits), penaltyCoefficient)[0:childrenSize]
+        children = recombinate(edges, cutParents, recombType, objectiveType, int(numSplits), penaltyCoefficient)[0:childrenSize]
         #mutate cut children
         children = mutate(edges, children, objectiveType, penaltyCoefficient)
         if objectiveType == "MOEA":
             children = sortByDomination(children)
         #set the cut population depending on the survival strategy
         if survivalStrategy == "+":
-            population = children + parents
+            population = children + cutParents
         elif survivalStrategy == "-":
             population = children
         else:

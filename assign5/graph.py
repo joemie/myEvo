@@ -1,5 +1,6 @@
 import random
 import sys
+from operator import itemgetter
 def buildGraph(numNodes):
     edges = {}
     edgeFlags = list(bin(random.randrange(2 ** (11025), 2 ** 11026))[2:])
@@ -54,3 +55,39 @@ def recombinateGraphs(graph1, graph2):
         else:
             child[i] = graph2[i]
     return child
+
+def randomSelectGraphs(population, size):
+    selected = []
+    for i in range(int(size)):
+        selected.append(random.choice(population))
+    return selected
+
+def tournSelectGraphs(population, survivalSize, tournSize, replacement):
+    selected = []
+    tPopulation = population[:]
+    if replacement == True:
+        for i in range(int(survivalSize)):
+            tournSelect = []
+            #build a tournament by selecting random items in the popuation
+            for j in range(int(tournSize)):
+                popIndex = random.randint(0, len(tPopulation) - 1)
+                tournSelect.append(tPopulation[popIndex])
+            #select the most fit in the tournament
+            tournSelect = sorted(tournSelect, key=itemgetter("fitness"), reverse=False)
+            selected.append(tournSelect[0])
+    else:
+        for i in range(int(survivalSize)):
+            tournSelect = []
+            #build a tournament by selecting random items in the popuation
+            for j in range(int(tournSize)):
+                if(len(tPopulation) > 1):
+                    popIndex = random.randint(0, len(tPopulation) - 1)
+                    tournSelect.append(tPopulation[popIndex])
+                else:
+                    print "GRAPH TOURNAMENT POPULATION EMPTY"
+                    sys.exit()
+            del tPopulation[popIndex]
+            #select the most fit in the tournament
+            tournSelect = sorted(tournSelect, key=itemgetter("fitness"), reverse=False)
+            selected.append(tournSelect[0])
+    return selected
