@@ -62,7 +62,21 @@ populationSize = int(configBuffer[14])
 parentSize = int(configBuffer[15])
 childrenSize = int(configBuffer[16])
 survivalSize = int(configBuffer[17])
-samplingSize = int(configBuffer[18]) #as a percentage
+samplingSize = int(configBuffer[18])
+parentSelTypeGraph = str(configBuffer[19]).split("|")[0].strip()
+if(parentSelType == "tournament"):
+    pTournSizeGraph = str(configBuffer[19].split("|")[1])
+    pReplaceGraph = str(configBuffer[19].split("|")[2]).strip()
+else:
+    pGraphTournSize = 0
+survivalStrategyGraph = str(configBuffer[20]).strip()
+survivalTypeGraph = str(configBuffer[21]).split("|")[0].strip()
+if(survivalTypeGraph == "tournament"):
+    survivalTournSizeGraph = str(configBuffer[21].split("|")[1])
+    survivalReplaceGraph = str(configBuffer[21].split("|")[2]).strip()
+else:
+    survivalTournSizeGraph = 0
+
 print configFile
 print logFile
 
@@ -87,6 +101,15 @@ logFile.write("POPULATION SIZE: %s\n" % str(parentSize))
 logFile.write("OFFSPRING SIZE: %s\n" % str(childrenSize))
 logFile.write("GRAPH POPULATION SIZE: %s\n" % str(graphPopSize))
 logFile.write("SAMPLING SIZE %s\n" % str(samplingSize))
+if parentSelTypeGraph == "tournament":
+    logFile.write("PARENT SELECTION : %s T-SIZE: %s REPLACE: %s\n" % (parentSelTypeGraph,  str(pTournSizeGraph), pReplaceGraph))
+else:
+    logFile.write("PARENT SELECTION TYPE: %s \n" % parentSelTypeGraph)
+logFile.write("SURVIVAL STRATEGY: %s \n" % survivalStrategyGraph)
+if survivalTypeGraph == "tournament":
+    logFile.write("SURVIVAL SELECTION: %s T-SIZE: %s REPLACE: %s\n" % (survivalTypeGraph, str(survivalTournSizeGraph), survivalReplaceGraph))
+else:
+    logFile.write("SURVIVAL SELECTION: %s " % survivalTypeGraph + "\n")
 
 graphs = []
 for i in range(graphPopSize):
@@ -131,8 +154,7 @@ for i in range(int(numRuns)):
         population[index]["fitness"] = population[index]["fitness"] / population[index]["evalCount"]
         population[index]["cutCount"] = population[index]["cutCount"] / population[index]["evalCount"]
         population[index]["vertCount"] = population[index]["vertCount"] / population[index]["evalCount"]
-        print "FIT:  %s\tCUT:  %s\tVERT:  %s\tEVAL:  %s\t"  %(str(population[index]["fitness"]), str(population[index]["cutCount"]), str(population[index]["vertCount"]), str(population[index]["evalCount"]))
-    sys.exit()
+
     #sort the cut population by levels of dominance
     if objectiveType == "MOEA":
         population = sortByDomination(population)
