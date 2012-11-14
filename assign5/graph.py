@@ -75,28 +75,6 @@ def recombinateGraphs(graph1, graph2):
                     child[j].append(i)
     return child
 
-#keep odd edges from graph1
-#keep even edges from graph2
-#alternatively generate random of length 150 use odd/even with this
-#SLOW AS BALLS
-#    child = {}
-#    for i in range(1, len(graph1)+1):
-#        child[i] = []
-#    for i in range(1, len(graph1)+1):
-#        if i % 2 == 0:
-#            for node in graph1[i]:
-#                if node not in child[i]:
-#                    child[i].append(node)
-#                if i not in child[node]:
-#                    child[node].append(i)
-#        else:
-#            for node in graph2[i]:
-#                if node not in child[i]:
-#                    child[i].append(node)
-#                if i not in child[node]:
-#                    child[node].append(i)
-#    return child
-
 def randomSelectGraphs(population, size):
     selected = []
     for i in range(int(size)):
@@ -114,7 +92,7 @@ def tournSelectGraphs(population, survivalSize, tournSize, replacement):
                 popIndex = random.randint(0, len(tPopulation) - 1)
                 tournSelect.append(tPopulation[popIndex])
             #select the most fit in the tournament
-            tournSelect = sorted(tournSelect, key=itemgetter("fitness"), reverse=False)
+            tournSelect = sorted(tournSelect, key=itemgetter("fitness"), reverse=True)
             selected.append(tournSelect[0])
     else:
         for i in range(int(survivalSize)):
@@ -129,6 +107,6 @@ def tournSelectGraphs(population, survivalSize, tournSize, replacement):
                     sys.exit()
             del tPopulation[popIndex]
             #select the most fit in the tournament
-            tournSelect = sorted(tournSelect, key=itemgetter("fitness"), reverse=False)
+            tournSelect = sorted(tournSelect, key=itemgetter("fitness"), reverse=True)
             selected.append(tournSelect[0])
     return selected

@@ -79,7 +79,7 @@ else:
 parentSizeGraph = int(configBuffer[22])
 childrenSizeGraph = int(configBuffer[23])
 survivalSizeGraph = int(configBuffer[24])
-
+solutionFileGraph = open(str(configBuffer[25]), 'a+')
 
 print configFile
 print logFile
@@ -116,33 +116,42 @@ else:
     logFile.write("GRAPH SURVIVAL SELECTION: %s " % survivalTypeGraph + "\n")
 
 graphs = []
-for i in range(graphPopSize):
-    graphs.append({"edges":buildGraph(numNodes), "fitness": 0, "evalCount": 0})
 
 #global is the best in ALL runs
 bestParetoFront = []
 globalBestCut = []
 globalBestFitness = float("-inf")
 globalBestAvgFitness = float("-inf")
-globalBestGraphFitness = float("-inf")
-globalBestGraphAvgFitness = float("-inf")
+globalBestFitnessGraph = float("-inf")
+globalBestAvgFitnessGraph = float("-inf")
 globalBestGraph = {}
 lastEvals = []
 for i in range(int(numRuns)):
     runStart =  Decimal(time.time() * 1000)
     #reinitialize the population for each run
     population = initPopulation(populationSize, numNodes)
+    for index in range(graphPopSize):
+        graphs.append({"edges":buildGraph(numNodes), "fitness": 0, "evalCount": 0})
     #calculate the fitness for each item in the cut population
     for curIndex in range(populationSize):
         for graphIndex in range(int(graphPopSize * (samplingSize/100.0))):  #this is 10
             tempGraph = choice(graphs)
             tempCut = choice(population)
             #make sure a graph isn't evaluatied more than the sampling size allows
-            while(tempGraph["evalCount"] == int(graphPopSize * (samplingSize/100.0))):
+            t = 0
+            while(tempGraph["evalCount"] == int(samplingSize * 2)):
                 tempGraph = choice(graphs)
+                t += 1
+                if t % 10000 == 0:
+                    print "TOP TOP"
+
             #make sure a cut isn't evaluatied more than the sampling size allows
-            while(tempCut["evalCount"] == int(populationSize * (samplingSize/100.0))):
+            t = 0
+            while(tempCut["evalCount"] == int(samplingSize * 2)):
                 tempCut = choice(population)
+                t += 1
+                if t % 10000 == 0:
+                    print "TOP BOT"
             fitnessList = calculateFitness(tempGraph["edges"], population[curIndex]["cut"], penaltyCoefficient)
             tempCut["fitness"] += fitnessList[0]
             tempCut["cutCount"] += fitnessList[1]
@@ -150,24 +159,26 @@ for i in range(int(numRuns)):
             tempGraph["fitness"] += fitnessList[0]
             tempGraph["evalCount"] += 1
             tempCut["evalCount"] += 1
-    #make the fitness of a graph an average
+    #make the fitness of a graph an average and inverse
     for index in range(graphPopSize):
         if graphs[index]["evalCount"] != 0:
-            graphs[index]["fitness"] = graphs[index]["fitness"] / graphs[index]["evalCount"]
+            graphs[index]["fitness"] = 1/(graphs[index]["fitness"] / graphs[index]["evalCount"])
+            graphs[index]["evalCount"] = 0
     #make the fitness of a cut an average
     for index in range(len(population)):
         if population[index]["evalCount"] != 0:
             population[index]["fitness"] = population[index]["fitness"] / population[index]["evalCount"]
             population[index]["cutCount"] = population[index]["cutCount"] / population[index]["evalCount"]
             population[index]["vertCount"] = population[index]["vertCount"] / population[index]["evalCount"]
-
+            population[index]["evalCount"] = 0
     #sort the cut population by levels of dominance
     if objectiveType == "MOEA":
         population = sortByDomination(population)
     #local is the best for each run
     runBestFitness = float("-inf")
+    runBestFitnessGraph = float("-inf")
     runBestCut = []
-    runBestGraphFitness = float("-inf")
+    runBestGraph = []
     lastEvals = []
     logFile.write("RUN: " + str(i + 1) + "\n")
     print("RUN: " + str(i + 1))
@@ -204,13 +215,15 @@ for i in range(int(numRuns)):
             sys.exit()
         #make graph children by recombination
         graphChildren = []
-        for i in range(len(graphParents) - 1):
-            graphChildren.append({"edges": recombinateGraphs(graphParents[i]["edges"], graphParents[i+1]["edges"]), "evalCount": 0})
+        for newIndex in range(len(graphParents) - 1):
+            graphChildren.append({"edges": recombinateGraphs(graphParents[newIndex]["edges"], graphParents[newIndex+1]["edges"]), "evalCount": 0})
         #make cut children by recombination
         children = recombinate(cutParents, recombType, objectiveType, int(numSplits), penaltyCoefficient)[0:childrenSize]
         #mutate graph children
         for index in range(len(graphChildren)):
             graphChildren[index]["edges"] =  mutateGraph(graphChildren[index]["edges"])
+            graphChildren[index]["fitness"] = 0
+            graphChildren[index]["evalCount"] = 0
         #mutate cut children
         children = mutate(children, objectiveType, penaltyCoefficient)
         if objectiveType == "MOEA":
@@ -224,42 +237,31 @@ for i in range(int(numRuns)):
             print "INVALID SURVIVAL STRATEGY"
             sys.exit()
         if survivalStrategyGraph == "+":
-            for indy in graphParents:
-                indy["evalCount"] = 0
             graphPopulation = graphChildren + graphParents
         elif survivalStrategyGraph == "-":
             population = graphChildren
         else:
             print "INVALID SURVIVAL STRATEGY GRAPH"
             sys.exit()
-
-        for graph in graphPopulation:
-            graph["evalCount"] = 0
-            graph["fitness"] = 0
-        for indy in population:
-            indy["fitness"] = 0
-            indy["cutCount"] = 0
-            indy["vertCount"] = 0
-            indy["evalCount"] = 0
         #calculate the fitness for each item in the cut population
         for curIndex in range(len(population)):
             for graphIndex in range(int(len(graphPopulation) * (samplingSize/100.0))):
                 tempGraph = choice(graphPopulation)
                 tempCut = choice(population)
                 #make sure a graph isn't evaluatied more than the sampling size allows
-                i = 0
+                t = 0
                 while(tempGraph["evalCount"] == samplingSize):
                     tempGraph = choice(graphPopulation)
-                    i += 1
-                    if i % 10000 == 0:
-                        print "TOP"
+                    t += 1
+                    if t % 10000 == 0:
+                        print "BOT TOP"
                 #make sure a cut isn't evaluatied more than the sampling size allows
-                i = 0
+                t = 0
                 while(tempCut["evalCount"] == samplingSize*2):
                     tempCut = choice(population)
-                    i += 1
-                    if i % 10000 == 0:
-                        print "BOT"
+                    t += 1
+                    if t % 10000 == 0:
+                        print "BOT BOT"
                 fitnessList = calculateFitness(tempGraph["edges"], population[curIndex]["cut"], penaltyCoefficient)
                 tempCut["fitness"] += fitnessList[0]
                 tempCut["cutCount"] += fitnessList[1]
@@ -269,16 +271,18 @@ for i in range(int(numRuns)):
                 tempCut["evalCount"] += 1
                 #increment number of evals
                 j += 1
-        #make the fitness of a graph an average
+        #make the fitness of a graph an average and inverse
         for index in range(len(graphPopulation)):
             if graphPopulation[index]["evalCount"] != 0:
-                graphPopulation[index]["fitness"] = graphs[index]["fitness"] / graphPopulation[index]["evalCount"]
+                graphPopulation[index]["fitness"] = 1/(graphPopulation[index]["fitness"] / graphPopulation[index]["evalCount"])
+                graphPopulation[index]["evalCount"] = 0
         #make the fitness of a cut an average
         for index in range(len(population)):
             if population[index]["evalCount"] != 0:
                 population[index]["fitness"] = population[index]["fitness"] / population[index]["evalCount"]
                 population[index]["cutCount"] = population[index]["cutCount"] / population[index]["evalCount"]
                 population[index]["vertCount"] = population[index]["vertCount"] / population[index]["evalCount"]
+                population[index]["evalCount"] = 0
         #select cut survivors
         if survivalType == "tournament":
             if survivalReplace == "r":
@@ -305,8 +309,10 @@ for i in range(int(numRuns)):
             print "INVALID SURVIVAL TYPE"
             sys.exit()
         localBestFitness = population[0]["fitness"]
+        localBestFitnessGraph = graphPopulation[0]["fitness"]
         localAvgFitness = averageFitness(population)
-        logFile.write('\t' + str(j + 1) + "\t" + str(localAvgFitness) + "\t" + str(localBestFitness) + "\n")
+        localAvgFitnessGraph = averageFitness(graphPopulation)
+        logFile.write('\t' + str(j + 1) + "\t" + str(localAvgFitness) + "\t" + str(localBestFitness) + "\t" + str(localAvgFitnessGraph) + "\t" + str(localBestFitnessGraph) + "\n")
         logFile.flush()
         #update the cut runBestFitness if needed
         if localBestFitness > runBestFitness:
@@ -317,19 +323,27 @@ for i in range(int(numRuns)):
             if runBestFitness > globalBestFitness:
                 globalBestFitness = localBestFitness
                 globalBestCut = population[0]["cut"]
+        #update the graph runBestFitness if needed
+        if localBestFitnessGraph > runBestFitnessGraph:
+            runBestFitnessGraph = localBestFitnessGraph
+            runBestGraph = graphPopulation[0]["edges"]
+            if runBestFitnessGraph > globalBestFitnessGraph:
+                globalBestFitnessGraph = localBestFitnessGraph
+                globalBestGraph = graphPopulation[0]["edges"]
         if globalBestAvgFitness < localAvgFitness:
             solutionFile.write("NEW BEST" + str(localAvgFitness) + "\n")
             globalBestAvgFitness = localAvgFitness
-            for i in range(len(population)):
+            for newIndex in range(len(population)):
                 curIndy = population[i]
                 if objectiveType == "MOEA":
                     if curIndy["domLevel"] == 0:
                         bestParetoFront.append(curIndy)
-                        solutionFile.write(str(bestParetoFront[i]["cutCount"]) + "\t" + str(bestParetoFront[i]["vertCount"]) + "\t" + str(bestParetoFront[i]["fitness"]) + "\t" + str(bestParetoFront[i]["cut"]) + "\n")
+                        solutionFile.write(str(bestParetoFront[newIndex]["cutCount"]) + "\t" + str(bestParetoFront[newIndex]["vertCount"]) + "\t" + str(bestParetoFront[newIndex]["fitness"]) + "\t" + str(bestParetoFront[newIndex]["cut"]) + "\n")
                     else:
                         break
-        print "TODO LOGGING"
-         #termination condition - reset cut population if there isn't enough variance
+        if globalBestAvgFitnessGraph < localAvgFitnessGraph:
+            globalBestAvgFitnessGraph = localAvgFitnessGraph
+        #termination condition - reset cut population if there isn't enough variance
         if len(lastEvals) < evalsUntilTermination:
             lastEvals.append({"bestFitness": localBestFitness, "avgFitness": localAvgFitness})
         else:
@@ -350,14 +364,18 @@ for i in range(int(numRuns)):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
         print j
     runEnd =  Decimal(time.time() * 1000)
-    print runEnd - runStart
+    print "TIME: " + str(runEnd - runStart) + "\n"
 if objectiveType == "SOEA":
     solutionFile.write(str(globalBestFitness) + "\n")
     solutionFile.write(str(globalBestCut) + "\n")
+    solutionFileGraph.write(str(globalBestFitnessGraph) + "\n")
+    solutionFileGraph.write(str(globalBestGraph) + "\n")
     print (str(globalBestFitness))
     print (str(globalBestCut))
     solutionFile.close()
 if objectiveType == "MOEA":
+    solutionFileGraph.write(str(globalBestFitnessGraph) + "\n")
+    solutionFileGraph.write(str(globalBestGraph) + "\n")
     for i in range(len(bestParetoFront)):
         solutionFile.write(str(bestParetoFront[i]["cutCount"]) + "\t" + str(bestParetoFront[i]["vertCount"]) + "\t" + str(bestParetoFront[i]["fitness"]) + "\t" + str(bestParetoFront[i]["cut"]) + "\n")
 endTime = Decimal(time.time() * 1000)
