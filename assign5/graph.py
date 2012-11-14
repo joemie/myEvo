@@ -33,9 +33,6 @@ def mutateGraph(edges):
                 #large chance of adding an edge
                 edges[i].append(j)
                 edges[j].append(i)
-                #TODO: REMOVE IF SLOW, DON'T THINK THIS IS NEEDED
-                edges[i].sort()
-                edges[j].sort()
             mutationIndex += 1
             #make sure not to run off the end of the list
             if(mutationIndex >= len(mutationValues) - 1):
