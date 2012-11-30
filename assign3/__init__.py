@@ -107,7 +107,8 @@ for i in range(int(numRuns)):
     lastEvals = []
     logFile.write("RUN: " + str(i + 1) + "\n")
     print("RUN: " + str(i + 1))
-    for j in range(int(numEvals)):
+    j = 0
+    while j < int(numEvals):
         #select parents
         if parentSelType == "tournament":
             if pReplace == "r":
@@ -155,6 +156,7 @@ for i in range(int(numRuns)):
         else:
             print "INVALID SURVIVAL TYPE"
             sys.exit()
+	j += survivalSize
         population = sorted(population, key=itemgetter("fitness"), reverse=True)
         localBestFitness = population[0]["fitness"]
         localAvgFitness = averageFitness(population)

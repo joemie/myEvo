@@ -212,7 +212,10 @@ def countSubgraphsAndCuts(edges, cut, graph):
     if cut.count(graph) >= 1:
         #ensures the node belongs to the correct graph
         while curNodeGraph != graph:
-            curNode = int(edgeIter.next())
+            try:
+                curNode = int(edgeIter.next())
+            except:
+                return [int(numSubgraphs), int(numCuts)]
             curNodeGraph = cut[curNode - 1]
         reachable = [curNode]
         explorable = []
@@ -242,7 +245,10 @@ def countSubgraphsAndCuts(edges, cut, graph):
                 curNode = int(edgeIter.next())
                 curNodeGraph = cut[curNode - 1]
                 while curNodeGraph != graph or exploredNodes[curNode -1] == 1:
-                    curNode = int(edgeIter.next())
+                    try:
+                        curNode = int(edgeIter.next())
+                    except StopIteration:
+                        return [int(numSubgraphs), int(numCuts)]
                     curNodeGraph = cut[curNode - 1]
                 reachable = [curNode]
                 explorable = []

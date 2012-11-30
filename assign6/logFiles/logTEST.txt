@@ -1,0 +1,326 @@
+SESSION START : 1354219496960
+SESSION SEED  : 1354219496960
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02cb32e8>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02cb3358>
+SESSION END   : 1354219496976
+SESSION LENGTH: 16
+SESSION START : 1354220094612
+SESSION SEED  : 1354220094612
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ba2c50>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ba2cc0>
+SESSION START : 1354220854350
+SESSION SEED  : 1354220854350
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02c022e8>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02c02358>
+SESSION END   : 1354220854364
+SESSION LENGTH: 14
+SESSION START : 1354235658907
+SESSION SEED  : 1354235658907
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02c89c88>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02c89cf8>
+SESSION START : 1354235979202
+SESSION SEED  : 1354235979202
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b39d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b39da0>
+SESSION END   : 1354235980800
+SESSION LENGTH: 1598
+SESSION START : 1354236467038
+SESSION SEED  : 1354236467038
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02be9d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02be9da0>
+SESSION END   : 1354236468644
+SESSION LENGTH: 1606
+SESSION START : 1354236638227
+SESSION SEED  : 1354236638227
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02baad30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02baada0>
+SESSION END   : 1354236639851
+SESSION LENGTH: 1624
+SESSION START : 1354236660178
+SESSION SEED  : 1354236660178
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02a98d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02a98da0>
+SESSION END   : 1354236661792
+SESSION LENGTH: 1614
+SESSION START : 1354240162117
+SESSION SEED  : 1354240162117
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ab1cf8>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ab1d68>
+SESSION START : 1354240187875
+SESSION SEED  : 1354240187875
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ad1cf8>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ad1d68>
+SESSION START : 1354240204631
+SESSION SEED  : 1354240204631
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ba1cf8>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ba1d68>
+SESSION START : 1354240228433
+SESSION SEED  : 1354240228433
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02be1cf8>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02be1d68>
+SESSION END   : 1354240228437
+SESSION LENGTH: 4
+SESSION START : 1354240362190
+SESSION SEED  : 1354240362190
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02bb1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02bb1da0>
+SESSION END   : 1354240362193
+SESSION LENGTH: 3
+SESSION START : 1354240385610
+SESSION SEED  : 1354240385610
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ba1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ba1da0>
+SESSION END   : 1354240385613
+SESSION LENGTH: 3
+SESSION START : 1354240543645
+SESSION SEED  : 1354240543645
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b11d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b11da0>
+SESSION END   : 1354240543649
+SESSION LENGTH: 4
+SESSION START : 1354240660775
+SESSION SEED  : 1354240660775
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b71d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b71da0>
+SESSION START : 1354240674971
+SESSION SEED  : 1354240674971
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02a71d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02a71da0>
+SESSION START : 1354240689805
+SESSION SEED  : 1354240689805
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02bb1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02bb1da0>
+SESSION END   : 1354240689808
+SESSION LENGTH: 3
+SESSION START : 1354240845301
+SESSION SEED  : 1354240845301
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ae1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ae1da0>
+SESSION START : 1354240907175
+SESSION SEED  : 1354240907175
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02c11d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02c11da0>
+SESSION START : 1354240938443
+SESSION SEED  : 1354240938443
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02c61d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02c61da0>
+SESSION END   : 1354240938446
+SESSION LENGTH: 3
+SESSION START : 1354240951895
+SESSION SEED  : 1354240951895
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ba1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ba1da0>
+SESSION END   : 1354240951899
+SESSION LENGTH: 4
+SESSION START : 1354241104327
+SESSION SEED  : 1354241104327
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02be1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02be1da0>
+SESSION START : 1354241111527
+SESSION SEED  : 1354241111527
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b01d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b01da0>
+SESSION START : 1354241122123
+SESSION SEED  : 1354241122123
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b41d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b41da0>
+SESSION END   : 1354241122126
+SESSION LENGTH: 3
+SESSION START : 1354241197391
+SESSION SEED  : 1354241197391
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b11d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b11da0>
+SESSION END   : 1354241197396
+SESSION LENGTH: 5
+SESSION START : 1354241939098
+SESSION SEED  : 1354241939098
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ae1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ae1da0>
+SESSION END   : 1354241939102
+SESSION LENGTH: 4
+SESSION START : 1354241980287
+SESSION SEED  : 1354241980287
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02aa1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02aa1da0>
+SESSION END   : 1354241980293
+SESSION LENGTH: 6
+SESSION START : 1354241997365
+SESSION SEED  : 1354241997365
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ae1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ae1da0>
+SESSION END   : 1354241997373
+SESSION LENGTH: 8
+SESSION START : 1354242052756
+SESSION SEED  : 1354242052756
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b21d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b21da0>
+SESSION END   : 1354242052760
+SESSION LENGTH: 4
+SESSION START : 1354242086397
+SESSION SEED  : 1354242086397
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02a51d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02a51da0>
+SESSION END   : 1354242086401
+SESSION LENGTH: 4
+SESSION START : 1354242170546
+SESSION SEED  : 1354242170546
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02bc1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02bc1da0>
+SESSION END   : 1354242170551
+SESSION LENGTH: 5
+SESSION START : 1354242250965
+SESSION SEED  : 1354242250965
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02bd1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02bd1da0>
+SESSION END   : 1354242250968
+SESSION LENGTH: 3
+SESSION START : 1354242274941
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b71d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b71da0>
+SESSION END   : 1354242274944
+SESSION LENGTH: 3
+SESSION START : 1354242317102
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b21d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b21da0>
+SESSION END   : 1354242317106
+SESSION LENGTH: 4
+SESSION START : 1354242713007
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b21d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b21da0>
+SESSION START : 1354242732662
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ad1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ad1da0>
+SESSION END   : 1354242732666
+SESSION LENGTH: 4
+SESSION START : 1354242857737
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02c01d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02c01da0>
+SESSION END   : 1354242857742
+SESSION LENGTH: 5
+SESSION START : 1354242866712
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b01d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b01da0>
+SESSION END   : 1354242866715
+SESSION LENGTH: 3
+SESSION START : 1354242881047
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b31d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b31da0>
+SESSION END   : 1354242881052
+SESSION LENGTH: 5
+SESSION START : 1354242947486
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02c41d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02c41da0>
+SESSION END   : 1354242947491
+SESSION LENGTH: 5
+SESSION START : 1354243000903
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02a51d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02a51da0>
+SESSION END   : 1354243000908
+SESSION LENGTH: 5
+SESSION START : 1354243026606
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02bc1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02bc1da0>
+SESSION END   : 1354243026613
+SESSION LENGTH: 7
+SESSION START : 1354243126757
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ad1d30>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ad1da0>
+SESSION END   : 1354243126763
+SESSION LENGTH: 6
+SESSION START : 1354243195842
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b31d68>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b31dd8>
+SESSION END   : 1354243195848
+SESSION LENGTH: 6
+SESSION START : 1354243376885
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b51d68>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b51dd8>
+SESSION END   : 1354243376890
+SESSION LENGTH: 5
+SESSION START : 1354243412826
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02bf1d68>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02bf1dd8>
+SESSION END   : 1354243412829
+SESSION LENGTH: 3
+SESSION START : 1354243437467
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b81d68>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b81dd8>
+SESSION END   : 1354243437471
+SESSION LENGTH: 4
+SESSION START : 1354243444409
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02b31d68>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02b31dd8>
+SESSION END   : 1354243444413
+SESSION LENGTH: 4
+SESSION START : 1354243495427
+SESSION SEED  : 1
+CONFIG FILE: <open file 'default.cfg', mode 'r' at 0x02ac0d68>
+DATA FILE: C:\Users\joseph\MiscDev\Python\myEvo\assign6\dataFiles\a2datasetTEST.txt
+SOLUTION FILE: <open file 'C:\Users\joseph\MiscDev\Python\myEvo\assign6\solnFiles\solnTEST.txt', mode 'a+' at 0x02ac0dd8>
+SESSION END   : 1354243495432
+SESSION LENGTH: 5

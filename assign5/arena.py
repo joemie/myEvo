@@ -344,16 +344,16 @@ def determineDomination(population):
     domList = []
     for i in range(len(population)):
         curIndy = population[i]
-        curDomList = {"uid": curIndy["uid"], "dominates": [], "dominatedBy": []}
+        curDomList = {"dominates": [], "dominatedBy": []}
         for j in range(len(population)):
             if i != j:
                 nextIndy = population[j]
                 if dominates(curIndy, nextIndy):
                     #curIndy dominates nextIndy
-                    curDomList["dominates"].append(nextIndy["uid"])
+                    curDomList["dominates"].append(j)
                 elif dominates(nextIndy, curIndy):
                     #nextIndy dominates curIndy
-                    curDomList["dominatedBy"].append(nextIndy["uid"])
+                    curDomList["dominatedBy"].append(j)
         domList.append(curDomList)
     return domList
 

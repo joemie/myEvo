@@ -239,7 +239,7 @@ for i in range(int(numRuns)):
         if survivalStrategyGraph == "+":
             graphPopulation = graphChildren + graphParents
         elif survivalStrategyGraph == "-":
-            population = graphChildren
+            graphPopulation = graphChildren
         else:
             print "INVALID SURVIVAL STRATEGY GRAPH"
             sys.exit()
@@ -329,9 +329,11 @@ for i in range(int(numRuns)):
             runBestGraph = graphPopulation[0]["edges"]
             if runBestFitnessGraph > globalBestFitnessGraph:
                 globalBestFitnessGraph = localBestFitnessGraph
+                solutionFileGraph.write(str(localBestFitnessGraph) + "\n")
+                solutionFileGraph.write(str(runBestGraph) + "\n")
                 globalBestGraph = graphPopulation[0]["edges"]
         if globalBestAvgFitness < localAvgFitness:
-            solutionFile.write("NEW BEST" + str(localAvgFitness) + "\n")
+            solutionFile.write("NEW BEST: " + str(localAvgFitness) + "\n")
             globalBestAvgFitness = localAvgFitness
             for newIndex in range(len(population)):
                 curIndy = population[i]
@@ -362,7 +364,6 @@ for i in range(int(numRuns)):
         #write the avg and best cut fitness for the last evaluation
         if j + 1 == int(numEvals):
             logFile.write('\t' + str(j + 1) + '\t' + str(localAvgFitness) + "\t" + str(localBestFitness) + '\n')
-        print j
     runEnd =  Decimal(time.time() * 1000)
     print "TIME: " + str(runEnd - runStart) + "\n"
 if objectiveType == "SOEA":

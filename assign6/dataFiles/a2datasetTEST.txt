@@ -1,0 +1,10 @@
+Number of Cartesian coordinate pairs:
+7
+Cartesian coordinate pairs:
+1,-4.33333333333333
+1.5,0.125
+2.5,16.0416666666667
+3,29
+3.5,46.2916666666667
+4.5,96.875
+5,131.666666666667

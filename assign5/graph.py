@@ -16,7 +16,7 @@ def buildGraph(numNodes):
     return edges
 
 def mutateGraph(edges):
-    mutationValues = map(int, str(random.randrange(2 ** (40000), 2 ** 40001)))
+    mutationValues = map(int, str(random.randrange(2 ** (1000), 2 ** 1001)))
     mutationIndex = 0
     for i in range(1, len(edges)):
         for j in range(i+1, len(edges)):
